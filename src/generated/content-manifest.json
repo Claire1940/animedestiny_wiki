@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "anime-destiny-codes",
+        "file": "anime-destiny-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-destiny-evolution-locations",
+        "file": "anime-destiny-evolution-locations"
+      },
+      {
+        "slug": "anime-destiny-evolution",
+        "file": "anime-destiny-evolution"
+      },
+      {
+        "slug": "anime-destiny-evolving-every-secret",
+        "file": "anime-destiny-evolving-every-secret"
+      },
+      {
+        "slug": "anime-destiny-materials",
+        "file": "anime-destiny-materials"
+      },
+      {
+        "slug": "anime-destiny-relic-locations",
+        "file": "anime-destiny-relic-locations"
+      },
+      {
+        "slug": "anime-destiny-relics",
+        "file": "anime-destiny-relics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-destiny-beginner-guide",
+        "file": "anime-destiny-beginner-guide"
+      },
+      {
+        "slug": "anime-destiny-best-guide",
+        "file": "anime-destiny-best-guide"
+      },
+      {
+        "slug": "anime-destiny-guide",
+        "file": "anime-destiny-guide"
+      },
+      {
+        "slug": "anime-destiny-how-to-play",
+        "file": "anime-destiny-how-to-play"
+      },
+      {
+        "slug": "anime-destiny-noob-to-pro",
+        "file": "anime-destiny-noob-to-pro"
+      },
+      {
+        "slug": "anime-destiny-progression-guide",
+        "file": "anime-destiny-progression-guide"
+      },
+      {
+        "slug": "anime-destiny-tips",
+        "file": "anime-destiny-tips"
+      },
+      {
+        "slug": "anime-destiny-ultimate-guide",
+        "file": "anime-destiny-ultimate-guide"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "anime-destiny-crimson-night-raid",
+        "file": "anime-destiny-crimson-night-raid"
+      },
+      {
+        "slug": "anime-destiny-event-info",
+        "file": "anime-destiny-event-info"
+      },
+      {
+        "slug": "anime-destiny-events",
+        "file": "anime-destiny-events"
+      },
+      {
+        "slug": "anime-destiny-raid",
+        "file": "anime-destiny-raid"
+      }
+    ],
+    "review": [
+      {
+        "slug": "anime-destiny-review",
+        "file": "anime-destiny-review"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "anime-destiny-discord",
+        "file": "anime-destiny-discord"
+      },
+      {
+        "slug": "anime-destiny-early-access",
+        "file": "anime-destiny-early-access"
+      },
+      {
+        "slug": "anime-destiny-game",
+        "file": "anime-destiny-game"
+      },
+      {
+        "slug": "anime-destiny-reddit",
+        "file": "anime-destiny-reddit"
+      },
+      {
+        "slug": "anime-destiny-release-date",
+        "file": "anime-destiny-release-date"
+      },
+      {
+        "slug": "anime-destiny-roblox",
+        "file": "anime-destiny-roblox"
+      },
+      {
+        "slug": "anime-destiny-tower-defense",
+        "file": "anime-destiny-tower-defense"
+      },
+      {
+        "slug": "anime-destiny-trailer",
+        "file": "anime-destiny-trailer"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-destiny-banner",
+        "file": "anime-destiny-banner"
+      },
+      {
+        "slug": "anime-destiny-gems",
+        "file": "anime-destiny-gems"
+      },
+      {
+        "slug": "anime-destiny-lucky-start",
+        "file": "anime-destiny-lucky-start"
+      },
+      {
+        "slug": "anime-destiny-pity",
+        "file": "anime-destiny-pity"
+      },
+      {
+        "slug": "anime-destiny-reroll",
+        "file": "anime-destiny-reroll"
+      },
+      {
+        "slug": "anime-destiny-summons",
+        "file": "anime-destiny-summons"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-destiny-best-characters",
+        "file": "anime-destiny-best-characters"
+      },
+      {
+        "slug": "anime-destiny-best-team",
+        "file": "anime-destiny-best-team"
+      },
+      {
+        "slug": "anime-destiny-best-units",
+        "file": "anime-destiny-best-units"
+      },
+      {
+        "slug": "anime-destiny-secret-units",
+        "file": "anime-destiny-secret-units"
+      },
+      {
+        "slug": "anime-destiny-tier-list",
+        "file": "anime-destiny-tier-list"
+      },
+      {
+        "slug": "anime-destiny-unit-tier-list",
+        "file": "anime-destiny-unit-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "anime-destiny-codes",
+        "file": "anime-destiny-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-destiny-evolution-locations",
+        "file": "anime-destiny-evolution-locations"
+      },
+      {
+        "slug": "anime-destiny-evolution",
+        "file": "anime-destiny-evolution"
+      },
+      {
+        "slug": "anime-destiny-evolving-every-secret",
+        "file": "anime-destiny-evolving-every-secret"
+      },
+      {
+        "slug": "anime-destiny-materials",
+        "file": "anime-destiny-materials"
+      },
+      {
+        "slug": "anime-destiny-relic-locations",
+        "file": "anime-destiny-relic-locations"
+      },
+      {
+        "slug": "anime-destiny-relics",
+        "file": "anime-destiny-relics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-destiny-beginner-guide",
+        "file": "anime-destiny-beginner-guide"
+      },
+      {
+        "slug": "anime-destiny-best-guide",
+        "file": "anime-destiny-best-guide"
+      },
+      {
+        "slug": "anime-destiny-guide",
+        "file": "anime-destiny-guide"
+      },
+      {
+        "slug": "anime-destiny-how-to-play",
+        "file": "anime-destiny-how-to-play"
+      },
+      {
+        "slug": "anime-destiny-noob-to-pro",
+        "file": "anime-destiny-noob-to-pro"
+      },
+      {
+        "slug": "anime-destiny-progression-guide",
+        "file": "anime-destiny-progression-guide"
+      },
+      {
+        "slug": "anime-destiny-tips",
+        "file": "anime-destiny-tips"
+      },
+      {
+        "slug": "anime-destiny-ultimate-guide",
+        "file": "anime-destiny-ultimate-guide"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "anime-destiny-crimson-night-raid",
+        "file": "anime-destiny-crimson-night-raid"
+      },
+      {
+        "slug": "anime-destiny-event-info",
+        "file": "anime-destiny-event-info"
+      },
+      {
+        "slug": "anime-destiny-events",
+        "file": "anime-destiny-events"
+      },
+      {
+        "slug": "anime-destiny-raid",
+        "file": "anime-destiny-raid"
+      }
+    ],
+    "review": [
+      {
+        "slug": "anime-destiny-review",
+        "file": "anime-destiny-review"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "anime-destiny-discord",
+        "file": "anime-destiny-discord"
+      },
+      {
+        "slug": "anime-destiny-early-access",
+        "file": "anime-destiny-early-access"
+      },
+      {
+        "slug": "anime-destiny-game",
+        "file": "anime-destiny-game"
+      },
+      {
+        "slug": "anime-destiny-reddit",
+        "file": "anime-destiny-reddit"
+      },
+      {
+        "slug": "anime-destiny-release-date",
+        "file": "anime-destiny-release-date"
+      },
+      {
+        "slug": "anime-destiny-roblox",
+        "file": "anime-destiny-roblox"
+      },
+      {
+        "slug": "anime-destiny-tower-defense",
+        "file": "anime-destiny-tower-defense"
+      },
+      {
+        "slug": "anime-destiny-trailer",
+        "file": "anime-destiny-trailer"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-destiny-banner",
+        "file": "anime-destiny-banner"
+      },
+      {
+        "slug": "anime-destiny-gems",
+        "file": "anime-destiny-gems"
+      },
+      {
+        "slug": "anime-destiny-lucky-start",
+        "file": "anime-destiny-lucky-start"
+      },
+      {
+        "slug": "anime-destiny-pity",
+        "file": "anime-destiny-pity"
+      },
+      {
+        "slug": "anime-destiny-reroll",
+        "file": "anime-destiny-reroll"
+      },
+      {
+        "slug": "anime-destiny-summons",
+        "file": "anime-destiny-summons"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-destiny-best-characters",
+        "file": "anime-destiny-best-characters"
+      },
+      {
+        "slug": "anime-destiny-best-team",
+        "file": "anime-destiny-best-team"
+      },
+      {
+        "slug": "anime-destiny-best-units",
+        "file": "anime-destiny-best-units"
+      },
+      {
+        "slug": "anime-destiny-secret-units",
+        "file": "anime-destiny-secret-units"
+      },
+      {
+        "slug": "anime-destiny-tier-list",
+        "file": "anime-destiny-tier-list"
+      },
+      {
+        "slug": "anime-destiny-unit-tier-list",
+        "file": "anime-destiny-unit-tier-list"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "anime-destiny-codes",
+        "file": "anime-destiny-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-destiny-evolution-locations",
+        "file": "anime-destiny-evolution-locations"
+      },
+      {
+        "slug": "anime-destiny-evolution",
+        "file": "anime-destiny-evolution"
+      },
+      {
+        "slug": "anime-destiny-evolving-every-secret",
+        "file": "anime-destiny-evolving-every-secret"
+      },
+      {
+        "slug": "anime-destiny-materials",
+        "file": "anime-destiny-materials"
+      },
+      {
+        "slug": "anime-destiny-relic-locations",
+        "file": "anime-destiny-relic-locations"
+      },
+      {
+        "slug": "anime-destiny-relics",
+        "file": "anime-destiny-relics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-destiny-beginner-guide",
+        "file": "anime-destiny-beginner-guide"
+      },
+      {
+        "slug": "anime-destiny-best-guide",
+        "file": "anime-destiny-best-guide"
+      },
+      {
+        "slug": "anime-destiny-guide",
+        "file": "anime-destiny-guide"
+      },
+      {
+        "slug": "anime-destiny-how-to-play",
+        "file": "anime-destiny-how-to-play"
+      },
+      {
+        "slug": "anime-destiny-noob-to-pro",
+        "file": "anime-destiny-noob-to-pro"
+      },
+      {
+        "slug": "anime-destiny-progression-guide",
+        "file": "anime-destiny-progression-guide"
+      },
+      {
+        "slug": "anime-destiny-tips",
+        "file": "anime-destiny-tips"
+      },
+      {
+        "slug": "anime-destiny-ultimate-guide",
+        "file": "anime-destiny-ultimate-guide"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "anime-destiny-crimson-night-raid",
+        "file": "anime-destiny-crimson-night-raid"
+      },
+      {
+        "slug": "anime-destiny-event-info",
+        "file": "anime-destiny-event-info"
+      },
+      {
+        "slug": "anime-destiny-events",
+        "file": "anime-destiny-events"
+      },
+      {
+        "slug": "anime-destiny-raid",
+        "file": "anime-destiny-raid"
+      }
+    ],
+    "review": [
+      {
+        "slug": "anime-destiny-review",
+        "file": "anime-destiny-review"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "anime-destiny-discord",
+        "file": "anime-destiny-discord"
+      },
+      {
+        "slug": "anime-destiny-early-access",
+        "file": "anime-destiny-early-access"
+      },
+      {
+        "slug": "anime-destiny-game",
+        "file": "anime-destiny-game"
+      },
+      {
+        "slug": "anime-destiny-reddit",
+        "file": "anime-destiny-reddit"
+      },
+      {
+        "slug": "anime-destiny-release-date",
+        "file": "anime-destiny-release-date"
+      },
+      {
+        "slug": "anime-destiny-roblox",
+        "file": "anime-destiny-roblox"
+      },
+      {
+        "slug": "anime-destiny-tower-defense",
+        "file": "anime-destiny-tower-defense"
+      },
+      {
+        "slug": "anime-destiny-trailer",
+        "file": "anime-destiny-trailer"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-destiny-banner",
+        "file": "anime-destiny-banner"
+      },
+      {
+        "slug": "anime-destiny-gems",
+        "file": "anime-destiny-gems"
+      },
+      {
+        "slug": "anime-destiny-lucky-start",
+        "file": "anime-destiny-lucky-start"
+      },
+      {
+        "slug": "anime-destiny-pity",
+        "file": "anime-destiny-pity"
+      },
+      {
+        "slug": "anime-destiny-reroll",
+        "file": "anime-destiny-reroll"
+      },
+      {
+        "slug": "anime-destiny-summons",
+        "file": "anime-destiny-summons"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-destiny-best-characters",
+        "file": "anime-destiny-best-characters"
+      },
+      {
+        "slug": "anime-destiny-best-team",
+        "file": "anime-destiny-best-team"
+      },
+      {
+        "slug": "anime-destiny-best-units",
+        "file": "anime-destiny-best-units"
+      },
+      {
+        "slug": "anime-destiny-secret-units",
+        "file": "anime-destiny-secret-units"
+      },
+      {
+        "slug": "anime-destiny-tier-list",
+        "file": "anime-destiny-tier-list"
+      },
+      {
+        "slug": "anime-destiny-unit-tier-list",
+        "file": "anime-destiny-unit-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "anime-destiny-codes",
+        "file": "anime-destiny-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-destiny-evolution-locations",
+        "file": "anime-destiny-evolution-locations"
+      },
+      {
+        "slug": "anime-destiny-evolution",
+        "file": "anime-destiny-evolution"
+      },
+      {
+        "slug": "anime-destiny-evolving-every-secret",
+        "file": "anime-destiny-evolving-every-secret"
+      },
+      {
+        "slug": "anime-destiny-materials",
+        "file": "anime-destiny-materials"
+      },
+      {
+        "slug": "anime-destiny-relic-locations",
+        "file": "anime-destiny-relic-locations"
+      },
+      {
+        "slug": "anime-destiny-relics",
+        "file": "anime-destiny-relics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-destiny-beginner-guide",
+        "file": "anime-destiny-beginner-guide"
+      },
+      {
+        "slug": "anime-destiny-best-guide",
+        "file": "anime-destiny-best-guide"
+      },
+      {
+        "slug": "anime-destiny-guide",
+        "file": "anime-destiny-guide"
+      },
+      {
+        "slug": "anime-destiny-how-to-play",
+        "file": "anime-destiny-how-to-play"
+      },
+      {
+        "slug": "anime-destiny-noob-to-pro",
+        "file": "anime-destiny-noob-to-pro"
+      },
+      {
+        "slug": "anime-destiny-progression-guide",
+        "file": "anime-destiny-progression-guide"
+      },
+      {
+        "slug": "anime-destiny-tips",
+        "file": "anime-destiny-tips"
+      },
+      {
+        "slug": "anime-destiny-ultimate-guide",
+        "file": "anime-destiny-ultimate-guide"
+      }
+    ],
+    "raids": [
+      {
+        "slug": "anime-destiny-crimson-night-raid",
+        "file": "anime-destiny-crimson-night-raid"
+      },
+      {
+        "slug": "anime-destiny-event-info",
+        "file": "anime-destiny-event-info"
+      },
+      {
+        "slug": "anime-destiny-events",
+        "file": "anime-destiny-events"
+      },
+      {
+        "slug": "anime-destiny-raid",
+        "file": "anime-destiny-raid"
+      }
+    ],
+    "review": [
+      {
+        "slug": "anime-destiny-review",
+        "file": "anime-destiny-review"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "anime-destiny-discord",
+        "file": "anime-destiny-discord"
+      },
+      {
+        "slug": "anime-destiny-early-access",
+        "file": "anime-destiny-early-access"
+      },
+      {
+        "slug": "anime-destiny-game",
+        "file": "anime-destiny-game"
+      },
+      {
+        "slug": "anime-destiny-reddit",
+        "file": "anime-destiny-reddit"
+      },
+      {
+        "slug": "anime-destiny-release-date",
+        "file": "anime-destiny-release-date"
+      },
+      {
+        "slug": "anime-destiny-roblox",
+        "file": "anime-destiny-roblox"
+      },
+      {
+        "slug": "anime-destiny-tower-defense",
+        "file": "anime-destiny-tower-defense"
+      },
+      {
+        "slug": "anime-destiny-trailer",
+        "file": "anime-destiny-trailer"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-destiny-banner",
+        "file": "anime-destiny-banner"
+      },
+      {
+        "slug": "anime-destiny-gems",
+        "file": "anime-destiny-gems"
+      },
+      {
+        "slug": "anime-destiny-lucky-start",
+        "file": "anime-destiny-lucky-start"
+      },
+      {
+        "slug": "anime-destiny-pity",
+        "file": "anime-destiny-pity"
+      },
+      {
+        "slug": "anime-destiny-reroll",
+        "file": "anime-destiny-reroll"
+      },
+      {
+        "slug": "anime-destiny-summons",
+        "file": "anime-destiny-summons"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-destiny-best-characters",
+        "file": "anime-destiny-best-characters"
+      },
+      {
+        "slug": "anime-destiny-best-team",
+        "file": "anime-destiny-best-team"
+      },
+      {
+        "slug": "anime-destiny-best-units",
+        "file": "anime-destiny-best-units"
+      },
+      {
+        "slug": "anime-destiny-secret-units",
+        "file": "anime-destiny-secret-units"
+      },
+      {
+        "slug": "anime-destiny-tier-list",
+        "file": "anime-destiny-tier-list"
+      },
+      {
+        "slug": "anime-destiny-unit-tier-list",
+        "file": "anime-destiny-unit-tier-list"
+      }
+    ]
+  }
+}

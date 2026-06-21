@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Destiny Events: 2026 Seasonal Roadmap & Rewards",
+  description: "Stay ahead in Anime Destiny with our guide to events, seasonal challenge rotations, and optimal farming strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Anime+Destiny+Events",
+  date: "2026-06-21",
+  author: "anime destiny Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime Destiny events** rotate periodically, offering exclusive units, currency, and evolution materials for active players.
+- **Participation** in boss events and endless trials is the fastest way to acquire limited-time upgrade resources.
+- **Squad preparation** is vital; ensure your units are evolved before attempting high-difficulty event challenges.
+- **Monitoring** the official Discord and in-game announcements ensures you never miss limited-time reward windows.
+</Callout>
+
+<Section icon={Trophy} title="Understanding Event Rotations">
+
+Anime Destiny frequently introduces time-limited content to keep the gameplay loop fresh. These events are designed to challenge your current squad composition and reward those who have invested in diverse unit roles.
+
+| Event Type | Primary Reward | Difficulty Level | Recommended Frequency |
+| :--- | :--- | :--- | :--- |
+| **Boss Raids** | Exclusive Units | High | Daily |
+| **Endless Trials** | Gems & RR Shards | Variable | Weekly |
+| **Challenge Stages** | Evolution Materials | Medium | As Needed |
+| **Holiday Specials** | Unique Cosmetics | Low/Medium | Seasonal |
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize Boss Raids when they are active. Unlike standard story stages, these provide specific tokens that are often required for high-tier unit evolutions.
+</Callout>
+
+**Video Highlights:**
+- Identifying active event markers in the lobby
+- Optimal unit placement for multi-wave event bosses
+- Managing limited-time currency efficiency
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Anime Destiny Release Trailer" />
+
+</Section>
+
+<Section icon={Target} title="Event Participation Strategy">
+
+To maximize your efficiency during events, you must balance your time between farming resources and pushing through event-specific milestones. Follow these steps to ensure you don't waste valuable event uptime.
+
+<Steps>
+  <Step num="1" title="Assess Event Requirements">
+    Check the event board in the game lobby. Identify if the event requires specific damage types or unit roles to clear efficiently.
+  </Step>
+  <Step num="2" title="Optimize Your Squad">
+    Swap in units that counter the event's primary enemy type. If the event features shielded enemies, prioritize units with shield-breaking capabilities.
+  </Step>
+  <Step num="3" title="Focus on Milestone Rewards">
+    Don't just grind for the sake of it. Target the specific milestone rewards that offer RR (Reroll Resources) or Gems to boost your long-term account strength.
+  </Step>
+  <Step num="4" title="Coordinate with Teams">
+    If the event supports multiplayer, join a group to tackle higher-difficulty tiers, which offer significantly better drop rates for rare materials.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Resource Management">
+Avoid spending your entire Gem reserve on event banners immediately. Evaluate the unit's utility in the current meta before committing your currency.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resource Farming Priorities">
+
+Events in Anime Destiny are the most reliable way to gather rare items. The following table outlines which resources you should focus on during different types of event cycles.
+
+| Resource | Best Source | Priority | Usage |
+| :--- | :--- | :--- | :--- |
+| **Gems** | Endless Trials | High | Summoning |
+| **RR Shards** | Challenge Stages | High | Trait Rerolling |
+| **Cubes** | Boss Raids | Medium | Upgrades |
+| **Malice** | Seasonal Events | Low | Special Crafting |
+
+<CardGrid cols={2}>
+  <Card title="Early Game Focus">
+    - Prioritize Gems for a solid squad.
+    - Participate in easy-tier events.
+    - Save RR for your best Mythic pull.
+  </Card>
+  <Card title="Late Game Focus">
+    - Target specific evolution materials.
+    - Push for top ranks in Endless Trials.
+    - Maximize trait efficiency on Secrets.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Key Event Milestones Checklist">
+
+Use this checklist to track your progress during an active event cycle. Completing these tasks ensures you extract maximum value from the limited-time content.
+
+<Checklist
+  id="event-checklist"
+  title="Active Event Tasks:"
+  items={[
+    "Clear all difficulty tiers of the current boss",
+    "Claim the daily login reward tied to the event",
+    "Spend event-specific currency before the timer expires",
+    "Reach the final milestone in the event progression track"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+Players who track their milestone progress on a simple notepad or in-game tracker tend to complete event challenges 30% faster than those who play sporadically.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How often do Anime Destiny events rotate?",
+    answer: "Events typically rotate on a weekly or bi-weekly basis, often coinciding with major game updates or community milestones."
+  },
+  {
+    question: "Do I need a high-level squad to participate in events?",
+    answer: "Most events offer multiple difficulty tiers, allowing players at various stages of progression to earn relevant rewards."
+  },
+  {
+    question: "What should I do if I miss an event unit?",
+    answer: "Limited-time units often return in future events or special reruns, so keep an eye on the official Discord for announcements."
+  },
+  {
+    question: "Are Anime Destiny events better for farming than story mode?",
+    answer: "Yes, events are generally more efficient for farming specific high-tier resources, while story mode is better for steady, foundational progression."
+  }
+]} />
+
+</Section>

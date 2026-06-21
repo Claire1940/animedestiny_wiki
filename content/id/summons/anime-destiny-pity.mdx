@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pity Anime Destiny: Tingkat Summon & Strategi Banner",
+  description: "Kuasai sistem pity Anime Destiny. Pahami tingkat summon, mekanik pity, dan rotasi banner untuk mendapatkan unit Mythic S-Tier dan Secret secara efisien.",
+  category: "Panduan",
+  image: "https://placeholder.co/800x400/7c3aed/fff?text=Anime+Destiny+Pity+Guide",
+  date: "2026-06-21",
+  author: "Tim Wiki Anime Destiny"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Mekanik sistem pity**: Sistem **pity anime destiny** menjamin unit tingkat tinggi setelah jumlah summon tertentu.
+- **Hemat gem Anda**: Jangan menghabiskan Gem secara sembarangan; tunggu banner S-Tier untuk memaksimalkan nilai pity Anda.
+- **Gunakan kode aktif**: Klaim kode pemula seperti `Release!` dan `SorryForDelay` untuk mendapatkan summon instan.
+- **Auto Roll Gratis**: Manfaatkan fitur Auto Roll gratis bawaan untuk mempercepat proses summon.
+- **Targetkan unit terbaik**: Fokuskan pity pada unit Secret seperti Kizuki dan Founding Titan untuk performa optimal di late-game.
+</Callout>
+
+<Section icon={Sparkles} title="Tingkat Summon dan Mekanik Pity">
+
+Summoning adalah siklus progresi utama dalam Anime Destiny. Untuk membangun skuad yang mampu menyelesaikan tahap Story tingkat tinggi, Tantangan Boss, dan Endless Trials, Anda harus mengoptimalkan cara menghabiskan Gem. Banner berotasi secara berkala di lobi, menampilkan campuran unit Rare, Epic, Legendary, Mythic, dan Secret. Tanpa pendekatan yang terstruktur, Anda berisiko membuang mata uang langka untuk tarikan tingkat rendah.
+
+Sistem pity hadir untuk mengamankan investasi Anda. Setiap summon yang tidak menghasilkan unit kelangkaan tinggi akan menaikkan penghitung pity Anda. Setelah penghitung mencapai batasnya, summon Anda berikutnya dijamin akan menghasilkan unit dari tingkat kelangkaan spesifik tersebut.
+
+| Kelangkaan | Tingkat Summon Dasar | Batas Jaminan Pity | Utilitas Utama |
+|---|---|---|---|
+| Rare | Tinggi | Tidak ada | Pengisi awal permainan, progresi cepat |
+| Epic | Sedang | Tidak ada | Pendukung tingkat menengah, pertahanan awal |
+| Legendary | Rendah | Dijamin pada 50 tarikan | Carry transisi, pembunuh boss awal |
+| Mythic | Sangat Rendah | Dijamin pada 250 tarikan | DPS Meta, jangkar tim penting |
+| Secret | Sangat Rendah Sekali | Pelacakan progresi dinamis | Carry game mutlak, investasi tinggi |
+
+<Callout type="warning" title="Aturan Reset Pity">
+Mendapatkan unit Mythic atau Legendary secara alami sebelum mencapai batas pity akan mereset penghitung pity spesifik tersebut kembali ke nol. Perhatikan baik-baik penghitung Anda di UI summon untuk merencanakan pengeluaran Gem Anda.
+</Callout>
+
+Memahami hubungan antara tingkat dasar dan batas pity sangat penting untuk perencanaan sumber daya. Tabel di bawah ini menguraikan cara kerja penghitung pity di berbagai jenis banner.
+
+| Jenis Banner | Jenis Pity | Dibagikan di Seluruh Banner | Strategi Terbaik |
+|---|---|---|---|
+| Banner Standar | Legendary & Mythic | Ya | Bangun pity di sini, eksekusi pada rotasi S-Tier |
+| Banner Event | Eksklusif Event | Tidak | Tarik hanya jika Anda memiliki cukup Gem untuk mencapai pity |
+| Banner Secret | Pelacak Secret | Ya | Akumulasi jangka panjang untuk carry kelas atas |
+
+</Section>
+
+<Section icon={Target} title="Langkah-demi-Langkah Manajemen Summon & Pity">
+
+Mengeksekusi strategi summon yang sukses membutuhkan kesabaran dan manajemen sumber daya yang ketat. Pemain baru sering kali melakukan kesalahan dengan melakukan summon segera setelah mendapatkan beberapa ratus Gem. Ikuti pendekatan sistematis ini untuk mengamankan unit S-tier tanpa membuang sumber daya.
+
+<Steps>
+  <Step num="1" title="Klaim Kode Pemula Terlebih Dahulu">
+    Sebelum menarik di banner apa pun, navigasikan ke menu Kode di sisi kanan layar. Masukkan kode aktif seperti `Release!` dan `SorryForDelay` untuk mengklaim Gem gratis, Reroll Shards (RR), dan bahan peningkatan. Modal awal ini memberi Anda cukup dana untuk melewati fase progresi awal permainan yang paling lemah.
+  </Step>
+  <Step num="2" title="Analisis Rotasi Banner Saat Ini">
+    Periksa banner aktif di lobi. Jangan lakukan summon jika unit Mythic atau Secret yang ditampilkan termasuk dalam tier rendah. Bandingkan unit banner yang ditampilkan dengan carry S-tier seperti Frozen Moon (Kizuki) atau Founding Titan (Queen). Jika rotasi saat ini kekurangan DPS atau utilitas berdampak tinggi, simpan Gem Anda.
+  </Step>
+  <Step num="3" title="Persiapkan Tabungan Gem Anda">
+    Jangan memulai sesi summon kecuali Anda memiliki cukup Gem untuk mengamankan pity yang ditargetkan. Jika Anda mengincar unit Mythic, pastikan Anda memiliki Gem yang diperlukan untuk mencapai batas aman 250 tarikan. Mengandalkan keberuntungan murni tanpa jaring pengaman sering kali menghasilkan pelacakan pity yang setengah selesai saat banner berganti.
+  </Step>
+  <Step num="4" title="Aktifkan Auto Roll Gratis">
+    Anime Destiny memiliki mekanik Auto Roll gratis yang dapat diakses langsung dari menu summon. Konfigurasikan pengaturan Auto Roll untuk berhenti secara otomatis saat Anda mendapatkan unit Legendary, Mythic, atau Secret. Ini menghemat waktu dan mencegah Anda melakukan summon secara tidak sengaja melewati unit target Anda.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Strategi Perencanaan Pity">
+Selalu periksa Discord resmi atau papan Trello komunitas untuk melihat jadwal banner mendatang. Jika unit penentu meta dijadwalkan tiba minggu depan, segera hentikan semua summon dan simpan Gem Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Farming Sumber Daya dan Ekonomi Summon">
+
+Mempertahankan aliran Gem yang stabil sangat penting untuk memicu pity Anda secara teratur. Meskipun kode menawarkan dorongan awal, progresi yang berkelanjutan bergantung pada pelaksanaan rutinitas farming harian, mingguan, dan berbasis event. Ekonomi game ini menghargai permainan yang konsisten di berbagai mode PvE.
+
+| Aktivitas Farming | Hasil Gem | Komitmen Waktu | Prioritas |
+|---|---|---|---|
+| Tantangan Harian | Sedang | Rendah (15-30 menit) | Tertinggi |
+| Tantangan Mingguan | Tinggi | Sedang (Selama 7 hari) | Tinggi |
+| Progresi Tahap Story | Tinggi (Satu kali) | Sedang (Tergantung pada skuad) | Tinggi untuk Pemula |
+| Uji Coba Tanpa Akhir | Berskala | Tinggi (Durasi bervariasi) | Sedang |
+| Event Boss Igris | Spesifik Event | Sedang (Membutuhkan persiapan) | Tinggi selama event |
+
+<Callout type="info" title="Efisiensi Farming">
+Prioritaskan menyelesaikan tantangan harian dan mingguan terlebih dahulu. Mode-mode ini menawarkan hasil Gem yang paling efisien waktu, memungkinkan Anda membangun tabungan summon secara stabil tanpa merasa bosan pada tahap yang berulang.
+</Callout>
+
+Saat melakukan farming di tahap Story, fokuslah untuk mencapai penyelesaian bintang tiga jika memungkinkan, karena hadiah bonus sering kali berisi Gem ekstra. Setelah skuad utama Anda terbentuk, beralihlah ke uji coba yang dapat diulang untuk mempertahankan momentum summon Anda.
+
+</Section>
+
+<Section icon={Swords} title="Sinergi Trait dan Optimasi Pasca-Pity">
+
+Mendapatkan unit tingkat atas melalui sistem **pity anime destiny** hanyalah langkah pertama. Untuk membuka potensi sejati unit, Anda harus memasangkannya dengan Trait yang saling melengkapi. Trait di-roll menggunakan Reroll Shards (RR) di lobi, memberikan pengganda statistik besar, peningkatan jangkauan, atau peningkatan utilitas.
+
+<CardGrid cols={3}>
+  <Card title="Divine Trait">
+    - **Terbaik untuk Carry DPS**
+    - Pengganda damage yang sangat besar
+    - Paling cocok: Kizuki, Shadow Monarch, Queen
+  </Card>
+  <Card title="Stellar Trait">
+    - **Terbaik untuk DoT & Penghancur Shield**
+    - Meningkatkan penerapan debuff dan damage seiring waktu
+    - Paling cocok: Ashura Swordsman (3SS), Insect Slayer
+  </Card>
+  <Card title="Sniper Trait">
+    - **Terbaik untuk Pembunuh Boss**
+    - Meningkatkan jangkauan dan damage critical strike
+    - Paling cocok: Eternal Night (Blood), Radiant Hunter
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Manajemen Sumber Daya Reroll">
+Jangan pernah membuang Reroll Shards (RR) Anda pada unit Rare atau Epic sementara. Simpan semua sumber daya reroll untuk carry Mythic dan Secret yang diperoleh melalui siklus pity Anda.
+</Callout>
+
+Tabel di bawah ini merinci trait optimal yang harus ditargetkan untuk tarikan pity bernilai tinggi Anda.
+
+| Nama Unit | Kelangkaan | Trait Ideal | Peran Tempur | Prioritas Reroll |
+|---|---|---|---|---|
+| Frozen Moon (Kizuki) | Secret | Divine | DPS & Utilitas Freeze | Tertinggi |
+| Founding Titan (Queen) | Secret | Divine | Damage Summon & Pembunuh Boss | Tertinggi |
+| Shadow Monarch (Awaken) | Secret | Divine | Damage Summon & Sinergi Dark | Tinggi |
+| Ashura Swordsman (3SS) | Mythic | Divine atau Stellar | DPS DoT & Penghancur Shield | Tinggi |
+| Eternal Night (Blood) | Mythic | Sniper | Damage Boss dengan Skala Kritis | Sedang |
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Summon & Target Progresi">
+
+Gunakan daftar periksa ini untuk melacak pencapaian summon Anda dan memastikan Anda menggunakan sumber daya secara efektif saat bertransisi dari pemula ke pemain end-game.
+
+<Checklist
+  id="summoning-milestones"
+  title="Pencapaian Pity & Skuad:"
+  items={[
+    "Klaim kode Release! dan SorryForDelay untuk Gem pemula",
+    "Amankan DPS Legendary yang andal untuk menyelesaikan tahap Story awal",
+    "Kumpulkan 10.000+ Gem sebelum menargetkan banner pity Mythic",
+    "Lengkapi carry Mythic S-Tier pertama Anda dengan trait Divine atau Stellar",
+    "Bangun skuad yang seimbang yang menampilkan setidaknya satu utilitas freeze, satu penghancur shield, dan dua carry DPS"
+  ]}
+/>
+
+<Callout type="info" title="Progresi Pencapaian">
+Jangan terburu-buru untuk menyelesaikan Endless Trials sampai skuad Anda memenuhi pencapaian terakhir. Fokuslah untuk menstabilkan unit aktif Anda melalui evolusi dan peningkatan terlebih dahulu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apakah pity anime destiny terbawa saat banner berotasi?",
+    answer: "Ya. Pity banner standar terbawa ke rotasi berikutnya, memungkinkan Anda membangun tarikan dengan aman dari waktu ke waktu. Namun, pity banner khusus event tidak terbawa ke banner normal."
+  },
+  {
+    question: "Apakah lebih baik menarik satu per satu (single) atau sekaligus banyak (multi-summons)?",
+    answer: "Tidak ada perbedaan statistik dalam tingkat atau progresi pity antara single dan multi-summon. Multi-summon hanya lebih cepat, terutama saat menggunakan fitur Auto Roll gratis."
+  },
+  {
+    question: "Apa yang terjadi jika saya mendapatkan unit Mythic sebelum mencapai 250 pity?",
+    answer: "Penghitung pity Mythic Anda akan segera mereset ke nol setelah mendapatkan unit Mythic apa pun, terlepas dari apakah itu unit banner yang ditampilkan atau tarikan yang tidak ditampilkan."
+  },
+  {
+    question: "Haruskah saya memprioritaskan trait atau evolusi terlebih dahulu setelah melakukan summon unit?",
+    answer: "Evolusi memberikan peningkatan statistik mentah yang dijamin dan jalur kemampuan baru, menjadikannya prioritas pertama yang lebih aman. Setelah berevolusi, roll untuk trait tingkat tinggi seperti Divine atau Stellar untuk memaksimalkan performa unit."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Destiny Raid: Guía de Progresión y Equipos Meta",
+  description: "Domina el modo raid de Anime Destiny. Aprende sobre los mejores equipos meta, rasgos de unidad, materiales de mejora y estrategias paso a paso para obtener recompensas de alto nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Anime+Destiny+Raid+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Entrada a Raid**: Accede al modo **anime destiny raid** para farmear materiales de mejora de alto nivel, Gemas y Fragmentos de Reroll.
+- **Carries Meta**: Despliega unidades Secretas como **Frozen Moon** y **Founding Titan** para obtener el máximo daño de área y control de masas.
+- **Mejores Rasgos**: Busca el rasgo **Divine** en tus principales distribuidores de daño para maximizar el escalado de DPS.
+- **Estrategia de Mejora**: Maximiza las unidades de economía al principio de la partida antes de mejorar a los rompedores de escudos de alto coste.
+</Callout>
+
+<Section icon={Map} title="Descripción General de la Raid de Anime Destiny y Requisitos de Entrada">
+
+El modo **anime destiny raid** sirve como el desafío principal de endgame para los jugadores que buscan pasar de las etapas básicas de la historia a la progresión de unidades de alto nivel. A diferencia de los mapas de historia estándar, las raids introducen composiciones complejas de oleadas de enemigos, mecánicas de jefe agresivas y escudos elementales que requieren una planificación coordinada del equipo. Completar con éxito las raids recompensa a los jugadores con recursos esenciales, incluyendo Gemas, Cubos de Estadísticas y Fragmentos de Reroll (RR) necesarios para optimizar tus rosters de juego tardío.
+
+Para participar en estos desafíos, los jugadores deben acceder a la experiencia oficial de Roblox (ID: 82674355647259). Es fundamental distinguir esta experiencia activa de defensa de torres de otros títulos de simulador antiguos y no relacionados en la plataforma. Las raids exigen un equipo equilibrado de carries de DPS, rompedores de escudos y apoyos de economía para sobrevivir a la dificultad creciente.
+
+| Dificultad de Raid | Coste de Entrada | Recompensas Clave | Nivel Recomendado |
+| :--- | :--- | :--- | :--- |
+| Normal | 1 Ticket de Raid | Gemas, Cubos de Estadísticas | Nivel 20+ |
+| Difícil | 1 Ticket de Raid | Gemas, Fragmentos RR, Malicia | Nivel 40+ |
+| Pesadilla | 2 Tickets de Raid | Fragmentos RR, Materiales de Evolución | Nivel 60+ |
+
+<Callout type="warning" title="Advertencia de Recursos">
+No intentes las raids en dificultad Difícil o Pesadilla sin mejorar completamente tus unidades de daño principal. Fallar una raid consume tu ticket de entrada sin otorgar las recompensas de finalización, lo que ralentiza tu ciclo de progresión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipos Meta para el Éxito en Raid">
+
+Construir un equipo para el modo **anime destiny raid** requiere una división estricta de roles. Los jugadores no pueden confiar únicamente en una sola unidad de alto daño para limpiar las oleadas; en su lugar, un equipo funcional debe equilibrar el daño bruto, la capacidad de romper escudos y la utilidad de ralentización/congelación para detener a los jefes rápidos. Las unidades Secretas y Míticas dominan el meta de alto nivel debido a sus estadísticas base superiores y habilidades de invocación únicas.
+
+La siguiente tabla describe las unidades de mejor rendimiento utilizadas actualmente en las composiciones de raid de endgame. Estas unidades deben ser priorizadas para mejoras y materiales de evolución.
+
+| Nombre de la Unidad | Rareza | Rol en Raid | Mejor Rasgo |
+| :--- | :--- | :--- | :--- |
+| Frozen Moon (Kizuki) | Secreta | DPS, Utilidad de Congelación, Rompedor de Escudos | Divine |
+| Founding Titan (Queen) | Secreta | AOE Total, Daño de Invocación, Asesino de Jefes | Divine |
+| Shadow Monarch (Awaken) | Secreta | Daño Base, Sinergia Oscura | Divine |
+| Ashura Swordsman (3SS) | Mítica | DPS DoT, Rompedor de Escudos | Divine / Stellar |
+| Crimson Knight (Dark) | Secreta | DPS Alto, Sinergia Monarca | Divine |
+| Red Emperor (Haki) | Mítica | Top DPS Mítico | Divine |
+| Magicbane (Anti-Magic) | Mítica | Rompedor de Escudos | Divine |
+
+<CardGrid cols={3}>
+  <Card title="Unidades Carry DPS">
+    - **Frozen Moon (Kizuki)** proporciona una excelente utilidad de congelación para detener a los jefes rápidos.
+    - **Founding Titan (Queen)** invoca unidades adicionales para bloquear caminos.
+    - **Red Emperor (Haki)** escala excepcionalmente bien con mejoras de daño.
+  </Card>
+  <Card title="Rompedores de Escudos">
+    - **Ashura Swordsman (3SS)** aplica daño por tiempo para derretir escudos.
+    - **Magicbane (Anti-Magic)** destaca en neutralizar barreras elementales rápidamente.
+    - **Crow Prodigy** sirve como una opción económica confiable para jugadores de inicio de juego.
+  </Card>
+  <Card title="Apoyo y Economía">
+    - **Bulm** genera flujo de efectivo extra para financiar costosas mejoras de juego tardío.
+    - **Cyan Idol** mejora el rango y el daño de salida de las unidades adyacentes.
+    - **Rasgo Tycoon** debe ser buscado en unidades de apoyo para maximizar los ingresos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bono de Sinergia">
+Desplegar a **Shadow Monarch (Awaken)** junto con **Crimson Knight (Dark)** activa un beneficio de sinergia oscura, aumentando el daño total de tus unidades invocadas durante las intensas fases de jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Ejecución de Raid Paso a Paso">
+
+Navegar con éxito en una **anime destiny raid** requiere una gestión económica y de posicionamiento precisa. Los jugadores deben enfocarse en generar ingresos durante las oleadas iniciales, hacer la transición a configuraciones defensivas a mitad de la partida y concentrar el DPS bruto en el jefe durante la oleada final.
+
+Sigue estos pasos para estructurar tu juego durante una partida de raid:
+
+<Steps>
+  <Step num="1" title="Establecer Economía Temprana">
+    Coloca tus unidades de economía, como Bulm, cerca de la parte trasera del mapa donde estén a salvo de filtraciones tempranas. Mejóralas inmediatamente durante las tres primeras oleadas para maximizar tu generación de dinero durante el resto de la ronda.
+  </Step>
+  <Step num="2" title="Desplegar Defensa de Punto de Estrangulamiento">
+    Posiciona tus unidades de DPS principal en esquinas clave o puntos de estrangulamiento donde su rango de ataque cubra múltiples caminos. Coloca un rompedor de escudos barato cerca de la entrada para eliminar las defensas enemigas antes de que lleguen a tu zona de daño principal.
+  </Step>
+  <Step num="3" title="Coordinar Mejoras">
+    Prioriza mejorar tu unidad carry principal (ej. Frozen Moon o Founding Titan) para desbloquear sus ataques de área. Evita repartir tu dinero uniformemente entre múltiples unidades de bajo nivel; un carry al nivel máximo es más efectivo que cinco unidades de bajo nivel.
+  </Step>
+  <Step num="4" title="Enfocarse en el Escudo del Jefe">
+    Cuando aparezca el jefe de la raid, cambia tu enfoque a mejorar tus rompedores de escudos. Una vez que el escudo del jefe se agote, activa cualquier habilidad activa específica de la unidad para reducir la salud restante del jefe antes de que llegue a la salida.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Ejecución">
+Utiliza la función de Auto Roll gratuita en el lobby para asegurar duplicados de tus unidades principales. Tener duplicados te permite mejorar las estadísticas de la unidad en el menú de preparación antes de entrar al lobby de la raid.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reroll de Rasgos y Optimización">
+
+Los rasgos alteran significativamente el rendimiento de una unidad en el modo **anime destiny raid**. Usar Fragmentos de Reroll (RR) te permite reemplazar rasgos débiles con modificadores de alto nivel que escalan el daño, rango o utilidad de tu unidad. Los jugadores deben evitar desperdiciar RR en unidades Legendarias o Raras temporales, guardando estos valiosos recursos para los carries Secretos y Míticos.
+
+La siguiente tabla enumera los rasgos principales disponibles en el juego y cómo funcionan en escenarios de raid.
+
+| Nombre del Rasgo | Tipo | Mejor Ajuste | Utilidad en Raid | Prioridad de Reroll |
+| :--- | :--- | :--- | :--- | :--- |
+| Divine | Ataque / Velocidad | Carries de Nivel S | Aumenta el DPS total por un margen masivo | Alta |
+| Stellar | DoT / Rango | Carries de DoT | Mejora el daño por tiempo y la presión sobre escudos | Alta |
+| Sniper | Crítico / Rango | Objetivo Único | Ideal para distribuidores de daño enfocados en jefes | Media |
+| Tycoon | Economía | Unidades de Apoyo | Aumenta los ingresos por oleada para mejoras más rápidas | Media |
+| Jack of All | Equilibrado | Unidades Iniciales | Mejora de estadísticas decente para la progresión temprana | Baja |
+
+<Callout type="warning" title="Trampa de Reroll">
+No persigas un rasgo Divine perfecto en unidades que planeas reemplazar. Acepta rasgos de utilidad como Sniper o Stellar en Míticas de nivel medio, y guarda tus reservas de RR para las unidades Secretas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Evolución y Rutas de Farm de Materiales">
+
+Evolucionar tus unidades es esencial para abordar contenido de alto nivel. Las unidades evolucionadas obtienen acceso a caminos de habilidades más fuertes, radios de ataque más grandes y capacidades mejoradas para romper escudos. Farmear los materiales requeridos requiere un enfoque estructurado para los desafíos diarios y las etapas de evento.
+
+Usa la lista de verificación a continuación para realizar un seguimiento de tus objetivos de progresión diarios y asegurar que tu equipo esté adecuadamente preparado para las raids de nivel Pesadilla.
+
+<Checklist
+  id="raid-prep-goals"
+  title="Lista de Verificación de Progresión Diaria:"
+  items={[
+    "Completa todos los desafíos diarios y semanales para acumular Gemas y Fragmentos RR.",
+    "Farmea la etapa Difícil del Planeta Namak para materiales de evolución básicos.",
+    "Participa en eventos de jefe activos, como el Evento Igris, para obtener drops exclusivos.",
+    "Únete al grupo oficial de Roblox de Anime Destiny para reclamar recompensas de grupo activas.",
+    "Revisa el tablero oficial de Trello para actualizaciones sobre recetas de evolución de unidades."
+  ]}
+/>
+
+| Recurso | Fuente Principal | Mejor Caso de Uso | Prioridad de Ganancia |
+| :--- | :--- | :--- | :--- |
+| Gemas | Etapas de Historia, Códigos | Invocar nuevas unidades de banners | Alta |
+| Fragmentos RR | Raids, Misiones Diarias | Reroll de rasgos en unidades Míticas/Secretas | Alta |
+| Cubos de Estadísticas | Desafíos Semanales | Mejorar estadísticas base de unidades | Media |
+| Malicia | Jefes de Evento | Recetas de evolución de unidades específicas | Media |
+
+<Callout type="info" title="Consejo de la Comunidad">
+Mantén un ojo en el servidor oficial de Discord para lanzamientos de códigos activos. Los códigos a menudo recompensan con Gemas y Fragmentos RR gratuitos, lo que puede acelerar significativamente la fase de preparación de tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor composición de equipo para una raid de anime destiny?",
+    answer: "Una composición de equipo equilibrada consiste en una unidad de economía (como Bulm), una unidad de control de masas (como Frozen Moon), dos carries de alto daño (como Founding Titan o Red Emperor) y al menos un rompedor de escudos dedicado (como Magicbane)."
+  },
+  {
+    question: "¿Cómo obtengo más Tickets de Raid para entrar al modo de juego?",
+    answer: "Los Tickets de Raid se pueden obtener completando desafíos diarios, alcanzando hitos en el BattlePass, comprándolos con Gemas en la tienda del lobby o reclamando códigos promocionales activos."
+  },
+  {
+    question: "¿Puedo completar las raids solo o necesito un equipo?",
+    answer: "Aunque las raids de inicio de juego se pueden completar solo con un equipo bien invertido, las raids de alto nivel (como la dificultad Pesadilla) son mucho más fáciles de limpiar en juego cooperativo, permitiendo a los jugadores dividir roles entre DPS y apoyo."
+  },
+  {
+    question: "¿Debo priorizar evolucionar mis unidades o hacer reroll de sus rasgos primero?",
+    answer: "Prioriza evolucionar tus unidades primero. La evolución proporciona un impulso garantizado a las estadísticas base y desbloquea nuevas habilidades, mientras que el reroll de rasgos depende del azar y debe hacerse una vez que tu unidad esté en su forma evolucionada final."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Coordina siempre las coordenadas de colocación con tus compañeros de equipo en modo cooperativo para evitar solapar habilidades de congelación, lo que puede llevar a rendimientos decrecientes durante oleadas críticas.
+</Callout>
+
+</Section>

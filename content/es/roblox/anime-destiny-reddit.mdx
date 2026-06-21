@@ -1,0 +1,133 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Destiny: Guía 2026 de códigos, unidades y lista de niveles",
+  description: "Domina Anime Destiny con nuestra guía de 2026. Obtén códigos activos, listas de niveles de unidades y consejos esenciales para dominar las etapas de historia y las pruebas infinitas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Anime+Destiny+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Anime Destiny** requiere una colocación estratégica de unidades para superar las etapas de historia y a los jefes de manera eficiente.
+- **Canjea siempre los códigos activos** cuanto antes para aumentar tus recursos iniciales de Gemas y Fragmentos de Reroll.
+- Prioriza la mejora de tus **unidades DPS de nivel superior** antes de repartir los recursos entre todo tu equipo.
+- Guarda tus **Rerolls de Rasgos (RR)** para unidades Míticas y Secretas con el fin de maximizar tu inversión a largo plazo.
+- Únete al [grupo oficial](https://www.roblox.com/communities/859372599/Anime-Destiny-AD) para desbloquear recompensas exclusivas.
+</Callout>
+
+<Section icon={Target} title="Primeros pasos: Fundamentos para principiantes">
+
+Comenzar tu aventura en Anime Destiny implica un ciclo de progresión claro: invocar, construir el equipo y superar etapas. Los nuevos jugadores deben centrarse en establecer un equipo estable que pueda manejar el contenido inicial antes de intentar conseguir unidades de alta rareza.
+
+**Puntos destacados del video:**
+- Comprender la mecánica central de defensa de torres
+- Cómo utilizar eficientemente tu moneda inicial
+- Mejores prácticas para la colocación temprana de unidades
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Tráiler de lanzamiento de Anime Destiny" />
+
+<Callout type="tip" title="Consejo profesional">
+No gastes todas tus Gemas en el primer banner disponible. Guarda una parte para futuros banners donde podrían aparecer unidades de gran utilidad.
+</Callout>
+
+| Actividad | Prioridad | Objetivo |
+| :--- | :--- | :--- |
+| Canjear códigos | Alta | Obtener Gemas iniciales y RR |
+| Etapas de historia | Alta | Desbloquear nuevo contenido y recompensas |
+| Desafíos diarios | Media | Cultivar recursos diarios constantes |
+| Mejoras de unidad | Alta | Mejorar el DPS del equipo activo |
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de unidades y rendimiento">
+
+Las unidades en Anime Destiny se clasifican según su utilidad en varios modos PvE. Aunque las primeras unidades Legendarias son útiles, tu enfoque a largo plazo debería centrarse en las rarezas Míticas y Secretas.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S (Meta)">
+    - **Luna Congelada (Kizuki)**: Mejor utilidad de congelación.
+    - **Titán Fundador (Reina)**: Daño masivo en área (AOE).
+    - **Monarca de las Sombras (Despertar)**: Gran potencial de sinergia.
+  </Card>
+  <Card title="Nivel A (Fuerte)">
+    - **Noche Eterna (Sangre)**: Excelente asesino de jefes.
+    - **Guerrero del Futuro (Furioso)**: DPS fiable de objetivo único.
+    - **Cazador de Insectos (Veneno)**: Gran daño de efecto (DoT).
+  </Card>
+  <Card title="Nivel B (Situacional)">
+    - **Cazador Radiante (Luz)**: Buena escala de críticos.
+    - **Dios de la Destrucción (Mogger)**: DPS general decente.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Análisis del Meta">
+El meta actual favorece a las unidades capaces de romper los escudos enemigos mientras mantienen un DPS sostenido elevado. Prioriza estas unidades para tu equipo principal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de rasgos y Reroll">
+
+Los rasgos son esenciales para optimizar el rendimiento de las unidades. Usar tu RR (Recurso de Reroll) sabiamente marca la diferencia entre sufrir a mitad del juego y dominar al final.
+
+| Rasgo | Mejor para | Uso recomendado |
+| :--- | :--- | :--- |
+| **Divino** | DPS principal / Carries | Ideal para unidades Míticas/Secretas de alto nivel |
+| **Estelar** | DoT / Rompedores de escudos | Úsalo en distribuidores de daño de alta presión |
+| **Francotirador** | Críticos / Objetivo único | Ideal para unidades enfocadas en jefes |
+| **Magnate** | Soporte / Farming | Úsalo en unidades de economía o soporte |
+
+<Callout type="warning" title="Importante">
+Evita gastar grandes cantidades de RR en unidades temporales. Invierte solo en unidades que permanecerán en tu equipo principal a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Farming">
+
+Una gestión eficaz de los recursos te permite evolucionar unidades y desbloquear habilidades más fuertes. Usa esta lista de verificación para seguir tu progreso diario y semanal.
+
+<Checklist
+  id="progression-tracker"
+  title="Objetivos de progresión:"
+  items={[
+    "Superar todas las etapas de la historia para desbloquear rutas de farming",
+    "Recoger recompensas diarias del servidor de Discord",
+    "Cultivar materiales de evolución para tu DPS principal",
+    "Desafiar al jefe Igris para obtener drops exclusivos"
+  ]}
+/>
+
+<Callout type="info" title="Consejo sobre recursos">
+Consulta siempre el [Trello oficial](https://trello.com/b/vyRQHU11/anime-destiny-trello) para obtener la información más reciente sobre requisitos de materiales y tiempos de aparición.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor forma de conseguir Gemas en Anime Destiny?",
+    answer: "La mejor manera es completar etapas de la historia, participar en desafíos diarios/semanales y canjear códigos oficiales regularmente."
+  },
+  {
+    question: "¿Debo evolucionar mis unidades iniciales?",
+    answer: "Solo evoluciona unidades que proporcionen valor a largo plazo. Guarda tus materiales de evolución para unidades Míticas o de alto nivel que permanecerán en tu equipo final."
+  },
+  {
+    question: "¿Cómo uso los códigos en Anime Destiny?",
+    answer: "Abre el juego en Roblox, haz clic en el botón 'Codes' en el lado derecho de tu pantalla e introduce el código exactamente como está escrito."
+  }
+]} />
+
+</Section>

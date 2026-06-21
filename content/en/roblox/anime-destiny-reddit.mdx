@@ -1,0 +1,133 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Destiny: 2026 Guide to Codes, Units & Tier List",
+  description: "Master Anime Destiny with our 2026 guide. Get active codes, unit tier lists, and essential tips to dominate story stages and endless trials.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Anime+Destiny+Guide",
+  date: "2026-06-21",
+  author: "anime Destiny Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime Destiny** requires strategic unit placement to clear story stages and bosses efficiently.
+- Always **redeem active codes** early to boost your initial Gem and Reroll Shard resources.
+- Prioritize upgrading your **top-tier DPS units** before spreading resources across your entire squad.
+- Save your **Trait Rerolls (RR)** for Mythic and Secret units to maximize long-term investment.
+- Join the [official group](https://www.roblox.com/communities/859372599/Anime-Destiny-AD) to unlock exclusive rewards.
+</Callout>
+
+<Section icon={Target} title="Getting Started: Beginner Essentials">
+
+Starting your journey in Anime Destiny involves a clear progression loop: summoning, squad building, and stage clearing. New players should focus on establishing a stable team that can handle early content before chasing high-rarity units.
+
+**Video Highlights:**
+- Understanding the core tower defense mechanics
+- How to efficiently use your initial currency
+- Best practices for early unit placement
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Anime Destiny Release Trailer" />
+
+<Callout type="tip" title="Pro Tip">
+Do not spend all your Gems on the first available banner. Save a portion for future banners where high-utility units might appear.
+</Callout>
+
+| Activity | Priority | Goal |
+| :--- | :--- | :--- |
+| Redeem Codes | High | Gain starter Gems and RR |
+| Story Stages | High | Unlock new content and rewards |
+| Daily Challenges | Medium | Farm consistent daily resources |
+| Unit Upgrades | High | Improve active squad DPS |
+
+</Section>
+
+<Section icon={Swords} title="Unit Tier List & Performance">
+
+Units in Anime Destiny are categorized by their utility in various PvE modes. While early Legendary units are helpful, your long-term focus should shift toward Mythic and Secret rarities.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier (Meta)">
+    - **Frozen Moon (Kizuki)**: Best freeze utility.
+    - **Founding Titan (Queen)**: Massive AOE damage.
+    - **Shadow Monarch (Awaken)**: High synergy potential.
+  </Card>
+  <Card title="A-Tier (Strong)">
+    - **Eternal Night (Blood)**: Excellent boss killer.
+    - **Future Warrior (Furious)**: Reliable single-target DPS.
+    - **Insect Slayer (Poison)**: Great DoT damage.
+  </Card>
+  <Card title="B-Tier (Situational)">
+    - **Radiant Hunter (Light)**: Good crit scaling.
+    - **Destruction God (Mogger)**: Decent general DPS.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Analysis">
+The current meta favors units that can break enemy shields while maintaining high sustained DPS. Prioritize these units for your main squad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Traits and Reroll Strategy">
+
+Traits are essential for optimizing unit performance. Using your RR (Reroll Resource) wisely is the difference between a mid-game struggle and late-game dominance.
+
+| Trait | Best For | Recommended Usage |
+| :--- | :--- | :--- |
+| **Divine** | Main DPS / Carries | Best for top-tier Mythic/Secret units |
+| **Stellar** | DoT / Shield Breakers | Use on high-pressure damage dealers |
+| **Sniper** | Crit / Single-target | Best for boss-focused units |
+| **Tycoon** | Support / Farming | Use on economy/support units |
+
+<Callout type="warning" title="Important">
+Avoid spending large amounts of RR on temporary units. Only invest in units that will remain in your primary squad for the long term.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Farming">
+
+Effective resource management allows you to evolve units and unlock stronger abilities. Use this checklist to track your daily and weekly progress.
+
+<Checklist
+  id="progression-tracker"
+  title="Progression Goals:"
+  items={[
+    "Clear all Story stages to unlock farming routes",
+    "Collect daily rewards from the Discord server",
+    "Farm evolution materials for your main DPS carry",
+    "Challenge the Igris Boss for exclusive drops"
+  ]}
+/>
+
+<Callout type="info" title="Resource Tip">
+Always check the [official Trello](https://trello.com/b/vyRQHU11/anime-destiny-trello) for the latest update on material requirements and spawn times.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to get Gems in Anime Destiny?",
+    answer: "The best way is to complete Story stages, participate in daily/weekly challenges, and redeem official codes regularly."
+  },
+  {
+    question: "Should I evolve my early-game units?",
+    answer: "Only evolve units that provide long-term value. Save your evolution materials for Mythic or high-tier units that will stay in your endgame squad."
+  },
+  {
+    question: "How do I use codes in Anime Destiny?",
+    answer: "Open the game on Roblox, click the 'Codes' button on the right side of your screen, and enter the code exactly as written."
+  }
+]} />
+
+</Section>

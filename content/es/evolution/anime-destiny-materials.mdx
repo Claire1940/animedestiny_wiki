@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Database, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Materiales de Anime Destiny: Guía de evolución y mejora 2026",
+  description: "Domina la gestión de recursos en Anime Destiny. Aprende a realizar el seguimiento de materiales de evolución, priorizar mejoras y farmear objetos esenciales de forma eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Materials+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **materiales de Anime Destiny** son esenciales para evolucionar unidades y desbloquear poderosas habilidades en el juego tardío.
+- La **prioridad de recursos** siempre debe favorecer a tus carries de daño principales sobre las unidades temporales del juego temprano.
+- El **farmeo eficiente** implica equilibrar el progreso del modo Historia con eventos de jefes repetibles y pruebas.
+- **Consulta siempre** el tablero oficial de Trello para ver los últimos requisitos de materiales antes de gastar tus valiosas monedas.
+</Callout>
+
+<Section icon={Database} title="Entendiendo los tipos de materiales">
+
+Para progresar de manera efectiva en Anime Destiny, los jugadores deben distinguir entre los recursos de mejora básicos y los materiales de evolución raros. Administrar mal estos activos es la forma más rápida de estancar el crecimiento de tu equipo.
+
+**Puntos destacados del video:**
+- Rutas esenciales de farmeo de recursos en el juego temprano.
+- Cómo identificar unidades que merecen materiales de evolución.
+- Consejos para mantener un inventario de recursos equilibrado.
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Tráiler de lanzamiento de Anime Destiny" />
+
+| Tipo de material | Uso principal | Prioridad de farmeo |
+| :--- | :--- | :--- |
+| **Gemas** | Invocar nuevas unidades | Alta |
+| **Fragmentos RR (Reroll)** | Optimizar rasgos de unidades | Alta |
+| **Cubos** | Mejoras básicas de unidades | Media |
+| **Malicia** | Desbloqueo de habilidades avanzadas | Media |
+
+<Callout type="tip" title="Gestión de recursos">
+Nunca gastes tus fragmentos RR en unidades Raras o Épicas. Guarda estos valiosos recursos para tus unidades Míticas y Secretas para asegurar el rendimiento de tu escuadrón a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flujo de trabajo de evolución y mejora">
+
+Evolucionar unidades es el mecanismo central para aumentar el poder de tu escuadrón. Sigue este flujo de trabajo para asegurarte de no desperdiciar materiales en unidades que serán reemplazadas.
+
+<Steps>
+  <Step num="1" title="Evaluar la utilidad de la unidad">
+    Compara el rol de tu unidad con el meta actual. Solo evoluciona unidades que cubran una necesidad en tu DPS, ruptura de escudos o utilidad.
+  </Step>
+  <Step num="2" title="Consultar recetas de materiales">
+    Consulta el panel de unidades dentro del juego o el Trello oficial para ver los requisitos exactos de materiales para el siguiente nivel de evolución.
+  </Step>
+  <Step num="3" title="Farmear fases específicas">
+    Concentra tu energía en las fases que suelten los cubos o la malicia específicos que requiere tu unidad objetivo.
+  </Step>
+  <Step num="4" title="Ejecutar la evolución">
+    Una vez reunidos todos los materiales, ve a la estación de evolución en el lobby para mejorar las estadísticas y los límites de habilidad de tu unidad.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evitar el desperdicio">
+Evita invertir de más en unidades solo porque se ven geniales. Una unidad de nivel bajo con materiales al máximo seguirá teniendo un rendimiento inferior al de una unidad Secreta de nivel base en el contenido final (endgame).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eficiencia de farmeo de recursos">
+
+No todas las fases son iguales. Reunir materiales de Anime Destiny de manera eficiente requiere rotar entre diferentes modos PvE según la fuerza actual de tu plantilla.
+
+| Modo | Ideal para | Dificultad |
+| :--- | :--- | :--- |
+| **Fases de historia** | Moneda inicial y cubos básicos | Baja |
+| **Desafíos de jefe** | Materiales de evolución raros | Alta |
+| **Pruebas infinitas** | Fragmentos RR y PE constantes | Escalable |
+| **Eventos diarios** | Materiales de bonificación y objetos limitados | Media |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia para el juego temprano">
+    - Concéntrate en completar las fases de Historia.
+    - Gasta Gemas solo en invocaciones de banners esenciales.
+    - Usa unidades básicas para alcanzar el primer hito.
+  </Card>
+  <Card title="Estrategia para el juego tardío">
+    - Farmea los desafíos de jefes para obtener materiales.
+    - Maximiza el uso de RR en unidades Míticas/Secretas.
+    - Optimiza la composición del equipo para las Pruebas infinitas.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia profesional">
+Participa en el Evento de Jefe Igris siempre que esté activo. Ofrece una de las mejores relaciones de material por energía en la versión actual del juego.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé qué materiales de Anime Destiny necesito?",
+    answer: "Puedes consultar los requisitos específicos de cualquier unidad abriendo el panel de detalles de la unidad en el lobby del juego o revisando el tablero oficial de Trello de Anime Destiny para ver listas organizadas."
+  },
+  {
+    question: "¿Vale la pena farmear para evoluciones de unidades Raras?",
+    answer: "Generalmente, no. Las unidades Raras están pensadas para ser temporales. Es mejor guardar tus materiales para unidades Míticas y Secretas que permanecerán en tu escuadrón a largo plazo."
+  },
+  {
+    question: "¿Dónde puedo encontrar las últimas recompensas de códigos para materiales?",
+    answer: "Estate atento al servidor oficial de Discord y a la página de Roblox del juego. Los códigos suelen ofrecer paquetes de Gemas, RR y Cubos que pueden acelerar significativamente tu progreso."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación final para el éxito">
+
+<Checklist
+  id="material-farming-checklist"
+  title="Hábitos de farmeo de materiales:"
+  items={[
+    "Reclama todas las recompensas de desafíos diarios y semanales",
+    "Únete al grupo oficial de Roblox para obtener posibles bonificaciones",
+    "Verifica el conteo de materiales antes de comenzar un farmeo largo",
+    "Conserva una reserva de fragmentos RR para la adquisición de nuevas unidades",
+    "Revisa el tablero de Trello para ver los cambios recientes en las tasas de aparición (drop rates) tras las actualizaciones"
+  ]}
+/>
+
+<Callout type="info" title="Mantente actualizado">
+Consulta siempre la descripción oficial del juego en Roblox [Anime Destiny](https://www.roblox.com/games/82674355647259/Anime-Destiny) para estar al tanto de cualquier cambio silencioso en las tasas de aparición de materiales o los horarios de eventos.
+</Callout>
+
+</Section>

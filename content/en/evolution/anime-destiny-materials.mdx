@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Database, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Destiny Materials: Evolution & Upgrade Guide 2026",
+  description: "Master your resource management in Anime Destiny. Learn how to track evolution materials, prioritize upgrades, and farm essential items efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Materials+Guide",
+  date: "2026-06-21",
+  author: "anime destiny Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime Destiny materials** are essential for evolving units and unlocking powerful late-game abilities.
+- **Resource priority** should always favor your core damage carries over temporary early-game units.
+- **Efficient farming** involves balancing Story mode progression with repeatable boss events and trials.
+- **Always check** the official Trello board for the latest material requirements before spending your hard-earned currency.
+</Callout>
+
+<Section icon={Database} title="Understanding Material Types">
+
+To progress effectively in Anime Destiny, players must distinguish between basic upgrade resources and rare evolution materials. Mismanaging these assets is the fastest way to stall your team's growth.
+
+**Video Highlights:**
+- Essential early-game resource farming routes.
+- How to identify units worthy of evolution materials.
+- Tips for maintaining a balanced resource inventory.
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Anime Destiny Release Trailer" />
+
+| Material Type | Primary Usage | Farming Priority |
+| :--- | :--- | :--- |
+| **Gems** | Summoning new units | High |
+| **RR (Reroll Shards)** | Optimizing unit traits | High |
+| **Cubes** | Basic unit upgrades | Medium |
+| **Malice** | Advanced ability unlocks | Medium |
+
+<Callout type="tip" title="Resource Management">
+Never spend your RR shards on Rare or Epic units. Save these precious resources for your Mythic and Secret units to ensure long-term squad performance.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Evolution and Upgrade Workflow">
+
+Evolving units is the core mechanism for increasing your squad's power. Follow this workflow to ensure you aren't wasting materials on units that will be replaced.
+
+<Steps>
+  <Step num="1" title="Assess Unit Utility">
+    Check your unit's role against the current meta. Only evolve units that fill a gap in your DPS, shield-breaking, or utility needs.
+  </Step>
+  <Step num="2" title="Check Material Recipes">
+    Consult the in-game unit panel or the official Trello to see the exact material requirements for the next evolution tier.
+  </Step>
+  <Step num="3" title="Farm Targeted Stages">
+    Focus your stamina on stages that drop the specific cubes or malice required for your target unit.
+  </Step>
+  <Step num="4" title="Execute Evolution">
+    Once all materials are gathered, proceed to the evolution station in the lobby to upgrade your unit's stats and ability caps.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid Waste">
+Avoid over-investing in units just because they look cool. A low-tier unit with maxed-out materials will still underperform compared to a base-level Secret unit in endgame content.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resource Farming Efficiency">
+
+Not all stages are created equal. Efficiently gathering Anime Destiny materials requires rotating between different PvE modes based on your current roster strength.
+
+| Mode | Best For | Difficulty |
+| :--- | :--- | :--- |
+| **Story Stages** | Initial currency & basic cubes | Low |
+| **Boss Challenges** | Rare evolution materials | High |
+| **Endless Trials** | Consistent RR shards & XP | Scaling |
+| **Daily Events** | Bonus materials & limited items | Medium |
+
+<CardGrid cols={2}>
+  <Card title="Early Game Strategy">
+    - Focus on clearing Story stages.
+    - Spend Gems only on essential banner pulls.
+    - Use basic units to reach the first milestone.
+  </Card>
+  <Card title="Late Game Strategy">
+    - Grind Boss challenges for materials.
+    - Maximize RR usage on Mythic/Secret units.
+    - Optimize team composition for Endless Trials.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Pro Strategy">
+Participate in the Igris Boss Event whenever it is active. It provides some of the best material-to-stamina ratios in the current game version.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I know which Anime Destiny materials I need?",
+    answer: "You can check the specific requirements for any unit by opening the unit detail panel in the game lobby or by checking the official Anime Destiny Trello board for organized lists."
+  },
+  {
+    question: "Is it worth farming for Rare unit evolutions?",
+    answer: "Generally, no. Rare units are meant to be temporary. It is better to save your materials for Mythic and Secret units that will remain in your squad long-term."
+  },
+  {
+    question: "Where can I find the latest code rewards for materials?",
+    answer: "Keep an eye on the official Discord server and the game’s Roblox page. Codes often provide bundles of Gems, RR, and Cubes that can significantly speed up your progression."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Final Checklist for Success">
+
+<Checklist
+  id="material-farming-checklist"
+  title="Material Farming Habits:"
+  items={[
+    "Claim all daily and weekly challenge rewards",
+    "Join the official Roblox group for potential bonuses",
+    "Verify material counts before starting a long grind",
+    "Keep a backup of RR shards for new unit acquisitions",
+    "Check the Trello board for recent update changes to drop rates"
+  ]}
+/>
+
+<Callout type="info" title="Stay Updated">
+Always check the official game description on Roblox [Anime Destiny](https://www.roblox.com/games/82674355647259/Anime-Destiny) for any stealth changes to material drop rates or event schedules.
+</Callout>
+
+</Section>

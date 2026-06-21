@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Destiny Banner: Tasas de Aparición, Pity y Guía de Invocación",
+  description: "Optimiza tus invocaciones con nuestra guía de banners de Anime Destiny. Conoce las tasas de aparición de unidades, las reglas de pity, el auto roll gratuito y los personajes de nivel S que debes priorizar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Destiny+Banner+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estrategia de Banners**: Guarda tus gemas para las rotaciones que incluyan unidades carry Secretas o Míticas de primer nivel.
+- **Verificación de Rareza**: Las unidades Secretas aparecen con una tasa base del 0.1%, mientras que las Míticas tienen una probabilidad del 0.5%.
+- **Auto Roll Gratuito**: Utiliza el sistema de auto roll gratuito integrado en Roblox para agilizar las sesiones masivas de invocación.
+- **Impulso Inicial**: Canjea los códigos activos antes de invocar para asegurar un buen presupuesto inicial de Gemas y Fragmentos de Reroll.
+- **Objetivos Clave**: Prioriza a Frozen Moon (Kizuki) por su utilidad de congelación y a Founding Titan (Queen) por su gran daño de invocación.
+</Callout>
+
+<Section icon={Target} title="Entendiendo las mecánicas del banner de Anime Destiny">
+
+Navegar por el sistema de **banners de Anime Destiny** es el paso más importante para construir un equipo capaz de superar el contenido PvE de alto nivel, jefes y desafíos infinitos. El sistema de invocación funciona con un modelo de banner rotativo donde ciertos personajes reciben mejoras en sus tasas de aparición (rate-up). Dado que los recursos son limitados, comprender las tasas de aparición exactas y las mecánicas evitará que desperdicies Gemas en banners de poco valor.
+
+Al jugar en Roblox (específicamente ID 82674355647259), notarás que el grupo de invocación se divide en distintas rarezas. Cada rareza tiene una probabilidad base específica. Conocer estos números te ayuda a planificar cuántas Gemas necesitas ahorrar antes de comprometerte con una sesión de invocación.
+
+| Rareza | Tasa de Aparición | Impacto en el Presupuesto | Estrategia |
+| --- | --- | --- | --- |
+| Secreta | 0.1% | Extremadamente Rara | Apuntar solo en rotaciones de banners específicas |
+| Mítica | 0.5% | Rara | Intentar conseguir al menos un carry principal |
+| Legendaria | 2.5% | Común | Relleno útil para equipos del modo historia inicial |
+| Épica | 12.0% | Alto | Intercambiar o usar como alimento para mejoras al principio |
+| Rara | 84.9% | Muy Alto | Usar como material básico de progresión |
+
+Las tasas demuestran que buscar unidades Secretas o Míticas requiere paciencia y presupuesto de recursos. Invocar sin consultar el calendario de rate-up actual es la forma más rápida de agotar tus reservas. El juego también ofrece una mecánica de Auto Roll gratuita accesible directamente en la interfaz principal, lo que te permite realizar invocaciones de forma continua hasta obtener la rareza deseada.
+
+<Callout type="warning" title="Atención al Contador de Pity">
+Asegúrate de monitorear tu contador de invocaciones en el juego. Invocar en banners sin suficientes Gemas para alcanzar los límites de pity puede restablecer tu progreso si el banner rota antes de que asegures una unidad de nivel superior.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meta del Banner: Mejores personajes a conseguir">
+
+No todas las rotaciones de **banners de Anime Destiny** valen tus valiosas Gemas. El meta se centra en gran medida en unidades que ofrecen un alto daño en área de efecto (AoE), utilidad para romper escudos o efectos de control de masas como la congelación. Invertir en una unidad Mítica mediocre al principio puede ralentizar tu progreso en las fases de la historia y las incursiones.
+
+Al evaluar la rotación actual del banner, busca personajes de nivel S que sirvan como base para el contenido del juego avanzado. La siguiente tabla muestra las invocaciones de mayor valor disponibles actualmente en el grupo.
+
+| Nombre de la Unidad | Rareza | Mejor Rasgo | Utilidad Primaria |
+| --- | --- | --- | --- |
+| Frozen Moon (Kizuki) | Secreta | Divino | Control de masas por congelación y ruptura de escudos |
+| Founding Titan (Queen) | Secreta | Divino | Alto daño a jefes con invocaciones de Titanes |
+| Shadow Monarch (Awaken) | Secreta | Divino | Invocador de sinergia oscura con alto DPS base |
+| Ashura Swordsman (3SS) | Mítica | Divino | Fuerte daño a lo largo del tiempo y presión a escudos |
+| Red Emperor (Haki) | Mítica | Divino | Excelente carry de daño puro para fases de la historia |
+
+Si estas unidades no aparecen en el banner activo, se recomienda encarecidamente guardar tus Gemas. Conformarse con unidades de menor nivel consumirá materiales que se aprovechan mejor en los carries del meta.
+
+<CardGrid cols={3}>
+  <Card title="Unidades Carry Secretas">
+    Las unidades como Frozen Moon y Founding Titan ofrecen una utilidad inigualable. Rompen escudos fácilmente e invocan unidades de apoyo para mitigar daño o atacar.
+  </Card>
+  <Card title="Carries DPS Míticos">
+    Ashura Swordsman y Red Emperor son los mejores atacantes no secretos. Manejan muy bien los efectos de estado como quemadura y veneno.
+  </Card>
+  <Card title="Soportes Económicos">
+    Debes conservar a Bulm y Cyan Idol si los consigues, ya que generan ingresos adicionales durante las oleadas defensivas para financiar a tus atacantes principales.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Utilidad vs Daño Puro">
+Prioriza siempre las unidades de utilidad que congelen o aturdan a los enemigos sobre los atacantes de daño puro si juegas en solitario. Las tácticas de retención permiten que tus unidades secundarias limpien las oleadas rápidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Moneda de Invocación y Presupuesto de Gemas">
+
+Para invocar de manera constante en el **banner de Anime Destiny**, debes dominar la economía del juego. Las Gemas son la moneda principal para las invocaciones, mientras que los Fragmentos de Reroll (RR) se utilizan para personalizar los rasgos de las unidades después de haberlas invocado. Confundir ambos o gastarlos de manera ineficiente detendrá la progresión de tu equipo.
+
+Para los jugadores nuevos, canjear los códigos de inicio es la forma más rápida de generar un presupuesto. Usar códigos como `Release!` te otorga al instante 1,500 Gemas y 15 RR, mientras que `SorryForDelay` añade otras 500 Gemas, 5 RR, 5 Cubos y 5 Malice a tu inventario. Más allá de los códigos, el contenido PvE repetible es tu principal fuente de ingresos.
+
+| Modo | Rendimiento de Gemas | Frecuencia de Desafío | Mejor Configuración |
+| --- | --- | --- | --- |
+| Fases de la Historia | Moderado | Primera victoria única | Completar con unidades Legendarias básicas |
+| Evento de Jefe Igris | Alto | Repetible según evento | Usar retención por congelación y alto DPS a un solo objetivo |
+| Desafíos Diarios | Constante | Ciclo de 24 horas | Batalla automática en salas de nivel bajo |
+| Misiones Semanales | Alto | Ciclo de 7 días | Limpiar todos los objetivos de hitos semanales |
+| Canje de Códigos | Instantáneo | Entregas ocasionales | Canjear Release! y SorryForDelay |
+
+Evita la tentación de gastar Gemas en invocaciones individuales. Las invocaciones múltiples son más eficientes y te permiten aprovechar la función de Auto Roll gratuito para descartar automáticamente las unidades Raras y Épicas no deseadas. Mantén una reserva de al menos 5,000 Gemas antes de buscar una unidad Mítica destacada.
+
+<Callout type="info" title="Separación de Recursos">
+Recuerda que las Gemas son para invocar nuevas unidades, mientras que los RR, Cubos y Malice están reservados estrictamente para la optimización post-invocación. Nunca compres rasgos directamente con Gemas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Invocación Paso a Paso">
+
+Para obtener la máxima eficiencia, sigue una rutina estructurada cuando interactúes con los sistemas de gacha. Este proceso paso a paso asegura que no desperdicies monedas en configuraciones subóptimas ni te pierdas los bonos de grupo.
+
+<Steps>
+  <Step num="1" title="Reclama las Recompensas Iniciales">
+    Únete al grupo oficial de la comunidad de Roblox e inicia sesión en el juego para recibir bonificaciones pasivas. Abre el menú de Códigos en el lado derecho de la pantalla y canjea todos los códigos activos, comenzando con `Release!` y `SorryForDelay`.
+  </Step>
+  <Step num="2" title="Comprueba el Banner Actual">
+    Inspecciona las unidades destacadas con rate-up en el banner activo. Verifica si las unidades de nivel S (como Frozen Moon o Founding Titan) están destacadas actualmente. Si no es así, cierra sesión y ahorra tus Gemas.
+  </Step>
+  <Step num="3" title="Configura los Filtros de Auto Roll">
+    Configura los ajustes de Auto Roll gratuito para omitir automáticamente las unidades Raras y Épicas. Esto mantiene tu inventario limpio y asegura que solo dejes de girar cuando obtengas una unidad Legendaria, Mítica o Secreta.
+  </Step>
+  <Step num="4" title="Realiza Invocaciones Múltiples">
+    Gasta tus Gemas en masa. Sigue invocando hasta que consigas tu unidad objetivo o agotes el presupuesto planificado. Detente inmediatamente una vez que asegures el carry destacado para conservar la moneda para la próxima rotación.
+  </Step>
+  <Step num="5" title="Bloquea y Protege tus Invocaciones">
+    Ve a tu inventario de unidades y bloquea tus unidades Míticas o Secretas recién adquiridas. Esto evita su eliminación, venta o uso accidental como material en futuras sesiones de mejora.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Objetivo de Invocación Logrado">
+Una vez que hayas bloqueado a tu carry principal, desvía tu atención del banner de invocación y enfócate en mejorar y evolucionar esa unidad usando tus Cubos y Malice guardados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Rasgos y Optimización del Equipo">
+
+Conseguir una unidad de primer nivel en el **banner de Anime Destiny** es solo el primer paso. Para desbloquear todo su potencial, debes obtener un rasgo compatible utilizando Fragmentos de Reroll (RR). Los rasgos proporcionan enormes mejoras pasivas al daño, rango, tasa de golpe crítico o generación de utilidad.
+
+Buscar el rasgo incorrecto en una unidad temporal es una trampa de recursos común. Guarda tus RR para las unidades Secretas y Míticas que permanecerán a largo plazo en tu equipo activo. Consulta la guía de rasgos a continuación para emparejar tus intentos de forma eficaz.
+
+| Rasgo | Clase Objetivo | Acción Recomendada | Prioridad de Recursos |
+| --- | --- | --- | --- |
+| Divino | Carries DPS del meta | Conservar de inmediato sin reemplazar | Prioridad alta |
+| Estelar | Especialistas en DoT | Conservar para unidades que infligen estados | Prioridad media |
+| Francotirador | Asesinos de jefes críticos | Emparejar con unidades de un solo objetivo | Prioridad media |
+| Magnate | Soportes de utilidad | Equipar en productores de economía | Prioridad baja |
+| Multiusos | Rellenos de juego temprano | Aceptar en unidades temporales | No desperdiciar RR |
+
+Una vez definidos tus rasgos, comienza a recolectar materiales de evolución. Cada unidad tiene una ruta de evolución específica que requiere recursos distintos recolectados en las fases de la historia y los desafíos de jefes.
+
+<Checklist
+  id="banner-progression-goals"
+  title="Lista de Verificación de Equipo Post-Invocación:"
+  items={[
+    "Bloquear todas las unidades Míticas y Secretas recién obtenidas en tu inventario",
+    "Aplicar los RR guardados para asegurar al menos un rasgo Estelar o Divino en tu carry principal",
+    "Comprobar la receta de evolución de la unidad en la zona de evolución de la sala de espera (lobby)",
+    "Farmear las fases de Historia requeridas para acumular Cubos de mejora",
+    "Probar la configuración optimizada del equipo en el modo de Desafíos Infinitos"
+  ]}
+/>
+
+<Callout type="tip" title="No Excedas los Rerolls">
+Si consigues un rasgo decente como Francotirador en un asesino de jefes, consérvalo. No gastes todos tus RR buscando un rasgo Divino perfecto a menos que tengas un exceso masivo de recursos de reroll.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Revisa estas preguntas comunes de la comunidad sobre banners, tasas de aparición y tácticas de invocación para asegurarte de tomar las mejores decisiones para tu equipo.
+
+<FAQ items={[
+  {
+    question: "¿Se acumula el pity entre las diferentes rotaciones del banner de Anime Destiny?",
+    answer: "Las mecánicas de pity están vinculadas a tipos de banners específicos. Se recomienda encarecidamente consultar las actualizaciones oficiales en Discord o Trello para confirmar si el pity se traslada durante las actualizaciones importantes de parches, ya que las mecánicas pueden cambiar."
+  },
+  {
+    question: "¿Vale la pena invocar en el banner si solo tengo Gemas suficientes para 10 giros?",
+    answer: "Por lo general, no. Es mejor acumular al menos de 3,000 a 5,000 Gemas para que puedas aprovechar los periodos de rate-up y asegurarte de irte con una unidad Legendaria o Mítica utilizable."
+  },
+  {
+    question: "¿Qué debo hacer con las unidades Raras y Épicas duplicadas de mis invocaciones?",
+    answer: "Los duplicados se pueden usar como materiales de mejora para subir de nivel a tus carries principales o venderse por oro para financiar mejoras básicas de la sala de espera. Nunca dejes que abarroten el espacio de tu inventario activo."
+  },
+  {
+    question: "¿Con qué frecuencia rotan las unidades destacadas del banner?",
+    answer: "Los banners rotan en un horario regular, normalmente alineados con las actualizaciones semanales o los lanzamientos de eventos especiales. Consulta los temporizadores activos en la sala de invocación para planificar tus giros."
+  }
+]} />
+
+<Callout type="info" title="Verificación Oficial">
+Siempre consulta la descripción oficial del juego en Roblox y los canales de Discord activos de los desarrolladores para conocer anuncios en tiempo real sobre los horarios de banners, correcciones rápidas y lanzamientos de nuevos códigos.
+</Callout>
+
+</Section>

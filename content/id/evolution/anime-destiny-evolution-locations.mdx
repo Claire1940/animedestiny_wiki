@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lokasi Evolusi Anime Destiny: Panduan Sumber Daya & Peningkatan",
+  description: "Kuasai lokasi evolusi Anime Destiny dan jalur peningkatannya. Pelajari tempat farming material dan cara menaikkan level unit Anda untuk kekuatan maksimal di tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Evolution+Guide",
+  date: "2026-06-21",
+  author: "Tim Wiki Anime Destiny"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Lokasi evolusi Anime Destiny** utamanya ditemukan di dalam stage cerita khusus dan mode tantangan bos.
+- **Material evolusi** memerlukan farming yang konsisten dari rute PvE tertentu untuk membuka potensi unit yang lebih tinggi.
+- **Prioritaskan evolusi** unit tingkat Mythic dan Secret untuk memastikan sumber daya Anda digunakan secara efektif.
+- **Periksa panel unit dalam game** untuk mengetahui kebutuhan material spesifik sebelum memulai sesi farming Anda.
+</Callout>
+
+<Section icon={Map} title="Memahami Mekanisme Evolusi">
+
+Evolusi adalah sistem perkembangan paling penting dalam game ini. Sistem ini memungkinkan pemain untuk mengubah unit dasar menjadi bentuk evolusi, yang secara signifikan meningkatkan statistik mereka dan membuka kemampuan baru yang kuat. Untuk berhasil, Anda harus memahami di mana mendapatkan material yang diperlukan.
+
+**Sorotan Video:**
+- Strategi pertumbuhan unit resmi
+- Tips efisiensi untuk pengelolaan sumber daya
+- Mekanisme pertarungan bos untuk farming material
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Trailer Rilis Anime Destiny" />
+
+<Callout type="tip" title="Tips Pro">
+Selalu verifikasi resep evolusi unit spesifik Anda di menu game sebelum pergi farming. Material untuk unit Mythic jauh lebih langka daripada untuk unit Legendary atau Epic.
+</Callout>
+
+| Jenis Material | Lokasi Utama | Tingkat Kesulitan | Kegunaan |
+| :--- | :--- | :--- | :--- |
+| **Common Cubes** | Stage Cerita Awal | Rendah | Peningkatan Dasar |
+| **Rare Malice** | Tantangan Bos | Sedang | Evolusi Unit |
+| **Stellar Shards** | Endless Trials | Tinggi | Kebangkitan Mythic |
+| **Divine Essence** | Raid Events | Sangat Tinggi | Crafting Unit Secret |
+
+</Section>
+
+<Section icon={Target} title="Farming Lokasi Evolusi">
+
+Perkembangan di *Anime Destiny* bergantung pada kemampuan Anda untuk menyelesaikan konten spesifik secara berulang. Di bawah ini adalah urutan yang direkomendasikan bagi pemain yang ingin melakukan farming material evolusi secara efisien.
+
+<Steps>
+  <Step num="1" title="Selesaikan Stage Cerita">
+    Mulailah dengan menyelesaikan semua stage cerita yang tersedia untuk membuka akses ke zona farming dengan tingkat kesulitan lebih tinggi dan tingkatan hadiah harian.
+  </Step>
+  <Step num="2" title="Tantangan Acara Bos">
+    Setelah pasukan dasar Anda naik level, fokuslah pada Tantangan Bos. Ini adalah sumber utama untuk material evolusi tingkat menengah hingga tinggi.
+  </Step>
+  <Step num="3" title="Uji Endless Trials">
+    Endless Trials menyediakan aliran material sekunder yang stabil. Gunakan sesi ini untuk menyempurnakan penempatan pasukan dan output damage Anda.
+  </Step>
+  <Step num="4" title="Farming Hadiah Raid">
+    Berpartisipasilah dalam Raid terjadwal. Ini menawarkan material dengan kualitas tertinggi, yang penting untuk mengembangkan unit S-Tier Anda ke potensi maksimalnya.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pengelolaan Sumber Daya">
+Hindari menghabiskan material evolusi Anda yang terbatas pada unit tingkat rendah. Meskipun unit tersebut terlihat keren, simpan sumber daya Anda untuk unit yang akan tetap berada di pasukan end-game Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioritas Material Evolusi">
+
+Tidak semua material diciptakan sama. Anda harus mengatur jadwal farming berdasarkan kebutuhan tim aktif Anda. Gunakan tabel di bawah ini untuk memutuskan lokasi mana yang harus diprioritaskan berdasarkan daftar unit Anda saat ini.
+
+| Prioritas | Tingkat Unit Fokus | Strategi Farming Terbaik | Tujuan Sumber Daya |
+| :--- | :--- | :--- | :--- |
+| **Tinggi** | Unit Secret | Farming Raid/Bos | Divine Essence |
+| **Sedang** | Unit Mythic | Endless Trials | Stellar Shards |
+| **Rendah** | Unit Legendary | Stage Harian | Common Cubes |
+
+<CardGrid cols={3}>
+  <Card title="Boss Rush">
+    - **Fokus**: Target HP tinggi
+    - **Hadiah**: Malice & Cubes
+    - **Pasukan**: Setup DPS tinggi
+  </Card>
+  <Card title="Endless Grind">
+    - **Fokus**: Konsistensi wave
+    - **Hadiah**: Shards & Gems
+    - **Pasukan**: AOE seimbang
+  </Card>
+  <Card title="Misi Raid">
+    - **Fokus**: Koordinasi tim
+    - **Hadiah**: Rare Essence
+    - **Pasukan**: Utility khusus
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Perkembangan">
+
+Gunakan daftar periksa ini untuk melacak kemajuan Anda dan memastikan Anda tidak melewatkan peluang evolusi utama.
+
+<Checklist
+  id="evolution-milestones"
+  title="Tujuan Perkembangan:"
+  items={[
+    "Selesaikan semua bab cerita saat ini",
+    "Maksimal level unit DPS utama Anda",
+    "Kumpulkan material untuk evolusi Mythic pertama",
+    "Bergabung dengan grup resmi untuk bonus update",
+    "Selesaikan setidaknya 30 wave di Endless Trials"
+  ]}
+/>
+
+<Callout type="success" title="Strategi Sukses">
+Bergabung dengan [Grup Roblox Anime Destiny](https://www.roblox.com/communities/859372599/Anime-Destiny-AD) resmi sering kali memberikan wawasan tentang lokasi farming spesifik update mendatang yang menawarkan peningkatan drop rate material.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Di mana saya bisa menemukan lokasi evolusi Anime Destiny yang spesifik?",
+    answer: "Sebagian besar material evolusi ditemukan di mode Tantangan Bos dan Raid. Periksa menu unit dalam game untuk melihat stage mana yang memberikan material yang Anda butuhkan."
+  },
+  {
+    question: "Apakah layak mengembangkan unit game awal?",
+    answer: "Umumnya tidak. Fokuskan sumber daya Anda pada unit Mythic dan Secret. Unit awal hanya perlu ditingkatkan secukupnya untuk membantu Anda menyelesaikan konten cerita."
+  },
+  {
+    question: "Bagaimana cara mengetahui material mana yang harus difarming terlebih dahulu?",
+    answer: "Prioritaskan material yang dibutuhkan untuk dealer damage peringkat tertinggi Anda. Periksa daftar tier unit untuk melihat karakter mana yang layak untuk investasi jangka panjang."
+  }
+]} />
+
+</Section>

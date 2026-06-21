@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Raid Anime Destiny: Panduan Progres & Tim Meta",
+  description: "Kuasai mode raid Anime Destiny. Pelajari tim meta terbaik, trait unit, material upgrade, dan strategi langkah demi langkah untuk mendapatkan hadiah tingkat tinggi.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Anime+Destiny+Raid+Guide",
+  date: "2026-06-21",
+  author: "Tim Wiki Anime Destiny"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Masuk Raid**: Akses mode **raid anime destiny** untuk melakukan farming pada material upgrade tingkat tinggi, Gem, dan Reroll Shard.
+- **Meta Carry**: Kerahkan unit Secret seperti **Frozen Moon** dan **Founding Titan** untuk damage area-of-effect (AoE) maksimum dan crowd control.
+- **Trait Terbaik**: Lakukan roll untuk mendapatkan trait **Divine** pada dealer damage utama untuk memaksimalkan penskalaan DPS.
+- **Strategi Upgrade**: Maksimalkan unit ekonomi di awal pertandingan sebelum melakukan upgrade pada pemecah perisai berbiaya tinggi.
+</Callout>
+
+<Section icon={Map} title="Ikhtisar Raid Anime Destiny & Persyaratan Masuk">
+
+Mode **raid anime destiny** berfungsi sebagai tantangan endgame utama bagi para pemain yang ingin bertransisi dari tahap cerita dasar ke progres unit tingkat tinggi. Berbeda dengan peta cerita standar, raid memperkenalkan komposisi gelombang musuh yang kompleks, mekanik bos yang agresif, dan perisai elemen yang membutuhkan perencanaan skuad yang terkoordinasi. Berhasil menyelesaikan raid akan menghadiahi pemain dengan sumber daya penting, termasuk Gem, Stat Cube, dan Reroll Shard (RR) yang diperlukan untuk mengoptimalkan susunan karakter late-game.
+
+Untuk berpartisipasi dalam tantangan ini, pemain harus mengakses pengalaman Roblox resmi (ID: 82674355647259). Sangat penting untuk membedakan pengalaman tower defense yang aktif ini dari judul simulator lama yang tidak terkait di platform tersebut. Raid menuntut skuad yang seimbang antara DPS carry, pemecah perisai, dan support ekonomi untuk bertahan dari tingkat kesulitan yang terus meningkat.
+
+| Kesulitan Raid | Biaya Masuk | Hadiah Utama | Level yang Direkomendasikan |
+| :--- | :--- | :--- | :--- |
+| Normal | 1 Tiket Raid | Gem, Stat Cube | Level 20+ |
+| Hard | 1 Tiket Raid | Gem, RR Shard, Malice | Level 40+ |
+| Nightmare | 2 Tiket Raid | RR Shard, Material Evolusi | Level 60+ |
+
+<Callout type="warning" title="Peringatan Sumber Daya">
+Jangan mencoba raid Hard atau Nightmare tanpa meningkatkan unit damage utama Anda sepenuhnya. Gagal dalam raid akan menghabiskan tiket masuk Anda tanpa memberikan hadiah penyelesaian, sehingga memperlambat siklus progres Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tim Meta untuk Kesuksesan Raid">
+
+Membangun tim untuk mode **raid anime destiny** membutuhkan pembagian peran yang ketat. Pemain tidak dapat hanya mengandalkan satu unit berdamage tinggi untuk membersihkan wave; sebaliknya, skuad yang berfungsi harus menyeimbangkan damage murni, kapasitas pemecahan perisai, dan utilitas slow/freeze untuk menahan bos yang bergerak cepat. Unit Secret dan Mythic mendominasi meta tingkat tinggi karena stat dasar mereka yang unggul dan kemampuan summon yang unik.
+
+Tabel di bawah ini menguraikan unit dengan performa terbaik yang saat ini digunakan dalam komposisi raid endgame. Unit-unit ini harus diprioritaskan untuk upgrade dan material evolusi.
+
+| Nama Unit | Kelangkaan | Peran Raid | Trait Terbaik |
+| :--- | :--- | :--- | :--- |
+| Frozen Moon (Kizuki) | Secret | DPS, Utilitas Freeze, Pemecah Perisai | Divine |
+| Founding Titan (Queen) | Secret | AoE Penuh, Damage Summon, Pembunuh Bos | Divine |
+| Shadow Monarch (Awaken) | Secret | Damage Dasar, Sinergi Kegelapan | Divine |
+| Ashura Swordsman (3SS) | Mythic | DPS DoT, Pemecah Perisai | Divine / Stellar |
+| Crimson Knight (Dark) | Secret | DPS Tinggi, Sinergi Monarch | Divine |
+| Red Emperor (Haki) | Mythic | DPS Mythic Teratas | Divine |
+| Magicbane (Anti-Magic) | Mythic | Pemecah Perisai | Divine |
+
+<CardGrid cols={3}>
+  <Card title="Unit Carry DPS">
+    - **Frozen Moon (Kizuki)** menyediakan utilitas freeze yang sangat baik untuk menahan bos yang cepat.
+    - **Founding Titan (Queen)** memanggil unit tambahan untuk memblokir jalur.
+    - **Red Emperor (Haki)** berskala sangat baik dengan upgrade damage.
+  </Card>
+  <Card title="Pemecah Perisai">
+    - **Ashura Swordsman (3SS)** memberikan damage-over-time untuk melelehkan perisai.
+    - **Magicbane (Anti-Magic)** sangat baik dalam menetralkan perisai elemen dengan cepat.
+    - **Crow Prodigy** berfungsi sebagai opsi anggaran yang andal untuk pemain awal.
+  </Card>
+  <Card title="Dukungan & Ekonomi">
+    - **Bulm** menghasilkan aliran uang tambahan untuk mendanai upgrade late-game yang mahal.
+    - **Cyan Idol** meningkatkan jangkauan unit yang berdekatan dan output damage.
+    - **Trait Tycoon** harus di-roll pada unit support untuk memaksimalkan pendapatan.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bonus Sinergi">
+Mengerahkan **Shadow Monarch (Awaken)** bersama **Crimson Knight (Dark)** memicu buff sinergi kegelapan, meningkatkan output damage keseluruhan dari unit summon Anda selama fase bos yang intens.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategi Eksekusi Raid Langkah demi Langkah">
+
+Berhasil menavigasi **raid anime destiny** membutuhkan pengaturan waktu penempatan yang tepat dan manajemen ekonomi. Pemain harus fokus pada menghasilkan pendapatan selama wave awal, beralih ke pengaturan pertahanan di pertengahan permainan, dan memusatkan DPS murni pada bos selama wave terakhir.
+
+Ikuti langkah-langkah ini untuk menyusun gameplay Anda selama pertandingan raid:
+
+<Steps>
+  <Step num="1" title="Membangun Ekonomi Awal">
+    Tempatkan unit ekonomi Anda, seperti Bulm, di dekat bagian belakang peta di mana mereka aman dari kebocoran awal. Upgrade mereka segera selama tiga wave pertama untuk memaksimalkan perolehan uang Anda di sisa ronde.
+  </Step>
+  <Step num="2" title="Kerahkan Pertahanan Chokepoint">
+    Posisikan unit DPS utama Anda di tikungan penting atau chokepoint di mana jangkauan serangan mereka mencakup beberapa jalur. Tempatkan pemecah perisai murah di dekat pintu masuk untuk melucuti pertahanan musuh sebelum mereka mencapai zona damage utama Anda.
+  </Step>
+  <Step num="3" title="Koordinasikan Upgrade">
+    Prioritaskan peningkatan unit carry utama Anda (misalnya, Frozen Moon atau Founding Titan) untuk membuka serangan area-of-effect mereka. Hindari membagi uang Anda secara merata ke beberapa unit tingkat rendah; satu carry level maksimum lebih efektif daripada lima unit level rendah.
+  </Step>
+  <Step num="4" title="Fokus pada Perisai Bos">
+    Ketika bos raid muncul, alihkan fokus Anda untuk meningkatkan pemecah perisai Anda. Setelah perisai bos habis, aktifkan kemampuan aktif khusus unit apa pun untuk menghabisi sisa HP bos sebelum mencapai pintu keluar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tips Eksekusi">
+Gunakan fitur Auto Roll gratis di lobi untuk mengamankan duplikat dari unit inti Anda. Memiliki duplikat memungkinkan Anda meningkatkan stat unit di menu persiapan sebelum memasuki lobi raid.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reroll & Optimalisasi Trait">
+
+Trait secara signifikan mengubah performa unit dalam mode **raid anime destiny**. Menggunakan Reroll Shard (RR) memungkinkan Anda mengganti trait yang lemah dengan pengubah tingkat tinggi yang meningkatkan damage, jangkauan, atau utilitas unit Anda. Pemain harus menghindari membuang RR pada unit Legendary atau Rare sementara, dan menyimpan sumber daya berharga ini untuk carry Secret dan Mythic.
+
+Tabel di bawah ini mencantumkan trait utama yang tersedia dalam permainan dan performanya dalam skenario raid.
+
+| Nama Trait | Tipe | Kecocokan Terbaik | Utilitas Raid | Prioritas Reroll |
+| :--- | :--- | :--- | :--- | :--- |
+| Divine | Serangan / Kecepatan | Carry S-Tier | Meningkatkan DPS keseluruhan dalam jumlah besar | Tinggi |
+| Stellar | DoT / Jangkauan | Carry DoT | Meningkatkan damage-over-time dan tekanan perisai | Tinggi |
+| Sniper | Crit / Jangkauan | Target Tunggal | Ideal untuk dealer damage yang berfokus pada bos | Sedang |
+| Tycoon | Ekonomi | Unit Support | Meningkatkan pendapatan wave untuk upgrade yang lebih cepat | Sedang |
+| Jack of All | Seimbang | Unit Pemula | Peningkatan stat yang lumayan untuk progres awal | Rendah |
+
+<Callout type="warning" title="Jebakan Reroll">
+Jangan mengejar trait Divine yang sempurna pada unit yang rencananya akan Anda ganti. Terima trait utilitas seperti Sniper atau Stellar pada Mythic tingkat menengah, dan simpan cadangan RR utama Anda untuk unit Secret.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rute Evolusi & Farming Material">
+
+Mengevolusikan unit Anda sangat penting untuk mengatasi konten tingkat tinggi. Unit yang berevolusi mendapatkan akses ke jalur kemampuan yang lebih kuat, radius serangan yang lebih besar, dan kemampuan pemecahan perisai yang ditingkatkan. Farming material yang dibutuhkan memerlukan pendekatan terstruktur untuk tantangan harian dan tahap event.
+
+Gunakan checklist di bawah ini untuk melacak tujuan progres harian Anda dan memastikan skuad Anda siap untuk raid Nightmare.
+
+<Checklist
+  id="raid-prep-goals"
+  title="Checklist Progres Harian:"
+  items={[
+    "Selesaikan semua tantangan harian dan mingguan untuk mengumpulkan Gem dan RR Shard.",
+    "Farming stage Namak Planet Hard untuk material evolusi dasar.",
+    "Berpartisipasi dalam event bos yang aktif, seperti Event Igris, untuk drop eksklusif.",
+    "Bergabunglah dengan grup Roblox resmi Anime Destiny untuk mengklaim hadiah grup yang aktif.",
+    "Periksa papan Trello resmi untuk pembaruan tentang resep evolusi unit."
+  ]}
+/>
+
+| Sumber Daya | Sumber Utama | Kasus Penggunaan Terbaik | Prioritas Mendapatkan |
+| :--- | :--- | :--- | :--- |
+| Gem | Stage Cerita, Kode | Memanggil unit baru dari banner | Tinggi |
+| RR Shard | Raid, Quest Harian | Reroll trait pada unit Mythic/Secret | Tinggi |
+| Stat Cube | Tantangan Mingguan | Meningkatkan stat dasar unit | Sedang |
+| Malice | Bos Event | Resep evolusi unit tertentu | Sedang |
+
+<Callout type="info" title="Tips Komunitas">
+Pantau server Discord resmi untuk rilis kode aktif. Kode sering kali memberikan hadiah Gem dan RR Shard gratis, yang dapat mempercepat fase persiapan skuad Anda secara signifikan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apa komposisi tim terbaik untuk raid Anime Destiny?",
+    answer: "Komposisi tim yang seimbang terdiri dari satu unit ekonomi (seperti Bulm), satu unit crowd-control (seperti Frozen Moon), dua carry berdamage tinggi (seperti Founding Titan atau Red Emperor), dan setidaknya satu pemecah perisai khusus (seperti Magicbane)."
+  },
+  {
+    question: "Bagaimana cara mendapatkan lebih banyak Tiket Raid untuk masuk ke mode permainan?",
+    answer: "Tiket Raid dapat diperoleh dengan menyelesaikan tantangan harian, mencapai milestone di BattlePass, membelinya dengan Gem di toko lobi, atau mengklaim kode promo yang aktif."
+  },
+  {
+    question: "Apakah saya bisa menyelesaikan raid sendirian, atau apakah saya membutuhkan tim?",
+    answer: "Meskipun raid early-game dapat diselesaikan secara solo dengan skuad yang diinvestasikan dengan baik, raid tingkat tinggi (seperti tingkat kesulitan Nightmare) jauh lebih mudah diselesaikan dalam permainan kooperatif, yang memungkinkan pemain untuk membagi peran antara DPS dan support."
+  },
+  {
+    question: "Apakah saya harus memprioritaskan untuk mengevolusikan unit saya atau melakukan reroll trait mereka terlebih dahulu?",
+    answer: "Prioritaskan mengevolusikan unit Anda terlebih dahulu. Evolusi memberikan peningkatan terjamin pada stat dasar dan membuka skill baru, sedangkan reroll trait bergantung pada keberuntungan dan harus dilakukan setelah unit Anda berada dalam bentuk evolusi terakhirnya."
+  }
+]} />
+
+<Callout type="success" title="Saran Terakhir">
+Selalu koordinasikan koordinat penempatan dengan rekan tim Anda dalam mode co-op untuk menghindari kemampuan freeze yang tumpang tindih, yang dapat menyebabkan penurunan efektivitas selama wave kritis.
+</Callout>
+
+</Section>

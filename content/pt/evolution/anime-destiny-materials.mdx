@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Database, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Materiais de Anime Destiny: Guia de Evolução e Melhoria 2026",
+  description: "Domine a gestão de recursos em Anime Destiny. Aprenda a rastrear materiais de evolução, priorizar melhorias e farmar itens essenciais com eficiência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Materials+Guide",
+  date: "2026-06-21",
+  author: "Equipe da Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Materiais de Anime Destiny** são essenciais para evoluir unidades e desbloquear habilidades poderosas no final do jogo.
+- A **prioridade de recursos** deve sempre favorecer seus causadores de dano principais em vez de unidades temporárias do início do jogo.
+- O **farm eficiente** envolve equilibrar a progressão no modo História com eventos de chefes e desafios repetíveis.
+- **Sempre verifique** o quadro oficial do Trello para conferir os requisitos de materiais mais recentes antes de gastar sua moeda suada.
+</Callout>
+
+<Section icon={Database} title="Entendendo os Tipos de Materiais">
+
+Para progredir de forma eficaz em Anime Destiny, os jogadores devem distinguir entre recursos básicos de melhoria e materiais raros de evolução. Gerir mal esses ativos é a maneira mais rápida de travar o crescimento da sua equipe.
+
+**Destaques do Vídeo:**
+- Rotas essenciais de farm de recursos no início do jogo.
+- Como identificar unidades que valem os materiais de evolução.
+- Dicas para manter um inventário de recursos equilibrado.
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Trailer de Lançamento de Anime Destiny" />
+
+| Tipo de Material | Uso Principal | Prioridade de Farm |
+| :--- | :--- | :--- |
+| **Gemas** | Invocar novas unidades | Alta |
+| **RR (Fragmentos de Reroll)** | Otimizar atributos de unidade | Alta |
+| **Cubos** | Melhorias básicas de unidade | Média |
+| **Malícia** | Desbloqueio de habilidades avançadas | Média |
+
+<Callout type="tip" title="Gestão de Recursos">
+Nunca gaste seus fragmentos RR em unidades Raras ou Épicas. Guarde esses recursos preciosos para suas unidades Míticas e Secretas para garantir o desempenho da equipe a longo prazo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Trabalho de Evolução e Melhoria">
+
+Evoluir unidades é o mecanismo central para aumentar o poder da sua equipe. Siga este fluxo de trabalho para garantir que você não está desperdiçando materiais em unidades que serão substituídas.
+
+<Steps>
+  <Step num="1" title="Avalie a Utilidade da Unidade">
+    Verifique a função da sua unidade em relação ao meta atual. Evolua apenas unidades que preencham uma lacuna nas suas necessidades de DPS, quebra de escudo ou utilidade.
+  </Step>
+  <Step num="2" title="Verifique as Receitas de Materiais">
+    Consulte o painel de unidades dentro do jogo ou o Trello oficial para ver os requisitos exatos de materiais para o próximo nível de evolução.
+  </Step>
+  <Step num="3" title="Farme Fases Específicas">
+    Foque sua energia nas fases que dropam os cubos ou a malícia específicos necessários para sua unidade alvo.
+  </Step>
+  <Step num="4" title="Execute a Evolução">
+    Assim que todos os materiais forem coletados, vá até a estação de evolução no lobby para melhorar os atributos e limites de habilidade da sua unidade.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite Desperdício">
+Evite investir excessivamente em unidades apenas porque elas parecem legais. Uma unidade de baixo nível com materiais no máximo ainda terá um desempenho inferior a uma unidade Secreta de nível base em conteúdos de final de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eficiência de Farm de Recursos">
+
+Nem todas as fases são iguais. Coletar materiais de Anime Destiny de forma eficiente requer alternar entre diferentes modos PvE com base na força atual do seu elenco.
+
+| Modo | Melhor Para | Dificuldade |
+| :--- | :--- | :--- |
+| **Fases da História** | Moeda inicial e cubos básicos | Baixa |
+| **Desafios de Chefe** | Materiais raros de evolução | Alta |
+| **Testes Sem Fim** | Fragmentos RR consistentes e XP | Escalonada |
+| **Eventos Diários** | Materiais bônus e itens limitados | Média |
+
+<CardGrid cols={2}>
+  <Card title="Estratégia de Início de Jogo">
+    - Foque em completar as fases da História.
+    - Gaste Gemas apenas em banners essenciais.
+    - Use unidades básicas para alcançar o primeiro marco.
+  </Card>
+  <Card title="Estratégia de Final de Jogo">
+    - Farme desafios de Chefe para obter materiais.
+    - Maximize o uso de RR em unidades Míticas/Secretas.
+    - Otimize a composição da equipe para os Testes Sem Fim.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estratégia Pro">
+Participe do Evento do Chefe Igris sempre que estiver ativo. Ele oferece algumas das melhores proporções de material por energia na versão atual do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como sei quais materiais de Anime Destiny eu preciso?",
+    answer: "Você pode verificar os requisitos específicos de qualquer unidade abrindo o painel de detalhes da unidade no lobby do jogo ou consultando o quadro oficial do Trello de Anime Destiny para listas organizadas."
+  },
+  {
+    question: "Vale a pena farmar evoluções de unidades Raras?",
+    answer: "Geralmente, não. Unidades Raras são destinadas a serem temporárias. É melhor guardar seus materiais para unidades Míticas e Secretas que permanecerão na sua equipe a longo prazo."
+  },
+  {
+    question: "Onde posso encontrar as últimas recompensas de códigos para materiais?",
+    answer: "Fique de olho no servidor oficial do Discord e na página do jogo no Roblox. Códigos frequentemente fornecem pacotes de Gemas, RR e Cubos que podem acelerar significativamente sua progressão."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação Final para o Sucesso">
+
+<Checklist
+  id="material-farming-checklist"
+  title="Hábitos de Farm de Materiais:"
+  items={[
+    "Resgate todas as recompensas de desafios diários e semanais",
+    "Entre no grupo oficial do Roblox para possíveis bônus",
+    "Verifique a contagem de materiais antes de iniciar um longo farm",
+    "Mantenha uma reserva de fragmentos RR para novas aquisições de unidades",
+    "Verifique o quadro do Trello para mudanças recentes nas taxas de drop"
+  ]}
+/>
+
+<Callout type="info" title="Mantenha-se Atualizado">
+Sempre verifique a descrição oficial do jogo no Roblox [Anime Destiny](https://www.roblox.com/games/82674355647259/Anime-Destiny) para quaisquer mudanças silenciosas nas taxas de drop de materiais ou cronogramas de eventos.
+</Callout>
+
+</Section>

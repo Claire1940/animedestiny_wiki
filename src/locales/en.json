@@ -10,7 +10,16 @@
       "twitterDescription": "Anime Destiny Wiki covers Roblox codes, tier list, units, traits, evolutions, story stages, raids, bosses, and beginner tips for tower defense players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "roblox": "Roblox",
+    "tier": "Tier List",
+    "summons": "Summons",
+    "evolution": "Evolution",
+    "raids": "Raids",
+    "review": "Review"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -628,125 +637,166 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Anime Destiny Guides",
-      "description": "Complete Anime Destiny guides from beginner basics to advanced squad, summon, and evolution strategies.",
-      "metaTitle": "Anime Destiny Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Destiny guides covering beginner tips, summon system, squad building, and expert tactics for mastering the Roblox anime tower defense game.",
+    "codes": {
+      "title": "Anime Destiny Codes",
+      "description": "Latest working Anime Destiny codes for free gems, resources, and rewards, plus a safe redeem workflow and an expired list.",
+      "metaTitle": "Anime Destiny Codes - Free Gems & Rewards",
+      "metaDescription": "Redeem working Anime Destiny codes for free gems, resources, and rewards. Updated code list with a safe redeem guide and expired tracker.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Anime Destiny Codes?",
+      "whatIsDescription": "Codes are free redeem strings released by the Anime Destiny developers that grant gems, resources, and other rewards when entered in the game.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Gems",
+        "step1Description": "Claim gems you can spend on summons without extra grinding",
+        "step2Title": "Bonus Resources",
+        "step2Description": "Stock up on materials and reroll resources for early progression",
+        "step3Title": "Official Source",
+        "step3Description": "Codes come straight from the developers, so rewards are safe to claim"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Anime Destiny Guide",
+      "description": "Anime Destiny beginner and progression guides covering first steps, summoning, squad building, upgrades, and stage strategies.",
+      "metaTitle": "Anime Destiny Guide - Beginner to Pro Progression",
+      "metaDescription": "Complete Anime Destiny guides from first login to advanced play. Learn summoning, squad building, upgrades, and how to clear story stages.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Anime Destiny gameplay mechanics, squad strategies, and progression from first steps to advanced techniques.",
+      "whatIs": "What is the Anime Destiny Guide?",
+      "whatIsDescription": "Guides explain the core Anime Destiny gameplay loop: summon units, build a squad, upgrade and evolve units, clear story stages, and push harder battles.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the summon and upgrade systems and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
+        "step1Title": "Smart First Steps",
+        "step1Description": "Know exactly what to do in your first session before spending gems or reroll resources",
+        "step2Title": "Faster Progression",
         "step2Description": "Follow proven paths through story stages and resource farming",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced squad builds for bosses and endless trials"
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Skip beginner traps and build a squad that scales into late game"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Anime Destiny Summon Guide",
-      "description": "Master the Anime Destiny summon system with gem management, Auto Roll, and squad-building strategies.",
-      "metaTitle": "Anime Destiny Summon - System, Gems & Auto Roll",
-      "metaDescription": "Master the Anime Destiny summon system. Learn gem management, Auto Roll usage, and squad-building strategies for stronger units.",
-      "categoryLabel": "SUMMON SYSTEM",
-      "whatIs": "What is Summoning?",
-      "whatIsDescription": "The summon system lets you spend Gems to roll for units across rarities, from Rare and Epic up to Legendary, Mythic, and Secret units.",
-      "why": "Why master summoning?",
+    "roblox": {
+      "title": "Anime Destiny Roblox",
+      "description": "Anime Destiny on Roblox overview: how to find and play the game, supported platforms, release info, and the official community links.",
+      "metaTitle": "Anime Destiny Roblox - How to Play & Official Links",
+      "metaDescription": "Play Anime Destiny on Roblox. Find the official game page, community group, Discord, and release info for this anime tower defense game.",
+      "categoryLabel": "ROBLOX GAME",
+      "whatIs": "What is Anime Destiny on Roblox?",
+      "whatIsDescription": "Anime Destiny is a Roblox anime tower defense game where you summon anime units, upgrade and evolve them, clear story stages, fight bosses, and challenge endless trials.",
+      "why": "Why start here?",
       "whySteps": {
-        "step1Title": "Unlock Strong Units",
-        "step1Description": "Roll for Mythic and Secret units that carry late-game value",
+        "step1Title": "Find the Game",
+        "step1Description": "Get the official Roblox game page and avoid fake mirrors",
+        "step2Title": "Join the Community",
+        "step2Description": "Connect with the official Roblox group and Discord for updates",
+        "step3Title": "Know the Platforms",
+        "step3Description": "Play on mobile, tablet, PC, and console with cross-save progress"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Roblox Info"
+    },
+    "tier": {
+      "title": "Anime Destiny Tier List",
+      "description": "Anime Destiny tier list ranking units by strength across story stages, raids, and endless trials, with best units and team picks.",
+      "metaTitle": "Anime Destiny Tier List - Best Units & Teams",
+      "metaDescription": "Anime Destiny tier list ranking the best units for story, raids, and endless. Find the strongest units and team builds for every game mode.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Anime Destiny Tier List?",
+      "whatIsDescription": "The tier list ranks units by practical performance across story stages, boss fights, and endless trials, so you know which units to build and deploy.",
+      "why": "Why use the tier list?",
+      "whySteps": {
+        "step1Title": "Build the Best Units",
+        "step1Description": "Focus gems and resources on units that carry across game modes",
+        "step2Title": "Mode-Specific Picks",
+        "step2Description": "Choose units that excel in story, raids, or endless trials",
+        "step3Title": "Stronger Teams",
+        "step3Description": "Combine top units into squads that clear harder content"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier List Guides"
+    },
+    "summons": {
+      "title": "Anime Destiny Summons",
+      "description": "Anime Destiny summon system guide covering gems, banners, lucky start, reroll, and pity for building a stronger squad.",
+      "metaTitle": "Anime Destiny Summons - Gems, Banners & Reroll",
+      "metaDescription": "Master the Anime Destiny summon system. Learn gem management, banner pulls, lucky start, reroll, and pity to build a stronger unit squad.",
+      "categoryLabel": "SUMMON SYSTEM",
+      "whatIs": "What are Summons?",
+      "whatIsDescription": "Summons let you spend gems to roll for units across rarities, from Rare and Epic up to Legendary, Mythic, and Secret units.",
+      "why": "Why master summons?",
+      "whySteps": {
+        "step1Title": "Roll Strong Units",
+        "step1Description": "Target Mythic and Secret units that carry late-game value",
         "step2Title": "Manage Gems",
-        "step2Description": "Spend Gems on banners that fill missing squad roles",
-        "step3Title": "Use Auto Roll",
-        "step3Description": "Run repeated summons automatically with free Auto Roll"
+        "step2Description": "Spend gems on banners that fill your missing squad roles",
+        "step3Title": "Use Reroll & Pity",
+        "step3Description": "Reset and guarantee units with reroll and pity mechanics"
       },
       "featured": "Featured & Essential",
       "all": "All Summon Guides"
     },
-    "items": {
-      "title": "Anime Destiny Units",
-      "description": "Detailed Anime Destiny unit guides covering rarities, roles, and how to use every unit effectively.",
-      "metaTitle": "Anime Destiny Units - Rarities, Roles & Usage Guide",
-      "metaDescription": "Complete Anime Destiny unit database including rarities, roles, and usage strategies for building effective squads.",
-      "categoryLabel": "UNITS & ROLES",
-      "whatIs": "What are Units?",
-      "whatIsDescription": "Comprehensive guides for Anime Destiny units. Learn rarities, roles, and optimal placement for every unit.",
-      "why": "Why check unit guides?",
+    "evolution": {
+      "title": "Anime Destiny Evolution",
+      "description": "Anime Destiny evolution guide covering evolution paths, materials, relics, and relic locations to power up your units.",
+      "metaTitle": "Anime Destiny Evolution - Materials, Relics & Paths",
+      "metaDescription": "Evolve your Anime Destiny units. Complete evolution paths, required materials, relics, and relic locations to unlock stronger unit forms.",
+      "categoryLabel": "EVOLUTION",
+      "whatIs": "What is Evolution?",
+      "whatIsDescription": "Evolution upgrades units into stronger forms by collecting specific materials and relics, unlocking new stats and abilities.",
+      "why": "Why evolve units?",
       "whySteps": {
-        "step1Title": "Understand Roles",
-        "step1Description": "Learn which units fit wave clear, boss damage, and shield breaking",
-        "step2Title": "Build Squads",
-        "step2Description": "Choose the best units for your progression stage",
-        "step3Title": "Improve Clears",
-        "step3Description": "Place units to cover enemy paths and stop bosses"
+        "step1Title": "Unlock Stronger Forms",
+        "step1Description": "Evolve units to boost stats and unlock better abilities",
+        "step2Title": "Farm the Right Materials",
+        "step2Description": "Know exactly which materials each evolution requires",
+        "step3Title": "Track Relics",
+        "step3Description": "Find relic locations so you can complete evolutions faster"
       },
       "featured": "Featured & Essential",
-      "all": "All Units"
+      "all": "All Evolution Guides"
     },
-    "biomes": {
-      "title": "Anime Destiny Stages",
-      "description": "Explore Anime Destiny story stages, boss fights, and endless trials with preparation and reward tips.",
-      "metaTitle": "Anime Destiny Stages - Story, Bosses & Endless Trials",
-      "metaDescription": "Explore Anime Destiny stages including story progression, boss fights, and endless trials. Find rewards and prepare your squad.",
-      "categoryLabel": "STAGES & TRIALS",
-      "whatIs": "What are Stages?",
-      "whatIsDescription": "Guides to Anime Destiny story stages, boss encounters, and endless trials. Learn what to expect and how to prepare.",
-      "why": "Why explore stages?",
+    "raids": {
+      "title": "Anime Destiny Raids",
+      "description": "Anime Destiny raids and events guide covering raid bosses, limited events, story stages, bosses, and endless trials.",
+      "metaTitle": "Anime Destiny Raids - Bosses, Events & Endless Trials",
+      "metaDescription": "Complete Anime Destiny raids guide. Beat raid bosses, join limited events, and push story stages, bosses, and endless trials.",
+      "categoryLabel": "RAIDS & EVENTS",
+      "whatIs": "What are Raids and Events?",
+      "whatIsDescription": "Raids are time-based battles against powerful bosses, while events and endless trials offer extra rewards and progression challenges.",
+      "why": "Why play raids?",
       "whySteps": {
-        "step1Title": "Earn Resources",
-        "step1Description": "Clear stages for Gems, upgrade materials, and RR",
-        "step2Title": "Avoid Wipes",
-        "step2Description": "Understand boss mechanics and enemy waves",
-        "step3Title": "Plan Progression",
-        "step3Description": "Prepare the right squad for each stage type"
+        "step1Title": "Earn Rare Rewards",
+        "step1Description": "Raids and events drop materials, gems, and exclusive units",
+        "step2Title": "Beat the Bosses",
+        "step2Description": "Learn boss patterns and prepare your squad to clear them",
+        "step3Title": "Push Endless Trials",
+        "step3Description": "Test strong teams in endless trials for top rewards"
       },
       "featured": "Featured & Essential",
-      "all": "All Stages"
+      "all": "All Raid Guides"
     },
-    "building": {
-      "title": "Anime Destiny Squads",
-      "description": "Master Anime Destiny squad building, unit synergy, and loadouts for every game mode.",
-      "metaTitle": "Anime Destiny Squads - Builds, Synergy & Loadouts",
-      "metaDescription": "Master Anime Destiny squad building with unit synergy, role coverage, and loadouts for story, bosses, and endless trials.",
-      "categoryLabel": "SQUADS & BUILDS",
-      "whatIs": "What are Squads?",
-      "whatIsDescription": "Guides to Anime Destiny squad composition, unit synergy, and mode-specific loadouts. Build effective teams for any content.",
-      "why": "Why build squads?",
+    "review": {
+      "title": "Anime Destiny Review",
+      "description": "Anime Destiny review and first impressions covering gameplay, progression, art style, and whether the tower defense game is worth playing.",
+      "metaTitle": "Anime Destiny Review - Is It Worth Playing?",
+      "metaDescription": "Anime Destiny review covering the gameplay loop, summon and evolution systems, progression, and whether this Roblox anime tower defense game is worth your time.",
+      "categoryLabel": "REVIEW",
+      "whatIs": "What is the Anime Destiny Review?",
+      "whatIsDescription": "The review breaks down how Anime Destiny plays as a Roblox anime tower defense game, covering its summon, evolution, and progression systems.",
+      "why": "Why read the review?",
       "whySteps": {
-        "step1Title": "Cover Roles",
-        "step1Description": "Balance wave clear, boss damage, and shield breaking",
-        "step2Title": "Use Synergy",
-        "step2Description": "Pair units that boost each other's performance",
-        "step3Title": "Adapt to Modes",
-        "step3Description": "Tailor loadouts for story, bosses, and endless trials"
+        "step1Title": "Know What to Expect",
+        "step1Description": "Understand the gameplay loop before you invest time",
+        "step2Title": "Progression & Depth",
+        "step2Description": "See how summons, evolution, and raids keep the game engaging",
+        "step3Title": "Is It Worth It",
+        "step3Description": "Get a clear read on whether Anime Destiny fits your taste"
       },
       "featured": "Featured & Essential",
-      "all": "All Squad Guides"
-    },
-    "support": {
-      "title": "Anime Destiny Support",
-      "description": "Technical support, platform compatibility, and troubleshooting for Anime Destiny players.",
-      "metaTitle": "Anime Destiny Support - Help & Fixes",
-      "metaDescription": "Get support for Anime Destiny including platform compatibility, performance tips, and troubleshooting for common Roblox issues.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance, and common issues for Anime Destiny on Roblox.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Issues",
-        "step1Description": "Resolve performance problems and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about mobile, tablet, PC, and console support"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Reviews"
     }
   }
+
 }

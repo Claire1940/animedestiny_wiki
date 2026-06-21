@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de progresión de Anime Destiny: Estrategia y consejos para 2026",
+  description: "Domina la construcción de tu equipo y la gestión de recursos con nuestra guía de progresión de Anime Destiny 2026 para jugadores de tower defense en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Progression+Guide",
+  date: "2026-06-21",
+  author: "Equipo de Wiki de Anime Destiny"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **guía de progresión de Anime Destiny** se centra en optimizar tu farmeo diario y el desarrollo de tu equipo.
+- **Prioriza las Gemas** para invocar unidades esenciales antes de malgastar recursos en rerolls al inicio del juego.
+- **Completa las etapas de la historia** para desbloquear desafíos repetibles y maximizar tu eficiencia de recursos.
+- **Guarda tus Rerolls de Rasgos (RR)** específicamente para tus unidades Míticas y Secretas para asegurar poder a largo plazo.
+</Callout>
+
+<Section icon={Map} title="Hoja de ruta de progresión para el primer día">
+
+Comenzar tu viaje en Anime Destiny requiere un plan claro para evitar las trampas comunes de recursos. La mayoría de los principiantes agotan su moneda en unidades de banner que pierden relevancia a mitad del juego. Sigue este enfoque estructurado para asegurar que tus primeros 60 minutos de juego construyan una base para el éxito.
+
+**Momentos destacados del video:**
+- Estrategias esenciales de invocación al inicio del juego
+- Cómo usar eficientemente tus Gemas iniciales
+- Colocación básica de unidades y tiempo de mejora
+
+<YouTubeEmbed videoId="pdSziNF8tEs" title="Tráiler de lanzamiento de Anime Destiny" />
+
+| Fase | Prioridad | Acción |
+| :--- | :--- | :--- |
+| **Lanzamiento** | Alta | Únete al grupo oficial de Roblox para obtener recompensas |
+| **Códigos** | Alta | Canjea códigos activos por Gemas y RR |
+| **Invocación** | Media | Tira para obtener un equipo inicial equilibrado |
+| **Historia** | Alta | Avanza en las etapas para desbloquear nuevo contenido |
+
+<Callout type="tip" title="Consejo profesional">
+Revisa siempre el menú de Códigos dentro del juego inmediatamente después de iniciar sesión. "Release!" y "SorryForDelay" son impulsos iniciales esenciales que proporcionan las Gemas y Rerolls de Rasgos (RR) necesarios para construir tu primer equipo fiable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construcción de equipo e invocación">
+
+La invocación es la mecánica central de Anime Destiny, pero no se trata solo de perseguir unidades de alta rareza. Necesitas un equipo equilibrado capaz de manejar diferentes tipos de daño, ruptura de escudos y utilidad contra jefes.
+
+<CardGrid cols={3}>
+  <Card title="Unidades de DPS">
+    - Enfocadas en daño de área (AOE)
+    - Esenciales para limpiar oleadas
+    - Prioridad para Míticas/Secretas
+  </Card>
+  <Card title="Rompedores de Escudos">
+    - Críticos para peleas contra jefes
+    - Eliminan las defensas enemigas
+    - Mantén uno siempre activo
+  </Card>
+  <Card title="Soporte/Eco">
+    - Aumentan la ganancia de recursos
+    - Esenciales para pruebas largas
+    - Colócalos temprano en las partidas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de recursos">
+No gastes tus preciadas Gemas en cada nuevo banner. Espera al consenso de la comunidad sobre la utilidad de una unidad en las "Pruebas Infinitas" antes de comprometer todos tus ahorros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de Reroll de Rasgos">
+
+La gestión de rasgos puede determinar tu rendimiento en el juego tardío. Usar RR en la unidad equivocada es un error común que estanca la progresión.
+
+| Rasgo | Mejor para | Rol |
+| :--- | :--- | :--- |
+| **Divino** | Secreto/Mítico | DPS de alto nivel |
+| **Estelar** | Unidades de Daño en el tiempo | Romper escudos y presión de DoT |
+| **Francotirador** | Asesinos de jefes | Objetivo único basado en críticos |
+| **Magnate** | Soporte | Economía y farmeo |
+
+<Steps>
+  <Step num="1" title="Identifica unidades clave">
+    Solo realiza reroll de rasgos en unidades que tengan un lugar permanente en tu equipo principal.
+  </Step>
+  <Step num="2" title="Asigna rasgos a roles">
+    Asigna "Magnate" a las unidades de soporte y "Divino" a tus principales distribuidores de daño.
+  </Step>
+  <Step num="3" title="Guarda recursos de RR">
+    Acumula tus fragmentos de reroll hasta que obtengas al menos una unidad Mítica o Secreta.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión PvE">
+
+La progresión efectiva depende de alternar entre diferentes modos de juego para farmear materiales específicos. Usa esta lista para optimizar tu rutina diaria.
+
+<Checklist
+  id="progression-tasks"
+  title="Prioridades de farmeo diario:"
+  items={[
+    "Completa todos los Desafíos Diarios disponibles",
+    "Supera etapas de la historia para desbloquear niveles de dificultad",
+    "Ejecuta el evento del Jefe Igris para obtener materiales de evolución",
+    "Pon a prueba los límites de tu equipo en las Pruebas Infinitas"
+  ]}
+/>
+
+<Callout type="success" title="Nota de eficiencia">
+Una vez que puedas superar cómodamente las primeras etapas de la historia, enfócate en farmear "Cubos de estadísticas" y "Malicia", ya que son los principales cuellos de botella para las mejoras de unidades a mitad del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor forma de conseguir Gemas en Anime Destiny?",
+    answer: "La forma más eficiente es completar las etapas de la historia, participar en los desafíos diarios y canjear todos los códigos oficiales actualmente activos."
+  },
+  {
+    question: "¿Debería evolucionar mis unidades Legendarias temprano?",
+    answer: "Solo evoluciona unidades que sean esenciales para tu equipo actual. Guarda tus materiales de evolución para unidades Míticas y Secretas, ya que ofrecen un valor mucho mayor a largo plazo."
+  },
+  {
+    question: "¿Cómo sé si una unidad es buena?",
+    answer: "Revisa el rol de la unidad: las unidades que proporcionan ruptura de escudos, daño de área o utilidad generalmente se clasifican más alto en el meta actual que las de puro DPS de objetivo único."
+  }
+]} />
+
+</Section>
