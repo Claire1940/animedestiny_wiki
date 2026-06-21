@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Anime Destiny Wiki - Codes, Tier List & Units",
+      "description": "Anime Destiny Wiki covers Roblox codes, tier list, units, traits, evolutions, story stages, raids, bosses, and beginner tips for tower defense players.",
+      "keywords": "anime destiny, roblox, codes, tier list, units, traits, evolutions, raids, story",
+      "ogTitle": "Anime Destiny Wiki - Codes, Tier List & Units",
+      "ogDescription": "Anime Destiny Wiki covers Roblox codes, tier list, units, traits, evolutions, story stages, raids, bosses, and beginner tips for tower defense players.",
+      "twitterTitle": "Anime Destiny Wiki - Codes, Tier List & Units",
+      "twitterDescription": "Anime Destiny Wiki covers Roblox codes, tier list, units, traits, evolutions, story stages, raids, bosses, and beginner tips for tower defense players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Anime Tower Defense",
+    "title": "Anime Destiny Wiki",
+    "description": "Summon anime units, upgrade and evolve your squad, clear story stages, challenge bosses, and push endless trials in this Roblox tower defense guide hub.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "160.7K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3.1K",
+        "label": "Players Online"
       },
       "stat3": {
         "value": "97%",
-        "label": "Positive Reviews"
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "29K+",
+        "label": "Discord Members"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Anime Destiny?",
+    "description": "Join the Anime Destiny community on Discord for codes, tier list updates, and unit discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Anime Destiny Wiki",
+    "description": "Your complete resource hub for Anime Destiny codes, tier list, units, traits, evolutions, and Roblox tower defense guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game",
+    "robloxCommunity": "Roblox Community",
+    "trello": "Trello",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Anime Destiny Wiki. Not affiliated with the developers of Anime Destiny.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
