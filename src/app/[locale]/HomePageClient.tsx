@@ -71,6 +71,9 @@ const PRIORITY_STYLES: Record<string, string> = {
   Early: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
   Mid: "text-sky-400 bg-sky-500/10 border-sky-500/30",
   Late: "text-amber-400 bg-amber-500/10 border-amber-500/30",
+  High: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
+  Medium: "text-sky-400 bg-sky-500/10 border-sky-500/30",
+  Low: "text-slate-400 bg-slate-500/10 border-slate-500/30",
   Flexible: "text-[hsl(var(--nav-theme-light))] bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]",
 };
 
@@ -90,7 +93,7 @@ export default function HomePageClient({
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.animedestiny.wiki";
 
-  const [storyExpanded, setStoryExpanded] = useState<number | null>(null);
+  const [storyExpanded, setStoryExpanded] = useState<number | null>(0);
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   // Structured data
@@ -682,16 +685,20 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {t.modules.animeDestinySummonAndGems.cards.map((card: any, index: number) => (
               <div
                 key={index}
-                className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
               >
                 <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
                   {card.name}
                 </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+                <p className="text-muted-foreground text-sm mb-4">{card.description}</p>
+                <p className="mt-auto flex items-start gap-2 text-sm text-[hsl(var(--nav-theme-light))]">
+                  <ArrowRight className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                  <span>{card.action}</span>
+                </p>
               </div>
             ))}
           </div>
@@ -733,10 +740,11 @@ export default function HomePageClient({
             <table className="w-full text-sm">
               <thead className="bg-white/5">
                 <tr className="text-left">
-                  <th className="px-4 py-3 font-semibold">Material</th>
-                  <th className="px-4 py-3 font-semibold">Source</th>
+                  <th className="px-4 py-3 font-semibold">Resource</th>
+                  <th className="px-4 py-3 font-semibold">Used For</th>
+                  <th className="px-4 py-3 font-semibold">Where to Check</th>
                   <th className="px-4 py-3 font-semibold">Priority</th>
-                  <th className="px-4 py-3 font-semibold">Use</th>
+                  <th className="px-4 py-3 font-semibold">Best Use</th>
                 </tr>
               </thead>
               <tbody>
@@ -745,13 +753,14 @@ export default function HomePageClient({
                     <td className="px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))] whitespace-nowrap">
                       {row.material}
                     </td>
+                    <td className="px-4 py-3 text-muted-foreground">{row.use}</td>
                     <td className="px-4 py-3 text-muted-foreground">{row.source}</td>
                     <td className="px-4 py-3">
                       <span className={`text-xs px-2 py-1 rounded-full border whitespace-nowrap ${PRIORITY_STYLES[row.priority] || PRIORITY_STYLES.Flexible}`}>
                         {row.priority}
                       </span>
                     </td>
-                    <td className="px-4 py-3 text-muted-foreground">{row.use}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{row.bestUse}</td>
                   </tr>
                 ))}
               </tbody>
@@ -768,8 +777,9 @@ export default function HomePageClient({
                     {row.priority}
                   </span>
                 </div>
-                <p className="text-sm mb-1.5"><span className="text-muted-foreground">Source: </span>{row.source}</p>
-                <p className="text-sm text-muted-foreground">{row.use}</p>
+                <p className="text-sm mb-1.5"><span className="text-muted-foreground">Used for: </span>{row.use}</p>
+                <p className="text-sm mb-1.5"><span className="text-muted-foreground">Where to check: </span>{row.source}</p>
+                <p className="text-sm text-muted-foreground">{row.bestUse}</p>
               </div>
             ))}
           </div>
@@ -791,24 +801,32 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="scroll-reveal space-y-2">
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-3">
             {t.modules.animeDestinyStoryBossesEndless.items.map((item: any, index: number) => (
               <div
                 key={index}
-                className="border border-border rounded-xl overflow-hidden"
+                className="border border-border rounded-xl overflow-hidden bg-white/5"
               >
                 <button
                   onClick={() => setStoryExpanded(storyExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                  className="w-full flex items-center justify-between gap-3 p-5 text-left hover:bg-white/[0.04] transition-colors"
                 >
-                  <span className="font-semibold pr-3">{item.question}</span>
+                  <span className="font-semibold">{item.title}</span>
                   <ChevronDown
-                    className={`w-5 h-5 flex-shrink-0 transition-transform ${storyExpanded === index ? "rotate-180" : ""}`}
+                    className={`w-5 h-5 flex-shrink-0 transition-transform text-[hsl(var(--nav-theme-light))] ${storyExpanded === index ? "rotate-180" : ""}`}
                   />
                 </button>
                 {storyExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm leading-relaxed">
-                    {item.answer}
+                  <div className="px-5 pb-5 text-sm leading-relaxed">
+                    <p className="text-muted-foreground mb-3">{item.summary}</p>
+                    <ul className="space-y-2">
+                      {item.details.map((detail: string, di: number) => (
+                        <li key={di} className="flex items-start gap-2 text-muted-foreground">
+                          <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span>{detail}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 )}
               </div>
@@ -846,13 +864,34 @@ export default function HomePageClient({
                   <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{link.name}</h3>
                   <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--nav-theme-light))] transition-colors" />
                 </div>
-                <p className="text-sm text-muted-foreground mb-4 flex-1">{link.description}</p>
+                <span className="inline-flex self-start items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-3">
+                  <BadgeCheck className="w-3 h-3" />
+                  {link.type}
+                </span>
+                <p className="text-sm text-muted-foreground mb-3 flex-1">{link.description}</p>
+                <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-4"><span className="opacity-70">Best for: </span>{link.bestFor}</p>
                 <span className="inline-flex items-center gap-2 self-start px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm font-medium group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                   {link.label}
                   <ArrowRight className="w-4 h-4" />
                 </span>
               </a>
             ))}
+          </div>
+
+          {/* Update Checklist */}
+          <div className="scroll-reveal mb-10 p-5 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <h3 className="flex items-center gap-2 text-lg md:text-xl font-bold mb-4">
+              <Check className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              Update Checklist
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {t.modules.animeDestinyOfficialLinks.checklist.map((item: string, index: number) => (
+                <div key={index} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                  <span className="text-sm text-muted-foreground">{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Update Tracker */}

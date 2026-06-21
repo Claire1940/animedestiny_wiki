@@ -399,142 +399,161 @@
     },
     "animeDestinySummonAndGems": {
       "title": "Anime Destiny Summon and Gems Guide",
-      "intro": "The Anime Destiny summon system turns Gems into units, and Auto Roll makes repeated pulls free and automatic. Smart gem spending is what separates a balanced squad from a wasted banner, so plan your pulls around squad needs instead of chasing every new unit.",
+      "intro": "Anime Destiny is built around summoning anime units, forging an ultimate squad, and improving that squad through upgrades and evolutions. Treat summons as roster planning, so every Gem goes toward a clear squad goal instead of a random roll.",
       "cards": [
         {
-          "name": "Summon System",
-          "description": "Spend Gems at the summon banner to roll for units across different rarities, from Rare and Epic up to Legendary, Mythic, and Secret units."
+          "name": "Summon Units",
+          "description": "Summon powerful anime units to expand your roster and create a squad that can handle Story stages, bosses, and Endless Trials.",
+          "action": "Fill a usable squad first, then chase stronger or rarer units after your basic team can clear early content."
         },
         {
-          "name": "Gems",
-          "description": "Gems are the main summon currency. Earn them from codes, daily and weekly challenges, story clears, and repeatable events before spending on banners."
+          "name": "Gems Budgeting",
+          "description": "Use Gems as your summon budget and decide what your squad actually needs before spending.",
+          "action": "Save for meaningful summon sessions instead of spending every small amount immediately."
         },
         {
-          "name": "Auto Roll",
-          "description": "Auto Roll is free and lets the banner keep pulling automatically, so you can multitask while collecting units during long sessions."
+          "name": "Free Auto Roll",
+          "description": "The Roblox game page lists Auto Roll as free, making repeated rolling easier during long summon sessions.",
+          "action": "Use Auto Roll when you are ready to commit resources to a banner and review the results afterward."
         },
         {
-          "name": "When to Save",
-          "description": "Hold Gems for banners that add Mythic or Secret units to your squad, since these units carry the biggest long-term value."
-        },
-        {
-          "name": "When to Spend",
-          "description": "Spend freely while building your first playable squad, because a complete team clears story stages faster than one rare pull."
-        },
-        {
-          "name": "Squad Building",
-          "description": "Aim for a balanced squad with wave clear, single-target boss damage, and shield breaking instead of stacking one damage type."
+          "name": "Squad Building After Summons",
+          "description": "Every summon can change your roster plan because new units may improve damage, coverage, or consistency.",
+          "action": "Upgrade the units you actively use before spreading resources across every new pull."
         }
       ],
       "tips": [
-        "Redeem codes for Gems before your first summon session.",
-        "Keep a Gem reserve so new banners do not catch you empty-handed.",
-        "Use Auto Roll when farming, but check results before investing upgrade resources.",
-        "Prioritize banners that fill a missing role in your squad."
+        "Redeem Anime Destiny codes for free Gems before your first summon session.",
+        "Keep a Gem reserve so new Mythic or Secret banners do not catch you empty-handed.",
+        "Use Auto Roll while farming, but check results before investing upgrade resources.",
+        "Prioritize banners that fill a missing role like boss damage, wave clear, or shield breaking."
       ]
     },
     "animeDestinyEvolutionMaterials": {
       "title": "Anime Destiny Evolution and Upgrade Materials",
-      "intro": "Upgrading and evolving units is how Anime Destiny squads scale into late game. Track the materials each unit needs and farm them in a sensible order so you invest resources into units that stay useful.",
+      "intro": "Track the materials each Anime Destiny unit needs and farm them in a sensible order, so upgrades, evolutions, and ability unlocks go into the units that stay useful through Story stages, bosses, and Endless Trials.",
       "rows": [
         {
-          "material": "Upgrade Materials",
-          "source": "Story stages, daily and weekly challenges, repeatable events",
-          "priority": "Early",
-          "use": "Raise unit levels and stats so your starter squad can clear harder waves."
-        },
-        {
-          "material": "Cubes",
-          "source": "Code rewards and farming routes",
-          "priority": "Early",
-          "use": "Spend through in-game upgrade systems to push unit power early."
+          "material": "Unit Upgrades",
+          "use": "Increasing the power of units already placed in your active squad.",
+          "source": "In-game unit upgrade panel and Anime Destiny Trello resource sections.",
+          "priority": "High",
+          "bestUse": "Focus on units that help clear Story stages and boss fights."
         },
         {
           "material": "Evolution Materials",
-          "source": "Specific stages, bosses, and event routes",
-          "priority": "Mid",
-          "use": "Evolve eligible units into stronger forms that unlock higher damage and new roles."
+          "use": "Evolving eligible units and opening stronger ability paths for core units.",
+          "source": "Each unit evolution recipe in-game and organized Trello unit entries.",
+          "priority": "High",
+          "bestUse": "Farm materials for units you plan to keep instead of every new summon."
         },
         {
-          "material": "Malice",
-          "source": "Launch code rewards and event bundles",
-          "priority": "Mid",
-          "use": "Keep for the in-game system that requires it during evolution paths."
+          "material": "Ability Unlocks",
+          "use": "Unlocking stronger attacks or effects after upgrade and evolution progress.",
+          "source": "Unit detail panels and Trello system notes.",
+          "priority": "Medium",
+          "bestUse": "Prioritize abilities that improve wave clear, boss damage, or team consistency."
         },
         {
-          "material": "Trait Reroll (RR)",
-          "source": "Codes, challenges, and milestone rewards",
-          "priority": "Late",
-          "use": "Save the bulk of RR for Mythic and Secret units that stay in your squad."
-        },
-        {
-          "material": "Gems",
-          "source": "Codes, challenges, story clears, and events",
-          "priority": "Flexible",
-          "use": "Split between summoning new units and supporting upgrade and evolution costs."
+          "material": "Update and Group Rewards",
+          "use": "Extra resources tied to updates, group activity, and reward announcements.",
+          "source": "Discord announcements, Roblox group posts, and Trello update notes.",
+          "priority": "Medium",
+          "bestUse": "Claim timed rewards before spending farmed materials."
         }
       ]
     },
     "animeDestinyStoryBossesEndless": {
       "title": "Anime Destiny Story Stages, Bosses, and Endless Trials",
-      "intro": "Anime Destiny PvE progression runs through story stages, boss fights, and endless trials. Prepare your squad, understand reward priorities, and move from early stages into harder content at the right pace.",
+      "intro": "Anime Destiny PvE progression runs through Story stages, boss fights, and Endless Trials. Use Story stages to test your early squad, bosses to check focused damage and preparation, and Endless Trials to measure long-run consistency before pushing harder content.",
       "items": [
         {
-          "question": "What do Anime Destiny story stages give?",
-          "answer": "Story stages are the core progression route in Anime Destiny. Clearing them unlocks harder content, farming routes, and the resources you need to upgrade and evolve your squad."
+          "title": "Story Stages",
+          "summary": "Story stages are the core PvE path for early progression and squad testing in Anime Destiny.",
+          "details": [
+            "Build a reliable squad before rushing every new stage.",
+            "Upgrade active units when waves start surviving too long.",
+            "Use Story progress to decide whether your roster needs more damage, coverage, or support."
+          ]
         },
         {
-          "question": "How should I prepare for Anime Destiny bosses?",
-          "answer": "Bring a balanced squad with wave clear, single-target boss damage, and shield breaking. Upgrade your best damage units first and place them where they cover enemy paths."
+          "title": "Boss Challenges",
+          "summary": "Boss fights test whether your squad can handle stronger threats instead of only clearing normal waves.",
+          "details": [
+            "Enter boss content after your main squad has basic upgrades.",
+            "Bring units that can keep damage on high-health targets.",
+            "Use boss attempts to decide which evolution or upgrade materials deserve priority."
+          ]
         },
         {
-          "question": "What are endless trials in Anime Destiny?",
-          "answer": "Endless trials are repeatable challenges that test how far your squad can push. They are a strong source of farming once your units are upgraded and evolved."
+          "title": "Endless Trials",
+          "summary": "Endless Trials are repeatable long-run content for checking how far your squad can survive.",
+          "details": [
+            "Move into Endless after Story progression feels stable.",
+            "Prioritize sustained damage, coverage, and upgraded core units.",
+            "Track where runs fail, then improve the unit type causing the bottleneck."
+          ]
         },
         {
-          "question": "Which rewards should I prioritize first?",
-          "answer": "Prioritize Gems, upgrade materials, and RR from story clears and challenges early, then focus on evolution materials and rerolls once your core squad is set."
-        },
-        {
-          "question": "When should I move into harder Anime Destiny content?",
-          "answer": "Move into harder stages after your main damage units are upgraded and you have a reliable squad role for bosses and shield breaking. Pushing too early wastes resources on temporary units."
+          "title": "Solo and Team Play",
+          "summary": "Anime Destiny supports solo play and teaming up with friends for greater threats.",
+          "details": [
+            "Use solo play to learn placement, pacing, and upgrade needs.",
+            "Use team play when harder content needs more coverage or damage.",
+            "Coordinate roles so every player covers a different job instead of overlapping."
+          ]
         }
       ]
     },
     "animeDestinyOfficialLinks": {
       "title": "Anime Destiny Official Links and Update Tracker",
-      "intro": "Use the official Anime Destiny links to avoid fake mirrors, expired invite reposts, and third-party pages pretending to be guides. Bookmark the real Roblox page, group, Discord, and Trello for updates and rewards.",
+      "intro": "Bookmark the official Anime Destiny links to avoid fake mirrors, expired invite reposts, and third-party pages pretending to be guides. Play on Roblox, join the group, follow Discord announcements, and check the Trello board for unit and update reference.",
       "links": [
         {
-          "name": "Roblox Game",
-          "description": "The official Anime Destiny experience page and main play link.",
+          "name": "Roblox Play Page",
+          "type": "Official Game Page",
           "url": "https://www.roblox.com/games/82674355647259/Anime-Destiny",
-          "label": "Play on Roblox"
+          "description": "Launch Anime Destiny, read the current game description, and check Roblox-facing game details.",
+          "label": "Play on Roblox",
+          "bestFor": "Playing the game and confirming description changes."
         },
         {
-          "name": "Roblox Group",
-          "description": "The official Anime Destiny [AD] community group for updates and reward access.",
+          "name": "Anime Destiny [AD] Roblox Group",
+          "type": "Official Roblox Group",
           "url": "https://www.roblox.com/communities/859372599/Anime-Destiny-AD",
-          "label": "Visit Group"
+          "description": "Join the Roblox group connected to Anime Destiny for updates and group-related rewards.",
+          "label": "Visit Group",
+          "bestFor": "Group joins, reward prompts, and Roblox community context."
         },
         {
-          "name": "Discord Server",
-          "description": "The official Anime Destiny Discord for codes, announcements, and community discussion.",
+          "name": "Anime Destiny Discord",
+          "type": "Official Community Server",
           "url": "https://discord.com/invite/animedestiny",
-          "label": "Join Discord"
+          "description": "Follow announcements, update notes, code drops, maintenance messages, and community discussion.",
+          "label": "Join Discord",
+          "bestFor": "Fast update tracking."
         },
         {
-          "name": "Trello Board",
-          "description": "The public Anime Destiny Trello board shared for unit and update reference.",
+          "name": "Anime Destiny Trello",
+          "type": "Trello Reference Board",
           "url": "https://trello.com/b/vyRQHU11/anime-destiny-trello",
-          "label": "Open Trello"
+          "description": "Track organized game information such as systems, units, resources, update planning, and known issues.",
+          "label": "Open Trello",
+          "bestFor": "Structured reference for units, resources, and roadmap notes."
         }
+      ],
+      "checklist": [
+        "New summon banners and unit rarities",
+        "Upgrade and evolution recipe changes",
+        "Fresh Story stages, bosses, and Endless Trials",
+        "Device support and Auto Roll updates",
+        "Group rewards and new code drops"
       ],
       "updates": [
         {
           "title": "Anime Destiny Release",
           "type": "Launch",
-          "description": "Anime Destiny launched on Roblox with summon units, upgrades, evolutions, story stages, bosses, and endless trials."
+          "description": "Anime Destiny launched on Roblox with summon units, upgrades, evolutions, Story stages, bosses, and Endless Trials."
         },
         {
           "title": "Free Auto Roll",
