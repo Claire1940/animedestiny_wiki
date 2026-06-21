@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,504 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Destiny Gameplay",
+    "description": "Summon anime units, upgrade and evolve your squad, clear story stages, challenge bosses, and test your builds in endless trials in this Roblox anime tower defense game."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Anime Destiny",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to summon, upgrade, and conquer Anime Destiny",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "Anime Destiny Codes",
+        "description": "Active codes, expired list, and the redeem workflow"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Anime Destiny Beginner Guide",
+        "description": "First-day path from codes to story stages"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Anime Destiny Unit Tier List",
+        "description": "Best units for story, bosses, and late game"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Dices",
+        "title": "Anime Destiny Traits and Reroll",
+        "description": "Trait effects, reroll priority, and save advice"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Gem",
+        "title": "Anime Destiny Summon and Gems",
+        "description": "Summon system, gems, and Auto Roll usage"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Dna",
+        "title": "Anime Destiny Evolution Materials",
+        "description": "Upgrade and evolution paths plus farm priority"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Swords",
+        "title": "Anime Destiny Story, Bosses, Endless",
+        "description": "PvE progression, bosses, and endless trials"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Link",
+        "title": "Anime Destiny Official Links",
+        "description": "Roblox, Discord, Trello, and update tracker"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "animeDestinyCodes": {
+      "title": "Anime Destiny Codes",
+      "intro": "Use Anime Destiny codes before summoning so your first Gems and reroll resources go into stronger early progress. Active codes are shown first so you can claim rewards before your first banner roll.",
+      "activeCodes": [
+        {
+          "code": "Release!",
+          "rewards": "1,500 Gems + 15 RR",
+          "status": "Active",
+          "note": "Best first code to redeem before summoning units."
+        },
+        {
+          "code": "SorryForDelay",
+          "rewards": "500 Gems + 5 RR + 5 Cubes + 5 Malice",
+          "status": "Active",
+          "note": "Strong starter bundle for summons and early reroll resources."
+        }
+      ],
+      "expiredCodes": [
+        "PATCH!",
+        "BugPatch!",
+        "BugHOTFIX!",
+        "SorryForDelay!",
+        "ReleaseEA!",
+        "UPDATE 1",
+        "6K Favorites",
+        "6K Likes",
+        "FixedBugSrySrySry",
+        "Thx for 1M Visits!",
+        "Warped Ninja!!!",
+        "SryForShutdown",
+        "ShutdownIssue",
+        "ANIME DESTINY",
+        "1K Favorites",
+        "RELEASE!",
+        "Early Access!"
+      ],
+      "redeemSteps": [
+        "Open Anime Destiny from the official Roblox experience page.",
+        "Click the Codes button on the right side of the screen.",
+        "Paste the code exactly as written, including capital letters and punctuation.",
+        "Press Redeem and check your Gems, RR, Cubes, or Malice balance."
+      ],
+      "rewardTypes": [
+        {
+          "name": "Gems",
+          "use": "Main currency for summoning units across banners."
+        },
+        {
+          "name": "RR",
+          "use": "Trait reroll resource used to change unit traits."
+        },
+        {
+          "name": "Cubes",
+          "use": "Upgrade resource spent through in-game upgrade systems."
+        },
+        {
+          "name": "Malice",
+          "use": "Launch reward resource kept for the system that requires it."
+        }
+      ]
+    },
+    "animeDestinyBeginnerGuide": {
+      "title": "Anime Destiny Beginner Guide",
+      "intro": "Anime Destiny is a Roblox anime tower defense game where you summon anime units, upgrade and evolve them, clear story stages, challenge bosses, and test squads in endless trials. Focus your first day on collecting free rewards, summoning a usable team, learning upgrade timing, and saving trait rerolls for units that stay useful later.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Launch the Official Game",
+          "description": "Start from the official Roblox page and join the Anime Destiny group for update and reward access. The game supports mobile, tablet, PC, and console, and Auto Roll is free.",
+          "tip": "Open Anime Destiny on Roblox, join the group, and check the in-game lobby before spending currency."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Redeem Codes First",
+          "description": "Redeem Release! and SorryForDelay before your first serious summon session. These codes give Gems for summons and RR for trait rerolls.",
+          "tip": "Use the Codes button on the right side of the screen, then claim rewards before rolling."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Summon a Starter Squad",
+          "description": "Use Gems to summon units and build a balanced early squad instead of chasing only one rare pull. Story progress matters more than a perfect first banner roll.",
+          "tip": "Equip your strongest available units and keep enough Gems for future banners."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Upgrade During Battles",
+          "description": "Place units where they cover enemy paths, then upgrade your best damage units first. Bosses and harder waves punish weak placement.",
+          "tip": "Focus upgrades on units that clear waves, break shields, or help stop bosses."
+        },
+        {
+          "title": "Clear Story Stages",
+          "description": "Story stages unlock progression, harder content, and farming routes. Finish story before judging the full strength of late-game units.",
+          "tip": "Push story stages steadily and return to earlier content when you need resources."
+        },
+        {
+          "title": "Save Trait Rerolls",
+          "description": "Do not spend most RR on early Rare, Epic, or temporary Legendary units. Rerolls have better long-term value on Mythic and Secret units.",
+          "tip": "Use only light rerolling early, then save the bulk of RR for stronger units."
+        },
+        {
+          "title": "Farm Repeatable Rewards",
+          "description": "Daily, weekly, 15-minute, and 30-minute challenges, Index rewards, Milestone rewards, Namak Planet Hard, and the Igris Boss Event are important resource routes.",
+          "tip": "Use repeatable content to collect Gems, BattlePass XP, Stat Cubes, and RR."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "animeDestinyUnitTierList": {
+      "title": "Anime Destiny Unit Tier List",
+      "intro": "This Anime Destiny tier list focuses on evolved units at high investment, with extra weight given to DPS, shield breaking, boss damage, summon value, and utility. Early units help during story, but Mythic and Secret units are the main long-term investment targets.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Meta DPS and Utility",
+          "units": [
+            {
+              "name": "Frozen Moon (Kizuki)",
+              "rarity": "Secret",
+              "role": "DPS, freeze utility, shield breaker",
+              "note": "Strong mix of damage and freeze-based stall utility with excellent shield-breaking value."
+            },
+            {
+              "name": "Founding Titan (Queen)",
+              "rarity": "Secret",
+              "role": "Full AOE damage, summon damage, boss killer",
+              "note": "High boss damage and strong utility from Titan summons."
+            },
+            {
+              "name": "Shadow Monarch (Awaken)",
+              "rarity": "Secret",
+              "role": "Base damage, summon damage, dark synergy",
+              "note": "Strong summon-based unit with damage synergy alongside Crimson Knight (Dark)."
+            },
+            {
+              "name": "Crimson Knight (Dark)",
+              "rarity": "Secret",
+              "role": "High damage, Shadow Monarch synergy",
+              "note": "A strong Secret unit that performs especially well with Shadow Monarch synergy."
+            },
+            {
+              "name": "Ashura Swordsman (3SS)",
+              "rarity": "Mythic",
+              "role": "DoT DPS, shield breaking",
+              "note": "One of the strongest Mythic DPS units for damage-over-time and shield pressure."
+            },
+            {
+              "name": "Red Emperor (Haki)",
+              "rarity": "Mythic",
+              "role": "Top Mythic DPS",
+              "note": "One of the best Mythic units for high-end damage investment."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Alternatives",
+          "units": [
+            {
+              "name": "Eternal Night (Blood)",
+              "rarity": "Mythic",
+              "role": "Boss damage, crit scaling",
+              "note": "Strong boss-killer option with damage that benefits from a crit-focused setup."
+            },
+            {
+              "name": "Future Warrior (Furious)",
+              "rarity": "Mythic",
+              "role": "Single-target damage, boss damage",
+              "note": "Reliable single-target damage unit for boss-focused fights."
+            },
+            {
+              "name": "Insect Slayer (Poison)",
+              "rarity": "Mythic",
+              "role": "DoT DPS",
+              "note": "Good damage-over-time alternative when top S-tier DoT options are unavailable."
+            },
+            {
+              "name": "Magicbane (Anti-Magic)",
+              "rarity": "Mythic",
+              "role": "Shield breaker",
+              "note": "Useful when stages demand reliable shield-breaking pressure."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Usable Mid-High Investment",
+          "units": [
+            {
+              "name": "Radiant Hunter (Light)",
+              "rarity": "Mythic BattlePass",
+              "role": "Crit-based single-target DPS",
+              "note": "Solid single-target damage but lower overall output than higher-tier Mythics and Secrets."
+            },
+            {
+              "name": "Destruction God (Mogger)",
+              "rarity": "Mythic",
+              "role": "General DPS",
+              "note": "Decent damage, but its cost-to-output value is weaker than top-tier units."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Beginner and Early-Mid Game",
+          "units": [
+            {
+              "name": "Yellow Flash",
+              "rarity": "Legendary",
+              "role": "Beginner DPS",
+              "note": "Good for early progress, then replace when stronger Mythic or Secret units arrive."
+            },
+            {
+              "name": "Hawkeye",
+              "rarity": "Legendary",
+              "role": "Beginner DPS",
+              "note": "Useful for early stages but not a priority for heavy RR investment."
+            },
+            {
+              "name": "Corrupted Warrior",
+              "rarity": "Legendary",
+              "role": "Beginner DPS",
+              "note": "A starter-friendly unit that falls off later."
+            },
+            {
+              "name": "Crow Prodigy",
+              "rarity": "Rare",
+              "role": "Early shield breaker",
+              "note": "Useful early shield-breaking option before Mythic units replace it."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Temporary Units",
+          "units": [
+            {
+              "name": "Most Rare and Epic Units",
+              "rarity": "Rare or Epic",
+              "role": "Temporary early-game filler",
+              "note": "Use them only while building your first squad, then replace them as soon as stronger units are available."
+            }
+          ]
+        }
+      ]
+    },
+    "animeDestinyTraitsAndReroll": {
+      "title": "Anime Destiny Traits and Reroll Guide",
+      "intro": "Traits improve unit performance and RR is the key reroll resource in Anime Destiny. The best early rule is simple: use small reroll amounts on temporary units, save serious RR spending for Mythic and Secret units, and match traits to the unit role instead of blindly chasing one label.",
+      "rows": [
+        {
+          "trait": "RR",
+          "type": "Reroll Resource",
+          "bestFor": "Changing unit traits",
+          "advice": "Save most RR for units that remain useful in boss fights, story clears, and late-game content."
+        },
+        {
+          "trait": "Divine",
+          "type": "Trait",
+          "bestFor": "High-end DPS units and top Secret or Mythic carries",
+          "advice": "Keep this on main damage carries and avoid replacing it casually."
+        },
+        {
+          "trait": "Stellar",
+          "type": "Trait",
+          "bestFor": "DoT and shield-breaking Mythic units",
+          "advice": "Keep it as a strong DPS option when the unit benefits from damage-over-time pressure."
+        },
+        {
+          "trait": "Sniper",
+          "type": "Trait",
+          "bestFor": "Crit-focused and single-target damage units",
+          "advice": "Use it on units built for boss damage or crit-based single-target output."
+        },
+        {
+          "trait": "Tycoon",
+          "type": "Trait",
+          "bestFor": "Farm and support units",
+          "advice": "Keep it on economy or support units instead of forcing pure DPS traits onto them."
+        },
+        {
+          "trait": "Jack of All",
+          "type": "Trait",
+          "bestFor": "Beginner Legendary units",
+          "advice": "Accept it as an early useful roll, but do not spend heavy RR chasing perfect traits on temporary units."
+        },
+        {
+          "trait": "Cubes",
+          "type": "Progression Resource",
+          "bestFor": "Upgrade resource bundles",
+          "advice": "Collect from code rewards and farming routes, then spend through the relevant in-game upgrade systems."
+        },
+        {
+          "trait": "Malice",
+          "type": "Reward Resource",
+          "bestFor": "Launch code reward bundles",
+          "advice": "Claim from the SorryForDelay code and keep it for the in-game system that requires it."
+        }
+      ]
+    },
+    "animeDestinySummonAndGems": {
+      "title": "Anime Destiny Summon and Gems Guide",
+      "intro": "The Anime Destiny summon system turns Gems into units, and Auto Roll makes repeated pulls free and automatic. Smart gem spending is what separates a balanced squad from a wasted banner, so plan your pulls around squad needs instead of chasing every new unit.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Summon System",
+          "description": "Spend Gems at the summon banner to roll for units across different rarities, from Rare and Epic up to Legendary, Mythic, and Secret units."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Gems",
+          "description": "Gems are the main summon currency. Earn them from codes, daily and weekly challenges, story clears, and repeatable events before spending on banners."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Auto Roll",
+          "description": "Auto Roll is free and lets the banner keep pulling automatically, so you can multitask while collecting units during long sessions."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "When to Save",
+          "description": "Hold Gems for banners that add Mythic or Secret units to your squad, since these units carry the biggest long-term value."
+        },
+        {
+          "name": "When to Spend",
+          "description": "Spend freely while building your first playable squad, because a complete team clears story stages faster than one rare pull."
+        },
+        {
+          "name": "Squad Building",
+          "description": "Aim for a balanced squad with wave clear, single-target boss damage, and shield breaking instead of stacking one damage type."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+      "tips": [
+        "Redeem codes for Gems before your first summon session.",
+        "Keep a Gem reserve so new banners do not catch you empty-handed.",
+        "Use Auto Roll when farming, but check results before investing upgrade resources.",
+        "Prioritize banners that fill a missing role in your squad."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "animeDestinyEvolutionMaterials": {
+      "title": "Anime Destiny Evolution and Upgrade Materials",
+      "intro": "Upgrading and evolving units is how Anime Destiny squads scale into late game. Track the materials each unit needs and farm them in a sensible order so you invest resources into units that stay useful.",
+      "rows": [
+        {
+          "material": "Upgrade Materials",
+          "source": "Story stages, daily and weekly challenges, repeatable events",
+          "priority": "Early",
+          "use": "Raise unit levels and stats so your starter squad can clear harder waves."
+        },
+        {
+          "material": "Cubes",
+          "source": "Code rewards and farming routes",
+          "priority": "Early",
+          "use": "Spend through in-game upgrade systems to push unit power early."
+        },
+        {
+          "material": "Evolution Materials",
+          "source": "Specific stages, bosses, and event routes",
+          "priority": "Mid",
+          "use": "Evolve eligible units into stronger forms that unlock higher damage and new roles."
+        },
+        {
+          "material": "Malice",
+          "source": "Launch code rewards and event bundles",
+          "priority": "Mid",
+          "use": "Keep for the in-game system that requires it during evolution paths."
+        },
+        {
+          "material": "Trait Reroll (RR)",
+          "source": "Codes, challenges, and milestone rewards",
+          "priority": "Late",
+          "use": "Save the bulk of RR for Mythic and Secret units that stay in your squad."
+        },
+        {
+          "material": "Gems",
+          "source": "Codes, challenges, story clears, and events",
+          "priority": "Flexible",
+          "use": "Split between summoning new units and supporting upgrade and evolution costs."
+        }
+      ]
+    },
+    "animeDestinyStoryBossesEndless": {
+      "title": "Anime Destiny Story Stages, Bosses, and Endless Trials",
+      "intro": "Anime Destiny PvE progression runs through story stages, boss fights, and endless trials. Prepare your squad, understand reward priorities, and move from early stages into harder content at the right pace.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "question": "What do Anime Destiny story stages give?",
+          "answer": "Story stages are the core progression route in Anime Destiny. Clearing them unlocks harder content, farming routes, and the resources you need to upgrade and evolve your squad."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "question": "How should I prepare for Anime Destiny bosses?",
+          "answer": "Bring a balanced squad with wave clear, single-target boss damage, and shield breaking. Upgrade your best damage units first and place them where they cover enemy paths."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "question": "What are endless trials in Anime Destiny?",
+          "answer": "Endless trials are repeatable challenges that test how far your squad can push. They are a strong source of farming once your units are upgraded and evolved."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "question": "Which rewards should I prioritize first?",
+          "answer": "Prioritize Gems, upgrade materials, and RR from story clears and challenges early, then focus on evolution materials and rerolls once your core squad is set."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "question": "When should I move into harder Anime Destiny content?",
+          "answer": "Move into harder stages after your main damage units are upgraded and you have a reliable squad role for bosses and shield breaking. Pushing too early wastes resources on temporary units."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "animeDestinyOfficialLinks": {
+      "title": "Anime Destiny Official Links and Update Tracker",
+      "intro": "Use the official Anime Destiny links to avoid fake mirrors, expired invite reposts, and third-party pages pretending to be guides. Bookmark the real Roblox page, group, Discord, and Trello for updates and rewards.",
+      "links": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Roblox Game",
+          "description": "The official Anime Destiny experience page and main play link.",
+          "url": "https://www.roblox.com/games/82674355647259/Anime-Destiny",
+          "label": "Play on Roblox"
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Roblox Group",
+          "description": "The official Anime Destiny [AD] community group for updates and reward access.",
+          "url": "https://www.roblox.com/communities/859372599/Anime-Destiny-AD",
+          "label": "Visit Group"
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Discord Server",
+          "description": "The official Anime Destiny Discord for codes, announcements, and community discussion.",
+          "url": "https://discord.com/invite/animedestiny",
+          "label": "Join Discord"
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Trello Board",
+          "description": "The public Anime Destiny Trello board shared for unit and update reference.",
+          "url": "https://trello.com/b/vyRQHU11/anime-destiny-trello",
+          "label": "Open Trello"
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+      "updates": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "title": "Anime Destiny Release",
+          "type": "Launch",
+          "description": "Anime Destiny launched on Roblox with summon units, upgrades, evolutions, story stages, bosses, and endless trials."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "title": "Free Auto Roll",
+          "type": "Feature",
+          "description": "Auto Roll is free, letting players run repeated summons automatically across mobile, tablet, PC, and console."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "title": "Repeatable Challenges",
+          "type": "Content",
+          "description": "Daily, weekly, 15-minute, and 30-minute challenges plus Index and Milestone rewards keep resources flowing."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Igris Boss Event",
+          "type": "Event",
+          "description": "A limited boss event route that drops extra resources for active players."
         }
       ]
     }
@@ -749,31 +557,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Anime Destiny",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Destiny?",
+        "answer": "Anime Destiny is a Roblox anime tower defense game where you summon anime units, upgrade and evolve them, and clear story stages, bosses, and endless trials."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Anime Destiny?",
+        "answer": "You can play Anime Destiny on the official Roblox experience page. The game supports mobile, tablet, PC, and console."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I get free rewards in Anime Destiny?",
+        "answer": "Redeem Anime Destiny codes from the Codes button in-game. Active codes give Gems, RR, Cubes, and Malice to boost your early progress."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Auto Roll free in Anime Destiny?",
+        "answer": "Yes. Auto Roll is free in Anime Destiny, so you can run repeated summons automatically while building your squad."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are the best units in Anime Destiny?",
+        "answer": "Mythic and Secret units are the main long-term investment targets in Anime Destiny. Check the Anime Destiny Unit Tier List for ranked picks across story, bosses, and late game."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where are official Anime Destiny updates posted?",
+        "answer": "Official Anime Destiny updates are shared in the Discord server and Roblox group. Bookmark the official links to avoid fake mirrors and expired invite reposts."
       }
     ]
   },
@@ -802,121 +610,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Anime Destiny Guides",
+      "description": "Complete Anime Destiny guides from beginner basics to advanced squad, summon, and evolution strategies.",
+      "metaTitle": "Anime Destiny Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Anime Destiny guides covering beginner tips, summon system, squad building, and expert tactics for mastering the Roblox anime tower defense game.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Anime Destiny gameplay mechanics, squad strategies, and progression from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the summon and upgrade systems and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths through story stages and resource farming",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced squad builds for bosses and endless trials"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Anime Destiny Summon Guide",
+      "description": "Master the Anime Destiny summon system with gem management, Auto Roll, and squad-building strategies.",
+      "metaTitle": "Anime Destiny Summon - System, Gems & Auto Roll",
+      "metaDescription": "Master the Anime Destiny summon system. Learn gem management, Auto Roll usage, and squad-building strategies for stronger units.",
+      "categoryLabel": "SUMMON SYSTEM",
+      "whatIs": "What is Summoning?",
+      "whatIsDescription": "The summon system lets you spend Gems to roll for units across rarities, from Rare and Epic up to Legendary, Mythic, and Secret units.",
+      "why": "Why master summoning?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Unlock Strong Units",
+        "step1Description": "Roll for Mythic and Secret units that carry late-game value",
+        "step2Title": "Manage Gems",
+        "step2Description": "Spend Gems on banners that fill missing squad roles",
+        "step3Title": "Use Auto Roll",
+        "step3Description": "Run repeated summons automatically with free Auto Roll"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Summon Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Anime Destiny Units",
+      "description": "Detailed Anime Destiny unit guides covering rarities, roles, and how to use every unit effectively.",
+      "metaTitle": "Anime Destiny Units - Rarities, Roles & Usage Guide",
+      "metaDescription": "Complete Anime Destiny unit database including rarities, roles, and usage strategies for building effective squads.",
+      "categoryLabel": "UNITS & ROLES",
+      "whatIs": "What are Units?",
+      "whatIsDescription": "Comprehensive guides for Anime Destiny units. Learn rarities, roles, and optimal placement for every unit.",
+      "why": "Why check unit guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Understand Roles",
+        "step1Description": "Learn which units fit wave clear, boss damage, and shield breaking",
+        "step2Title": "Build Squads",
+        "step2Description": "Choose the best units for your progression stage",
+        "step3Title": "Improve Clears",
+        "step3Description": "Place units to cover enemy paths and stop bosses"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Units"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Anime Destiny Stages",
+      "description": "Explore Anime Destiny story stages, boss fights, and endless trials with preparation and reward tips.",
+      "metaTitle": "Anime Destiny Stages - Story, Bosses & Endless Trials",
+      "metaDescription": "Explore Anime Destiny stages including story progression, boss fights, and endless trials. Find rewards and prepare your squad.",
+      "categoryLabel": "STAGES & TRIALS",
+      "whatIs": "What are Stages?",
+      "whatIsDescription": "Guides to Anime Destiny story stages, boss encounters, and endless trials. Learn what to expect and how to prepare.",
+      "why": "Why explore stages?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Earn Resources",
+        "step1Description": "Clear stages for Gems, upgrade materials, and RR",
+        "step2Title": "Avoid Wipes",
+        "step2Description": "Understand boss mechanics and enemy waves",
+        "step3Title": "Plan Progression",
+        "step3Description": "Prepare the right squad for each stage type"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Stages"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Anime Destiny Squads",
+      "description": "Master Anime Destiny squad building, unit synergy, and loadouts for every game mode.",
+      "metaTitle": "Anime Destiny Squads - Builds, Synergy & Loadouts",
+      "metaDescription": "Master Anime Destiny squad building with unit synergy, role coverage, and loadouts for story, bosses, and endless trials.",
+      "categoryLabel": "SQUADS & BUILDS",
+      "whatIs": "What are Squads?",
+      "whatIsDescription": "Guides to Anime Destiny squad composition, unit synergy, and mode-specific loadouts. Build effective teams for any content.",
+      "why": "Why build squads?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Cover Roles",
+        "step1Description": "Balance wave clear, boss damage, and shield breaking",
+        "step2Title": "Use Synergy",
+        "step2Description": "Pair units that boost each other's performance",
+        "step3Title": "Adapt to Modes",
+        "step3Description": "Tailor loadouts for story, bosses, and endless trials"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Squad Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Anime Destiny Support",
+      "description": "Technical support, platform compatibility, and troubleshooting for Anime Destiny players.",
+      "metaTitle": "Anime Destiny Support - Help & Fixes",
+      "metaDescription": "Get support for Anime Destiny including platform compatibility, performance tips, and troubleshooting for common Roblox issues.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering platform compatibility, performance, and common issues for Anime Destiny on Roblox.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Title": "Fix Issues",
+        "step1Description": "Resolve performance problems and compatibility issues",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
+        "step2Description": "Configure settings for the best experience on your platform",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about mobile, tablet, PC, and console support"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
