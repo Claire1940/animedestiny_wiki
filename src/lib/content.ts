@@ -68,6 +68,9 @@ export interface ContentFrontmatter {
 export const CONTENT_TYPES = CONFIG_CONTENT_TYPES
 export type ContentType = typeof CONTENT_TYPES[number]
 
+// 支持的语言列表（必须与 i18n/routing.ts 的 locales、i18n/request.ts 的 messages 保持一致）
+export const validLanguages = ['en', 'pt', 'es', 'id'] as const
+
 // 支持的语言（使用 routing.ts 中的 Locale 类型）
 export type Language = Locale
 
