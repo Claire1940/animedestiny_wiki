@@ -36,7 +36,7 @@ function parseContentDir(dir: string): { language: string; contentType: string }
 
 /**
  * 根据 slug 在目录中反查真实文件名（不含 .mdx）
- * 例如 slug="anime-destiny-guide" → 返回 "anime:destiny-guide"
+ * 例如 slug="lucid-blocks-guide" → 返回 "lucid:blocks-guide"
  * （改为查清单，签名保持 (dir, slug) 不变，调用方无需改动）
  */
 export function findFileBySlug(dir: string, slug: string, _basePath: string[] = []): string | null {
@@ -67,9 +67,6 @@ export interface ContentFrontmatter {
 // 从统一配置导入内容类型
 export const CONTENT_TYPES = CONFIG_CONTENT_TYPES
 export type ContentType = typeof CONTENT_TYPES[number]
-
-// 支持的语言列表（必须与 i18n/routing.ts 的 locales、i18n/request.ts 的 messages 保持一致）
-export const validLanguages = ['en', 'pt', 'es', 'id'] as const
 
 // 支持的语言（使用 routing.ts 中的 Locale 类型）
 export type Language = Locale
