@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Anime Destiny Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Anime Destiny Wiki covers Roblox codes, tier list, units, traits, evolutions, story stages, raids, bosses, and beginner tips for tower defense players.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Anime Destiny - Roblox Anime Tower Defense",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Anime Destiny Wiki",
+        alternateName: "Anime Destiny",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Anime Destiny Wiki resource hub for Roblox codes, tier list, units, traits, evolutions, story stages, raids, and boss guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,21 +130,20 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Anime Destiny Wiki - Roblox Anime Tower Defense",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.roblox.com/games/82674355647259/Anime-Destiny",
+          "https://www.roblox.com/communities/859372599/Anime-Destiny-AD",
+          "https://discord.com/invite/animedestiny",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Anime Destiny",
+        gamePlatform: ["PC", "Mac", "Mobile", "Console"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Tower Defense", "Anime", "Strategy", "Roblox"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -153,18 +152,18 @@ export default function HomePageClient({
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://www.roblox.com/games/82674355647259/Anime-Destiny",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Anime Destiny | Release Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Anime Destiny release trailer showcasing anime units, upgrades, evolutions, story stages, bosses, and endless trials gameplay.",
+        uploadDate: "2026-06-21",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/pdSziNF8tEs",
+        url: "https://www.youtube.com/watch?v=pdSziNF8tEs",
       },
     ],
   };
@@ -247,7 +246,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.roblox.com/games/82674355647259/Anime-Destiny"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -267,24 +266,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section - 紧跟 Hero 区域 */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="pdSziNF8tEs"
+              title="Anime Destiny | Release Trailer"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
