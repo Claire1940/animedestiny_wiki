@@ -1,1 +1,801 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Anime Destiny - Códigos, Tier List e Unidades",
+      "description": "A Wiki de Anime Destiny cobre códigos do Roblox, tier list, unidades, traços, evoluções, estágios de história, raids, chefes e dicas para iniciantes em jogos de tower defense.",
+      "keywords": "anime destiny, roblox, códigos, tier list, unidades, traços, evoluções, raids, história",
+      "ogTitle": "Wiki de Anime Destiny - Códigos, Tier List e Unidades",
+      "ogDescription": "A Wiki de Anime Destiny cobre códigos do Roblox, tier list, unidades, traços, evoluções, estágios de história, raids, chefes e dicas para iniciantes em jogos de tower defense.",
+      "twitterTitle": "Wiki de Anime Destiny - Códigos, Tier List e Unidades",
+      "twitterDescription": "A Wiki de Anime Destiny cobre códigos do Roblox, tier list, unidades, traços, evoluções, estágios de história, raids, chefes e dicas para iniciantes em jogos de tower defense."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "roblox": "Roblox",
+    "tier": "Tier List",
+    "summons": "Summons",
+    "evolution": "Evolução",
+    "raids": "Raids",
+    "review": "Análise"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Trocar Idioma",
+    "switchTheme": "Trocar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Tower Defense de Anime no Roblox",
+    "title": "Wiki de Anime Destiny",
+    "description": "Invoque unidades de anime, melhore e evolua seu esquadrão, complete estágios de história, desafie chefes e avance em trials infinitos neste hub de guias de tower defense do Roblox.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Mais de 160,7 mil",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "3,1 mil",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "97%",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat4": {
+        "value": "Mais de 29 mil",
+        "label": "Membros do Discord"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Anime Destiny",
+    "description": "Invoque unidades de anime, melhore e evolua seu esquadrão, complete fases da história, desafie chefes e teste suas composições em modos infinitos neste jogo de defesa de torre de anime no Roblox."
+  },
+  "tools": {
+    "title": "Anime Destiny",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para invocar, melhorar e conquistar o Anime Destiny",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos do Anime Destiny",
+        "description": "Códigos ativos, lista de expirados e como resgatá-los"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Anime Destiny",
+        "description": "Caminho do primeiro dia, desde códigos até fases da história"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de Níveis de Unidades de Anime Destiny",
+        "description": "Melhores unidades para história, chefes e fim de jogo"
+      },
+      {
+        "icon": "Dices",
+        "title": "Atributos e Reroll de Anime Destiny",
+        "description": "Efeitos de atributos, prioridade de reroll e dicas de economia"
+      },
+      {
+        "icon": "Gem",
+        "title": "Invocação e Gemas de Anime Destiny",
+        "description": "Sistema de invocação, gemas e uso do Auto Roll"
+      },
+      {
+        "icon": "Dna",
+        "title": "Materiais de Evolução de Anime Destiny",
+        "description": "Caminhos de melhoria e evolução, além de prioridade de farm"
+      },
+      {
+        "icon": "Swords",
+        "title": "História, Chefes e Modo Infinito de Anime Destiny",
+        "description": "Progressão PvE, chefes e desafios infinitos"
+      },
+      {
+        "icon": "Link",
+        "title": "Links Oficiais de Anime Destiny",
+        "description": "Roblox, Discord, Trello e rastreador de atualizações"
+      }
+    ]
+  },
+  "modules": {
+    "animeDestinyCodes": {
+      "title": "Códigos do Anime Destiny",
+      "intro": "Use os códigos do Anime Destiny antes de invocar para que suas primeiras Gemas e recursos de reroll ajudem no progresso inicial. Os códigos ativos são mostrados primeiro para que você possa resgatar recompensas antes do seu primeiro banner.",
+      "activeCodes": [
+        {
+          "code": "Lançamento!",
+          "rewards": "1.500 Gemas + 15 RR",
+          "status": "Ativo",
+          "note": "Melhor primeiro código para resgatar antes de invocar unidades."
+        },
+        {
+          "code": "DesculpePeloAtraso",
+          "rewards": "500 Gemas + 5 RR + 5 Cubos + 5 Malícia",
+          "status": "Ativo",
+          "note": "Pacote inicial forte para invocações e recursos iniciais de reroll."
+        }
+      ],
+      "expiredCodes": [
+        "PATCH!",
+        "BugPatch!",
+        "BugHOTFIX!",
+        "SorryForDelay!",
+        "ReleaseEA!",
+        "ATUALIZAÇÃO 1",
+        "6K Favoritos",
+        "6K Curtidas",
+        "FixedBugSrySrySry",
+        "Obrigado por 1M de Visitas!",
+        "Warped Ninja!!!",
+        "SryForShutdown",
+        "ShutdownIssue",
+        "ANIME DESTINY",
+        "1K Favoritos",
+        "RELEASE!",
+        "Acesso Antecipado!"
+      ],
+      "redeemSteps": [
+        "Abra o Anime Destiny a partir da página oficial da experiência no Roblox.",
+        "Clique no botão de Códigos no lado direito da tela.",
+        "Cole o código exatamente como está escrito, incluindo letras maiúsculas e pontuação.",
+        "Pressione Resgatar e verifique seu saldo de Gemas, RR, Cubos ou Malícia."
+      ],
+      "rewardTypes": [
+        {
+          "name": "Gemas",
+          "use": "Moeda principal para invocar unidades nos banners."
+        },
+        {
+          "name": "RR",
+          "use": "Recurso de reroll de características usado para alterar as características das unidades."
+        },
+        {
+          "name": "Cubos",
+          "use": "Recurso de melhoria gasto através dos sistemas de upgrade do jogo."
+        },
+        {
+          "name": "Malícia",
+          "use": "Recurso de recompensa de lançamento guardado para o sistema que o exige."
+        }
+      ]
+    },
+    "animeDestinyBeginnerGuide": {
+      "title": "Guia de Iniciante do Anime Destiny",
+      "intro": "Anime Destiny é um jogo de tower defense de anime no Roblox onde você invoca unidades de anime, melhora e evolui elas, passa de fases da história, desafia chefes e testa equipes em desafios infinitos. Foque o seu primeiro dia em coletar recompensas grátis, invocar uma equipe viável, aprender o tempo de upgrade e economizar rerolls de características para unidades que continuarão úteis mais tarde.",
+      "steps": [
+        {
+          "title": "Inicie o Jogo Oficial",
+          "description": "Comece pela página oficial do Roblox e entre no grupo do Anime Destiny para ter acesso a atualizações e recompensas. O jogo é compatível com celular, tablet, PC e console, e o Auto Roll é grátis.",
+          "tip": "Abra o Anime Destiny no Roblox, entre no grupo e verifique o lobby do jogo antes de gastar suas moedas."
+        },
+        {
+          "title": "Resgate os Códigos Primeiro",
+          "description": "Resgate Release! e SorryForDelay antes da sua primeira sessão séria de invocações. Esses códigos dão Gemas para invocações e RR para rerolls de características.",
+          "tip": "Use o botão de Códigos no lado direito da tela e depois resgate as recompensas antes de girar."
+        },
+        {
+          "title": "Invoque uma Equipe Inicial",
+          "description": "Use Gemas para invocar unidades e montar uma equipe inicial equilibrada em vez de buscar apenas uma invocação rara. O progresso na história importa mais do que um primeiro giro perfeito no banner.",
+          "tip": "Equipe suas unidades mais fortes disponíveis e guarde Gemas suficientes para banners futuros."
+        },
+        {
+          "title": "Melhore durante as batalhas",
+          "description": "Posicione unidades onde elas cubram os caminhos dos inimigos e, em seguida, melhore primeiro suas melhores unidades de dano. Chefes e ondas mais difíceis punem posicionamentos fracos.",
+          "tip": "Foque as melhorias em unidades que limpam ondas, quebram escudos ou ajudam a parar chefes."
+        },
+        {
+          "title": "Complete os Estágios da História",
+          "description": "Os estágios da história desbloqueiam a progressão, conteúdos mais difíceis e rotas de farm. Termine a história antes de julgar a força total das unidades de final de jogo.",
+          "tip": "Avance nos estágios da história de forma constante e retorne a conteúdos anteriores quando precisar de recursos."
+        },
+        {
+          "title": "Economize Rerolls de Traços",
+          "description": "Não gaste a maior parte dos seus RR em unidades Raras, Épicas ou Lendárias temporárias no início. Rerolls têm um valor de longo prazo melhor em unidades Míticas e Secretas.",
+          "tip": "Use rerolls apenas de forma leve no início, e guarde a maior parte dos RR para unidades mais fortes."
+        },
+        {
+          "title": "Farma Recompensas Repetíveis",
+          "description": "Desafios diários, semanais, de 15 minutos e 30 minutos, recompensas do Índice, recompensas de Marcos, o Planeta Namak (Difícil) e o Evento do Chefe Igris são rotas importantes de recursos.",
+          "tip": "Use conteúdos repetíveis para coletar Gemas, XP do Passe de Batalha, Cubos de Atributos e RR."
+        }
+      ]
+    },
+    "animeDestinyUnitTierList": {
+      "title": "Tier List de Unidades de Anime Destiny",
+      "intro": "Esta tier list de Anime Destiny foca em unidades evoluídas com alto investimento, dando peso extra a DPS, quebra de escudo, dano a chefes, valor de invocação e utilidade. Unidades iniciais ajudam durante a história, mas unidades Míticas e Secretas são os principais alvos de investimento a longo prazo.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Meta DPS e Utilidade",
+          "units": [
+            {
+              "name": "Frozen Moon (Kizuki)",
+              "rarity": "Secreta",
+              "role": "DPS, utilidade de congelamento, quebra de escudo",
+              "note": "Forte combinação de dano e utilidade de estagnação baseada em congelamento com excelente valor de quebra de escudo."
+            },
+            {
+              "name": "Founding Titan (Queen)",
+              "rarity": "Secreta",
+              "role": "Dano em área total, dano de invocação, assassino de chefes",
+              "note": "Alto dano a chefes e forte utilidade com as invocações de Titã."
+            },
+            {
+              "name": "Shadow Monarch (Awaken)",
+              "rarity": "Secreta",
+              "role": "Dano base, dano de invocação, sinergia sombria",
+              "note": "Unidade forte baseada em invocações com sinergia de dano junto com Crimson Knight (Dark)."
+            },
+            {
+              "name": "Crimson Knight (Dark)",
+              "rarity": "Secreta",
+              "role": "Alto dano, sinergia com Shadow Monarch",
+              "note": "Uma unidade Secreta forte que tem um desempenho especialmente bom com a sinergia de Shadow Monarch."
+            },
+            {
+              "name": "Ashura Swordsman (3SS)",
+              "rarity": "Mítica",
+              "role": "DPS de dano contínuo (DoT), quebra de escudo",
+              "note": "Uma das unidades Míticas de DPS mais fortes para dano contínuo e pressão de escudo."
+            },
+            {
+              "name": "Red Emperor (Haki)",
+              "rarity": "Mítica",
+              "role": "Melhor DPS Mítico",
+              "note": "Uma das melhores unidades Míticas para investimento de alto dano."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Alternativas Fortes",
+          "units": [
+            {
+              "name": "Noite Eterna (Sangue)",
+              "rarity": "Mítico",
+              "role": "Dano a chefes, escalonamento de crítico",
+              "note": "Opção forte para eliminar chefes com dano que se beneficia de uma configuração focada em crítico."
+            },
+            {
+              "name": "Guerreiro do Futuro (Furioso)",
+              "rarity": "Mítico",
+              "role": "Dano de alvo único, dano a chefes",
+              "note": "Unidade de dano de alvo único confiável para lutas focadas em chefes."
+            },
+            {
+              "name": "Matador de Insetos (Veneno)",
+              "rarity": "Mítico",
+              "role": "DPS de Dano Contínuo (DoT)",
+              "note": "Boa alternativa de dano contínuo quando as opções de nível S não estão disponíveis."
+            },
+            {
+              "name": "Bane da Magia (Anti-Magia)",
+              "rarity": "Mítico",
+              "role": "Quebrador de escudos",
+              "note": "Útil quando as fases exigem pressão confiável para quebrar escudos."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Investimento Médio-Alto Utilizável",
+          "units": [
+            {
+              "name": "Caçador Radiante (Luz)",
+              "rarity": "Mítico Passe de Batalha",
+              "role": "DPS de alvo único baseado em crítico",
+              "note": "Dano de alvo único sólido, mas com desempenho geral inferior aos Míticos e Secretos de nível superior."
+            },
+            {
+              "name": "Deus da Destruição (Mogger)",
+              "rarity": "Mítico",
+              "role": "DPS Geral",
+              "note": "Dano decente, mas sua relação custo-benefício é mais fraca do que a das unidades de nível superior."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Iniciante e Início do Meio de Jogo",
+          "units": [
+            {
+              "name": "Flash Amarelo",
+              "rarity": "Lendário",
+              "role": "DPS para iniciantes",
+              "note": "Bom para o progresso inicial, substitua quando unidades Míticas ou Secretas mais fortes chegarem."
+            },
+            {
+              "name": "Olho de Falcão",
+              "rarity": "Lendário",
+              "role": "DPS para iniciantes",
+              "note": "Útil para as fases iniciais, mas não é uma prioridade para alto investimento de RR."
+            },
+            {
+              "name": "Guerreiro Corrompido",
+              "rarity": "Lendário",
+              "role": "DPS Iniciante",
+              "note": "Uma unidade amigável para iniciantes que perde força mais tarde."
+            },
+            {
+              "name": "Crow Prodigy",
+              "rarity": "Raro",
+              "role": "Quebrador de escudos inicial",
+              "note": "Opção útil de quebra de escudo para o início do jogo antes de ser substituída por unidades Míticas."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Unidades Temporárias",
+          "units": [
+            {
+              "name": "A maioria das Unidades Raras e Épicas",
+              "rarity": "Raro ou Épico",
+              "role": "Preenchimento temporário para o início do jogo",
+              "note": "Use-as apenas enquanto monta sua primeira equipe e depois substitua-as assim que unidades mais fortes estiverem disponíveis."
+            }
+          ]
+        }
+      ]
+    },
+    "animeDestinyTraitsAndReroll": {
+      "title": "Guia de Traits e Reroll de Anime Destiny",
+      "intro": "As Traits melhoram o desempenho das unidades e o RR é o principal recurso de reroll em Anime Destiny. A melhor regra inicial é simples: use pequenas quantidades de reroll em unidades temporárias, economize o RR real para unidades Míticas e Secretas, e combine as traits com a função da unidade em vez de perseguir cegamente um único rótulo.",
+      "rows": [
+        {
+          "trait": "RR",
+          "type": "Recurso de Reroll",
+          "bestFor": "Alterar traits de unidades",
+          "advice": "Economize a maior parte do RR para unidades que continuam úteis em batalhas de chefes, conclusões de história e conteúdo de fim de jogo."
+        },
+        {
+          "trait": "Divine",
+          "type": "Trait",
+          "bestFor": "Unidades de DPS de alto nível e os melhores carries Secretos ou Míticos",
+          "advice": "Mantenha isso nos carries principais de dano e evite substituí-lo à toa."
+        },
+        {
+          "trait": "Stellar",
+          "type": "Trait",
+          "bestFor": "Unidades Míticas de DoT e quebra de escudo",
+          "advice": "Mantenha-a como uma forte opção de DPS quando a unidade se beneficiar da pressão de dano ao longo do tempo."
+        },
+        {
+          "trait": "Sniper",
+          "type": "Trait",
+          "bestFor": "Unidades de dano focado em acertos críticos e alvo único",
+          "advice": "Use-a em unidades focadas em dano a chefes ou em dano de alvo único baseado em crítico."
+        },
+        {
+          "trait": "Tycoon",
+          "type": "Trait",
+          "bestFor": "Unidades de farm e suporte",
+          "advice": "Mantenha-a em unidades de economia ou suporte em vez de forçar traits de DPS puro nelas."
+        },
+        {
+          "trait": "Jack of All",
+          "type": "Trait",
+          "bestFor": "Unidades Lendárias para Iniciantes",
+          "advice": "Aceite-a como uma rolagem útil no início, mas não gaste muito RR buscando traits perfeitas em unidades temporárias."
+        },
+        {
+          "trait": "Cubos",
+          "type": "Recurso de Progressão",
+          "bestFor": "",
+          "advice": "Colete através de recompensas de códigos e rotas de farm, depois gaste nos sistemas de melhoria relevantes do jogo."
+        },
+        {
+          "trait": "Malice",
+          "type": "Recurso de Recompensa",
+          "bestFor": "Pacotes de recompensa de código de lançamento",
+          "advice": "Claim from the SorryForDelay code and keep it for the in-game system that requires it."
+        }
+      ]
+    },
+    "animeDestinySummonAndGems": {
+      "title": "Anime Destiny Summon and Gems Guide",
+      "intro": "Anime Destiny is built around summoning anime units, forging an ultimate squad, and improving that squad through upgrades and evolutions. Treat summons as roster planning, so every Gem goes toward a clear squad goal instead of a random roll.",
+      "cards": [
+        {
+          "name": "Summon Units",
+          "description": "Invoque unidades de anime poderosas para expandir seu elenco e criar um esquadrão capaz de lidar com fases da História, chefes e Desafios Infinitos.",
+          "action": "Preencha um esquadrão utilizável primeiro, depois busque unidades mais fortes ou raras após sua equipe básica conseguir completar o conteúdo inicial."
+        },
+        {
+          "name": "Gems Budgeting",
+          "description": "Use Gemas como seu orçamento de invocação e decida o que seu esquadrão realmente precisa antes de gastar.",
+          "action": "Economize para sessões de invocação significativas em vez de gastar cada pequena quantia imediatamente."
+        },
+        {
+          "name": "Free Auto Roll",
+          "description": "The Roblox game page lists Auto Roll as free, making repeated rolling easier during long summon sessions.",
+          "action": "Use o Auto Roll quando estiver pronto para investir recursos em um banner e revise os resultados depois."
+        },
+        {
+          "name": "Montagem de Esquadrão Após Invocações",
+          "description": "Cada invocação pode mudar seu plano de elenco, pois novas unidades podem melhorar o dano, a cobertura ou a consistência.",
+          "action": "Melhore as unidades que você usa ativamente antes de espalhar recursos por cada nova aquisição."
+        }
+      ],
+      "tips": [
+        "Redeem Anime Destiny codes for free Gems before your first summon session.",
+        "Mantenha uma reserva de Gemas para que novos banners Míticos ou Secretos não o peguem de mãos vazias.",
+        "Use o Auto Roll enquanto faz farm, mas verifique os resultados antes de investir recursos de melhoria.",
+        "Priorize banners que preencham uma função ausente, como dano a chefes, limpeza de ondas ou quebra de escudo."
+      ]
+    },
+    "animeDestinyEvolutionMaterials": {
+      "title": "Anime Destiny Evolution and Upgrade Materials",
+      "intro": "Track the materials each Anime Destiny unit needs and farm them in a sensible order, so upgrades, evolutions, and ability unlocks go into the units that stay useful through Story stages, bosses, and Endless Trials.",
+      "rows": [
+        {
+          "material": "Unit Upgrades",
+          "use": "Aumentando o poder das unidades já colocadas em seu esquadrão ativo.",
+          "source": "In-game unit upgrade panel and Anime Destiny Trello resource sections.",
+          "priority": "High",
+          "bestUse": "Foque em unidades que ajudem a completar fases da História e lutas contra chefes."
+        },
+        {
+          "material": "Materiais de Evolução",
+          "use": "Evoluindo unidades elegíveis e abrindo caminhos de habilidades mais fortes para unidades principais.",
+          "source": "Each unit evolution recipe in-game and organized Trello unit entries.",
+          "priority": "High",
+          "bestUse": "Cultive materiais para unidades que você planeja manter em vez de cada nova invocação."
+        },
+        {
+          "material": "Desbloqueio de Habilidades",
+          "use": "",
+          "source": "Unit detail panels and Trello system notes.",
+          "priority": "Medium",
+          "bestUse": "Priorize habilidades que melhorem a limpeza de ondas, o dano a chefes ou a consistência da equipe."
+        },
+        {
+          "material": "Recompensas de Atualização e Grupo",
+          "use": "Recursos extras vinculados a atualizações, atividades de grupo e anúncios de recompensas.",
+          "source": "Anúncios no Discord, postagens no grupo do Roblox e notas de atualização no Trello.",
+          "priority": "Médio",
+          "bestUse": "Resgate recompensas temporárias antes de gastar materiais coletados."
+        }
+      ]
+    },
+    "animeDestinyStoryBossesEndless": {
+      "title": "Modos História, Chefes e Testes Infinitos de Anime Destiny",
+      "intro": "A progressão PvE de Anime Destiny passa pelos modos História, batalhas contra chefes e Testes Infinitos. Use os estágios da História para testar seu esquadrão inicial, chefes para verificar o dano focado e a preparação, e os Testes Infinitos para medir a consistência a longo prazo antes de enfrentar conteúdos mais difíceis.",
+      "items": [
+        {
+          "title": "Modos História",
+          "summary": "Os estágios da História são o caminho principal de PvE para a progressão inicial e testes de esquadrão em Anime Destiny.",
+          "details": [
+            "Monte um esquadrão confiável antes de correr para cada novo estágio.",
+            "Aprimore unidades ativas quando as ondas começarem a sobreviver por muito tempo.",
+            "Use o progresso da História para decidir se o seu elenco precisa de mais dano, cobertura ou suporte."
+          ]
+        },
+        {
+          "title": "Desafios de Chefe",
+          "summary": "As lutas contra chefes testam se o seu esquadrão consegue lidar com ameaças mais fortes em vez de apenas limpar ondas normais.",
+          "details": [
+            "Entre no conteúdo de chefe após seu esquadrão principal ter os aprimoramentos básicos.",
+            "Traga unidades que consigam manter o dano em alvos com muita vida.",
+            "Use as tentativas contra chefes para decidir quais materiais de evolução ou aprimoramento merecem prioridade."
+          ]
+        },
+        {
+          "title": "Testes Infinitos",
+          "summary": "Os Testes Infinitos são conteúdos repetíveis de longa duração para verificar até onde seu esquadrão consegue sobreviver.",
+          "details": [
+            "Entre nos Testes Infinitos depois que a progressão da História parecer estável.",
+            "Priorize dano sustentado, cobertura e unidades principais aprimoradas.",
+            "Acompanhe onde as tentativas falham, depois melhore o tipo de unidade que está causando o gargalo."
+          ]
+        },
+        {
+          "title": "Jogo Solo e em Equipe",
+          "summary": "Anime Destiny suporta jogo solo e em equipe com amigos para enfrentar ameaças maiores.",
+          "details": [
+            "Use o jogo solo para aprender posicionamento, ritmo e necessidades de aprimoramento.",
+            "Use o jogo em equipe quando conteúdos mais difíceis precisarem de mais cobertura ou dano.",
+            "Coordene funções para que cada jogador cubra uma tarefa diferente em vez de sobrepor funções."
+          ]
+        }
+      ]
+    },
+    "animeDestinyOfficialLinks": {
+      "title": "Links Oficiais e Rastreador de Atualizações de Anime Destiny",
+      "intro": "Salve os links oficiais de Anime Destiny para evitar cópias falsas, convites expirados e páginas de terceiros que se passam por guias. Jogue no Roblox, entre no grupo, siga os anúncios no Discord e verifique o quadro do Trello para referência de unidades e atualizações.",
+      "links": [
+        {
+          "name": "Página do Jogo no Roblox",
+          "type": "Página Oficial do Jogo",
+          "url": "https://www.roblox.com/games/82674355647259/Anime-Destiny",
+          "description": "Inicie Anime Destiny, leia a descrição atual do jogo e verifique os detalhes no Roblox.",
+          "label": "Jogar no Roblox",
+          "bestFor": "Jogar o jogo e confirmar as mudanças na descrição."
+        },
+        {
+          "name": "Grupo Roblox de Anime Destiny [AD]",
+          "type": "Grupo Oficial do Roblox",
+          "url": "https://www.roblox.com/communities/859372599/Anime-Destiny-AD",
+          "description": "Entre no grupo do Roblox conectado a Anime Destiny para receber atualizações e recompensas relacionadas ao grupo.",
+          "label": "Visitar Grupo",
+          "bestFor": "Entradas no grupo, avisos de recompensa e contexto da comunidade Roblox."
+        },
+        {
+          "name": "Discord de Anime Destiny",
+          "type": "Servidor Oficial da Comunidade",
+          "url": "https://discord.com/invite/animedestiny",
+          "description": "Acompanhe anúncios, notas de atualização, códigos, mensagens de manutenção e discussões da comunidade.",
+          "label": "Entrar no Discord",
+          "bestFor": "Acompanhamento rápido de atualizações."
+        },
+        {
+          "name": "Trello de Anime Destiny",
+          "type": "Quadro de Referência do Trello",
+          "url": "https://trello.com/b/vyRQHU11/anime-destiny-trello",
+          "description": "Acompanhe informações organizadas do jogo, como sistemas, unidades, recursos, planejamento de atualizações e problemas conhecidos.",
+          "label": "Abrir Trello",
+          "bestFor": "Referência estruturada para unidades, recursos e notas de planejamento."
+        }
+      ],
+      "checklist": [
+        "Novos banners de invocação e raridades de unidades",
+        "Mudanças nas receitas de melhoria e evolução",
+        "Novos estágios da História, chefes e Desafios Infinitos",
+        "Suporte a dispositivos e atualizações no Auto Roll",
+        "Recompensas de grupo e novos códigos"
+      ],
+      "updates": [
+        {
+          "title": "Lançamento de Anime Destiny",
+          "type": "Lançamento",
+          "description": "Anime Destiny foi lançado no Roblox com unidades de invocação, melhorias, evoluções, estágios da História, chefes e Desafios Infinitos."
+        },
+        {
+          "title": "Auto Roll Gratuito",
+          "type": "Recurso",
+          "description": "O Auto Roll é gratuito, permitindo que os jogadores realizem invocações repetidas automaticamente em dispositivos móveis, tablets, PC e console."
+        },
+        {
+          "title": "Desafios Repetíveis",
+          "type": "Conteúdo",
+          "description": "Desafios diários, semanais, de 15 e 30 minutos, além de recompensas de Índice e Marcos, mantêm o fluxo de recursos."
+        },
+        {
+          "title": "Evento de Chefe Igris",
+          "type": "Evento",
+          "description": "Uma rota de evento de chefe limitado que concede recursos extras para jogadores ativos."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Tudo o que você precisa saber sobre Anime Destiny",
+    "subtitle": "O que é Anime Destiny?",
+    "questions": [
+      {
+        "question": "Anime Destiny é um jogo de defesa de torres de anime no Roblox onde você invoca unidades, melhora e evolui elas, e completa estágios da história, chefes e desafios infinitos.",
+        "answer": "Onde posso jogar Anime Destiny?"
+      },
+      {
+        "question": "Você pode jogar Anime Destiny na página oficial da experiência no Roblox. O jogo oferece suporte para dispositivos móveis, tablets, PC e console.",
+        "answer": "Como obtenho recompensas gratuitas em Anime Destiny?"
+      },
+      {
+        "question": "Resgate códigos de Anime Destiny pelo botão Códigos dentro do jogo. Códigos ativos oferecem Gemas, RR, Cubos e Malícia para impulsionar seu progresso inicial.",
+        "answer": "Redeem Anime Destiny codes from the Codes button in-game. Active codes give Gems, RR, Cubes, and Malice to boost your early progress."
+      },
+      {
+        "question": "O Auto Roll é gratuito em Anime Destiny?",
+        "answer": "Sim. O Auto Roll é gratuito em Anime Destiny, então você pode realizar invocações repetidas automaticamente enquanto monta seu esquadrão."
+      },
+      {
+        "question": "Quais são as melhores unidades em Anime Destiny?",
+        "answer": "Unidades Mythic e Secret são os principais alvos de investimento a longo prazo em Anime Destiny. Confira a Tier List de unidades de Anime Destiny para ver as melhores escolhas para história, chefes e final de jogo."
+      },
+      {
+        "question": "Onde as atualizações oficiais de Anime Destiny são postadas?",
+        "answer": "As atualizações oficiais de Anime Destiny são compartilhadas no servidor do Discord e no grupo do Roblox. Salve os links oficiais para evitar sites falsos e convites expirados."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Anime Destiny?",
+    "description": "Junte-se à comunidade de Anime Destiny no Discord para códigos, atualizações da tier list e discussões sobre unidades!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Anime Destiny",
+    "description": "Seu centro de recursos completo para códigos, tier list, unidades, traços, evoluções e guias de tower defense do Roblox para Anime Destiny.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "robloxGame": "Jogo no Roblox",
+    "robloxCommunity": "Comunidade do Roblox",
+    "trello": "Trello",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki de Anime Destiny. Não afiliado aos desenvolvedores de Anime Destiny.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Anime Destiny",
+      "description": "Códigos de Anime Destiny ativos para resgatar gemas, recursos e recompensas gratuitas, além de um fluxo de resgate seguro e uma lista de expirados.",
+      "metaTitle": "Códigos de Anime Destiny - Gemas e Recompensas Gratuitas",
+      "metaDescription": "Resgate códigos de Anime Destiny ativos para gemas, recursos e recompensas gratuitas. Lista de códigos atualizada com um guia de resgate seguro e rastreador de expirados.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os códigos de Anime Destiny?",
+      "whatIsDescription": "Códigos são sequências de resgate gratuitas lançadas pelos desenvolvedores de Anime Destiny que concedem gemas, recursos e outras recompensas quando inseridos no jogo.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Gemas Gratuitas",
+        "step1Description": "Obtenha gemas que você pode gastar em invocações sem precisar de esforço extra",
+        "step2Title": "Recursos Bônus",
+        "step2Description": "Acumule materiais e recursos de reroll para o progresso inicial",
+        "step3Title": "Fonte Oficial",
+        "step3Description": "Os códigos vêm diretamente dos desenvolvedores, portanto, as recompensas são seguras para resgatar"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Anime Destiny Guide",
+      "description": "Anime Destiny beginner and progression guides covering first steps, summoning, squad building, upgrades, and stage strategies.",
+      "metaTitle": "Anime Destiny Guide - Beginner to Pro Progression",
+      "metaDescription": "Complete Anime Destiny guides from first login to advanced play. Learn summoning, squad building, upgrades, and how to clear story stages.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What is the Anime Destiny Guide?",
+      "whatIsDescription": "Guides explain the core Anime Destiny gameplay loop: summon units, build a squad, upgrade and evolve units, clear story stages, and push harder battles.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Primeiros Passos Inteligentes",
+        "step1Description": "Saiba exatamente o que fazer na sua primeira sessão antes de gastar gemas ou recursos de reroll",
+        "step2Title": "Progressão mais rápida",
+        "step2Description": "Siga caminhos comprovados através das fases da história e da coleta de recursos",
+        "step3Title": "Evite Erros Comuns",
+        "step3Description": "Evite armadilhas de iniciante e monte uma equipe que se mantenha forte no late game em vez de refazer o seu elenco."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "All Guides"
+    },
+    "roblox": {
+      "title": "Anime Destiny Roblox",
+      "description": "Anime Destiny on Roblox overview: how to find and play the game, supported platforms, release info, and the official community links.",
+      "metaTitle": "Anime Destiny Roblox - How to Play & Official Links",
+      "metaDescription": "Play Anime Destiny on Roblox. Find the official game page, community group, Discord, and release info for this anime tower defense game.",
+      "categoryLabel": "ROBLOX GAME",
+      "whatIs": "What is Anime Destiny on Roblox?",
+      "whatIsDescription": "Anime Destiny is a Roblox anime tower defense game where you summon anime units, upgrade and evolve them, clear story stages, fight bosses, and challenge endless trials.",
+      "why": "Por que começar aqui?",
+      "whySteps": {
+        "step1Title": "Find the Game",
+        "step1Description": "Get the official Roblox game page and avoid fake mirrors",
+        "step2Title": "Junte-se à Comunidade",
+        "step2Description": "Connect with the official Roblox group and Discord for updates",
+        "step3Title": "Conheça as Plataformas",
+        "step3Description": "Jogue no celular, tablet, PC e console com progresso cross-save"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "All Roblox Info"
+    },
+    "tier": {
+      "title": "Anime Destiny Tier List",
+      "description": "Anime Destiny tier list ranking units by strength across story stages, raids, and endless trials, with best units and team picks.",
+      "metaTitle": "Anime Destiny Tier List - Best Units & Teams",
+      "metaDescription": "Anime Destiny tier list ranking the best units for story, raids, and endless. Find the strongest units and team builds for every game mode.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Anime Destiny Tier List?",
+      "whatIsDescription": "A lista de níveis classifica as unidades pelo desempenho prático em fases da história, lutas contra chefes e desafios infinitos, para que você saiba quais unidades desenvolver e utilizar.",
+      "why": "Por que usar a tier list?",
+      "whySteps": {
+        "step1Title": "Construa as Melhores Unidades",
+        "step1Description": "Foque gemas e recursos em unidades que se destacam em todos os modos de jogo",
+        "step2Title": "Escolhas Específicas por Modo",
+        "step2Description": "Escolha unidades que se sobressaem na história, raids ou desafios infinitos",
+        "step3Title": "Equipes Mais Fortes",
+        "step3Description": "Combine as melhores unidades em esquadrões que limpam conteúdos mais difíceis"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Tier List"
+    },
+    "summons": {
+      "title": "Invocação em Anime Destiny",
+      "description": "Guia do sistema de invocação de Anime Destiny cobrindo gemas, banners, início de sorte, reroll e pity para construir um esquadrão mais forte.",
+      "metaTitle": "Invocação em Anime Destiny - Gemas, Banners e Reroll",
+      "metaDescription": "Domine o sistema de invocação de Anime Destiny. Aprenda a gerenciar gemas, puxadas de banner, início de sorte, reroll e pity para construir um esquadrão de unidades mais forte.",
+      "categoryLabel": "SISTEMA DE INVOCAÇÃO",
+      "whatIs": "O que são Invocações?",
+      "whatIsDescription": "As invocações permitem que você gaste gemas para rolar unidades de várias raridades, desde Rara e Épica até unidades Lendárias, Míticas e Secretas.",
+      "why": "Por que dominar as invocações?",
+      "whySteps": {
+        "step1Title": "Obtenha Unidades Fortes",
+        "step1Description": "Foque em unidades Míticas e Secretas que possuem valor no final do jogo",
+        "step2Title": "Gerencie Gemas",
+        "step2Description": "Gaste gemas em banners que preenchem as funções que faltam no seu esquadrão",
+        "step3Title": "Use Reroll e Pity",
+        "step3Description": "Reinicie e garanta unidades com as mecânicas de reroll e pity"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Invocação"
+    },
+    "evolution": {
+      "title": "Evolução em Anime Destiny",
+      "description": "Guia de evolução de Anime Destiny cobrindo caminhos de evolução, materiais, relíquias e localizações de relíquias para fortalecer suas unidades.",
+      "metaTitle": "Evolução em Anime Destiny - Materiais, Relíquias e Caminhos",
+      "metaDescription": "Evolua suas unidades de Anime Destiny. Complete caminhos de evolução, materiais necessários, relíquias e localizações de relíquias para desbloquear formas de unidade mais fortes.",
+      "categoryLabel": "EVOLUÇÃO",
+      "whatIs": "O que é Evolução?",
+      "whatIsDescription": "A evolução aprimora unidades para formas mais fortes ao coletar materiais e relíquias específicos, desbloqueando novos atributos e habilidades.",
+      "why": "Por que evoluir unidades?",
+      "whySteps": {
+        "step1Title": "Desbloqueie Formas Mais Fortes",
+        "step1Description": "Evolua unidades para aumentar atributos e desbloquear habilidades melhores",
+        "step2Title": "Farme os Materiais Certos",
+        "step2Description": "Saiba exatamente quais materiais cada evolução requer",
+        "step3Title": "Rastreie Relíquias",
+        "step3Description": "Encontre as localizações das relíquias para que você possa completar as evoluções mais rapidamente"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Evolução"
+    },
+    "raids": {
+      "title": "Raids de Anime Destiny",
+      "description": "Guia de raids e eventos de Anime Destiny cobrindo chefes de raid, eventos limitados, estágios de história, chefes e desafios infinitos.",
+      "metaTitle": "Raids de Anime Destiny - Chefes, Eventos e Desafios Infinitos",
+      "metaDescription": "Guia completo de raids de Anime Destiny. Derrote chefes de raid, participe de eventos limitados e avance nos estágios de história, chefes e desafios infinitos.",
+      "categoryLabel": "RAIDS E EVENTOS",
+      "whatIs": "O que são Raids e Eventos?",
+      "whatIsDescription": "Raids são batalhas baseadas em tempo contra chefes poderosos, enquanto eventos e desafios infinitos oferecem recompensas extras e desafios de progressão.",
+      "why": "Por que jogar raids?",
+      "whySteps": {
+        "step1Title": "Ganhe Recompensas Raras",
+        "step1Description": "Raids e eventos concedem materiais, gemas e unidades exclusivas",
+        "step2Title": "Derrote os Chefes",
+        "step2Description": "Aprenda os padrões dos chefes e prepare seu esquadrão para vencê-los",
+        "step3Title": "Avance nos Desafios Infinitos",
+        "step3Description": "Teste equipes fortes em desafios infinitos para obter as melhores recompensas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Raid"
+    },
+    "review": {
+      "title": "Análise de Anime Destiny",
+      "description": "Análise e primeiras impressões de Anime Destiny cobrindo jogabilidade, progressão, estilo artístico e se vale a pena jogar este jogo de defesa de torre.",
+      "metaTitle": "Análise de Anime Destiny - Vale a Pena Jogar?",
+      "metaDescription": "Análise de Anime Destiny cobrindo o ciclo de jogabilidade, sistemas de invocação e evolução, progressão e se este jogo de defesa de torre de anime do Roblox vale o seu tempo.",
+      "categoryLabel": "ANÁLISE",
+      "whatIs": "O que é a Análise de Anime Destiny?",
+      "whatIsDescription": "A análise detalha como é jogar Anime Destiny como um jogo de defesa de torre de anime do Roblox, cobrindo seus sistemas de invocação, evolução e progressão.",
+      "why": "Por que ler a análise?",
+      "whySteps": {
+        "step1Title": "Saiba o que esperar",
+        "step1Description": "Entenda o ciclo de jogabilidade antes de investir seu tempo",
+        "step2Title": "Progressão e Profundidade",
+        "step2Description": "Veja como invocações, evolução e raids mantêm o jogo envolvente",
+        "step3Title": "Vale a pena?",
+        "step3Description": "Obtenha uma visão clara se Anime Destiny combina com o seu gosto"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Análises"
+    }
+  }
+}

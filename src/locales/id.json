@@ -1,1 +1,801 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Anime Destiny - Kode, Tier List & Unit",
+      "description": "Wiki Anime Destiny mencakup kode Roblox, tier list, unit, trait, evolusi, stage cerita, raid, bos, dan tips pemula untuk pemain tower defense.",
+      "keywords": "anime destiny, roblox, kode, tier list, unit, trait, evolusi, raid, cerita",
+      "ogTitle": "Wiki Anime Destiny - Kode, Tier List & Unit",
+      "ogDescription": "Wiki Anime Destiny mencakup kode Roblox, tier list, unit, trait, evolusi, stage cerita, raid, bos, dan tips pemula untuk pemain tower defense.",
+      "twitterTitle": "Wiki Anime Destiny - Kode, Tier List & Unit",
+      "twitterDescription": "Wiki Anime Destiny mencakup kode Roblox, tier list, unit, trait, evolusi, stage cerita, raid, bos, dan tips pemula untuk pemain tower defense."
+    }
+  },
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "roblox": "Roblox",
+    "tier": "Tier List",
+    "summons": "Summon",
+    "evolution": "Evolusi",
+    "raids": "Raid",
+    "review": "Ulasan"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ubah Bahasa",
+    "switchTheme": "Ubah Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Roblox Anime Tower Defense",
+    "title": "Wiki Anime Destiny",
+    "description": "Summon unit anime, upgrade dan evolusi pasukanmu, selesaikan stage cerita, tantang bos, dan hadapi trial tanpa akhir di pusat panduan tower defense Roblox ini.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "160,7rb+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "3,1rb",
+        "label": "Pemain Online"
+      },
+      "stat3": {
+        "value": "97%",
+        "label": "Peringkat Pengguna"
+      },
+      "stat4": {
+        "value": "29rb+",
+        "label": "---"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Anggota Discord",
+    "description": "Gameplay Anime Destiny"
+  },
+  "tools": {
+    "title": "Panggil unit anime, tingkatkan dan evolusikan skuadmu, selesaikan stage cerita, tantang bos, dan uji build-mu dalam uji coba tanpa akhir di game anime tower defense Roblox ini.",
+    "titleHighlight": "Anime Destiny",
+    "subtitle": "Sumber Daya",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Hadiah",
+        "description": "Kode Anime Destiny"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "BookOpen",
+        "description": "Panduan Pemula Anime Destiny"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Trophy",
+        "description": "Tier List Unit Anime Destiny"
+      },
+      {
+        "icon": "Dices",
+        "title": "Dices",
+        "description": "Trait dan Reroll Anime Destiny"
+      },
+      {
+        "icon": "Gem",
+        "title": "Gem",
+        "description": "Summon dan Gem Anime Destiny"
+      },
+      {
+        "icon": "Dna",
+        "title": "Dna",
+        "description": "Material Evolusi Anime Destiny"
+      },
+      {
+        "icon": "Swords",
+        "title": "Swords",
+        "description": "Cerita, Bos, dan Endless Anime Destiny"
+      },
+      {
+        "icon": "Link",
+        "title": "Link",
+        "description": "Link Resmi Anime Destiny"
+      }
+    ]
+  },
+  "modules": {
+    "animeDestinyCodes": {
+      "title": "Roblox, Discord, Trello, dan pelacak pembaruan",
+      "intro": "Kode Anime Destiny",
+      "activeCodes": [
+        {
+          "code": "Gunakan kode Anime Destiny sebelum melakukan summon agar Gem pertama dan sumber daya reroll kamu bisa digunakan untuk progres awal yang lebih kuat. Kode aktif ditampilkan di awal agar kamu bisa mengklaim hadiah sebelum melakukan roll banner pertamamu.",
+          "rewards": "Rilis!",
+          "status": "1.500 Gem + 15 RR",
+          "note": "Aktif"
+        },
+        {
+          "code": "Kode pertama terbaik untuk ditukarkan sebelum melakukan summon unit.",
+          "rewards": "SorryForDelay",
+          "status": "500 Gem + 5 RR + 5 Cube + 5 Malice",
+          "note": "Aktif"
+        }
+      ],
+      "expiredCodes": [
+        "PATCH!",
+        "BugPatch!",
+        "BugHOTFIX!",
+        "SorryForDelay!",
+        "ReleaseEA!",
+        "UPDATE 1",
+        "6K Favorit",
+        "6K Suka",
+        "FixedBugSrySrySry",
+        "Terima kasih untuk 1 Juta Kunjungan!",
+        "Warped Ninja!!!",
+        "SryForShutdown",
+        "ShutdownIssue",
+        "ANIME DESTINY",
+        "1K Favorit",
+        "RILIS!",
+        "Akses Awal!"
+      ],
+      "redeemSteps": [
+        "Buka Anime Destiny dari halaman pengalaman resmi Roblox.",
+        "Klik tombol Codes di sisi kanan layar.",
+        "Tempel kode persis seperti yang tertulis, termasuk huruf kapital dan tanda baca.",
+        "Tekan Redeem dan periksa saldo Gems, RR, Cubes, atau Malice Anda."
+      ],
+      "rewardTypes": [
+        {
+          "name": "Gems",
+          "use": "Mata uang utama untuk memanggil unit di berbagai banner."
+        },
+        {
+          "name": "RR",
+          "use": "Sumber daya untuk mengacak ulang trait yang digunakan untuk mengubah trait unit."
+        },
+        {
+          "name": "Cubes",
+          "use": "Sumber daya peningkatan yang digunakan melalui sistem peningkatan dalam game."
+        },
+        {
+          "name": "Malice",
+          "use": "Sumber daya hadiah peluncuran yang disimpan untuk sistem yang memerlukannya."
+        }
+      ]
+    },
+    "animeDestinyBeginnerGuide": {
+      "title": "Panduan Pemula Anime Destiny",
+      "intro": "Anime Destiny adalah game pertahanan menara anime di Roblox di mana Anda memanggil unit anime, meningkatkan dan mengevolusi mereka, menyelesaikan tahap cerita, menantang bos, dan menguji pasukan dalam percobaan tanpa akhir. Fokuskan hari pertama Anda untuk mengumpulkan hadiah gratis, memanggil tim yang bisa digunakan, mempelajari waktu peningkatan, dan menyimpan pengacak ulang trait untuk unit yang tetap berguna nantinya.",
+      "steps": [
+        {
+          "title": "Luncurkan Game Resmi",
+          "description": "Mulai dari halaman resmi Roblox dan bergabunglah dengan grup Anime Destiny untuk mendapatkan akses pembaruan dan hadiah. Game ini mendukung perangkat seluler, tablet, PC, dan konsol, serta fitur Auto Roll tersedia secara gratis.",
+          "tip": "Buka Anime Destiny di Roblox, bergabunglah dengan grup, dan periksa lobi dalam game sebelum membelanjakan mata uang."
+        },
+        {
+          "title": "Tukarkan Kode Terlebih Dahulu",
+          "description": "Tukarkan Release! dan SorryForDelay sebelum sesi pemanggilan serius pertama Anda. Kode-kode ini memberikan Gems untuk pemanggilan dan RR untuk mengacak ulang trait.",
+          "tip": "Gunakan tombol Codes di sisi kanan layar, lalu klaim hadiah sebelum melakukan pemanggilan."
+        },
+        {
+          "title": "Panggil Pasukan Pemula",
+          "description": "Gunakan Gems untuk memanggil unit dan membangun pasukan awal yang seimbang daripada hanya mengejar satu tarikan langka. Progres cerita lebih penting daripada hasil tarikan banner pertama yang sempurna.",
+          "tip": "Lengkapi unit terkuat Anda yang tersedia dan simpan cukup Gems untuk banner di masa mendatang."
+        },
+        {
+          "title": "Tingkatkan Unit Saat Pertempuran",
+          "description": "Tempatkan unit di area yang menjangkau jalur musuh, lalu prioritaskan peningkatan pada unit dengan damage terbesar terlebih dahulu. Bos dan gelombang musuh yang lebih sulit akan menghukum penempatan unit yang lemah.",
+          "tip": "Fokuskan peningkatan pada unit yang mampu membersihkan gelombang musuh, menghancurkan perisai, atau membantu menghentikan bos."
+        },
+        {
+          "title": "Selesaikan Stage Cerita",
+          "description": "Stage cerita membuka progres, konten yang lebih sulit, dan rute farming. Selesaikan cerita sebelum menilai kekuatan penuh unit late-game.",
+          "tip": "Teruslah maju di stage cerita secara bertahap dan kembali ke konten sebelumnya saat Anda membutuhkan sumber daya."
+        },
+        {
+          "title": "Simpan Trait Reroll",
+          "description": "Jangan habiskan sebagian besar RR untuk unit Rare, Epic, atau Legendary sementara di awal permainan. Reroll memiliki nilai jangka panjang yang lebih baik untuk unit Mythic dan Secret.",
+          "tip": "Gunakan reroll secukupnya saja di awal, lalu simpan sebagian besar RR untuk unit yang lebih kuat."
+        },
+        {
+          "title": "Farming Hadiah Berulang",
+          "description": "Tantangan harian, mingguan, 15 menit, dan 30 menit, hadiah Index, hadiah Milestone, Namak Planet Hard, dan Igris Boss Event adalah rute sumber daya yang penting.",
+          "tip": "Gunakan konten yang bisa diulang untuk mengumpulkan Gems, BattlePass XP, Stat Cubes, dan RR."
+        }
+      ]
+    },
+    "animeDestinyUnitTierList": {
+      "title": "Daftar Tier Unit Anime Destiny",
+      "intro": "Daftar tier Anime Destiny ini berfokus pada unit yang telah di-evolusi dengan investasi tinggi, dengan bobot tambahan pada DPS, penghancur perisai, damage bos, nilai summon, dan utilitas. Unit awal membantu selama cerita, tetapi unit Mythic dan Secret adalah target investasi jangka panjang utama.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Meta DPS dan Utilitas",
+          "units": [
+            {
+              "name": "Frozen Moon (Kizuki)",
+              "rarity": "Secret",
+              "role": "DPS, utilitas freeze, penghancur perisai",
+              "note": "Kombinasi kuat antara damage dan utilitas stall berbasis freeze dengan nilai penghancur perisai yang sangat baik."
+            },
+            {
+              "name": "Founding Titan (Queen)",
+              "rarity": "Secret",
+              "role": "Full AOE damage, damage summon, pembunuh bos",
+              "note": "Damage bos yang tinggi dan utilitas kuat dari summon Titan."
+            },
+            {
+              "name": "Shadow Monarch (Awaken)",
+              "rarity": "Secret",
+              "role": "Base damage, damage summon, sinergi dark",
+              "note": "Unit berbasis summon yang kuat dengan sinergi damage bersama Crimson Knight (Dark)."
+            },
+            {
+              "name": "Crimson Knight (Dark)",
+              "rarity": "Secret",
+              "role": "Damage tinggi, sinergi Shadow Monarch",
+              "note": "Unit Secret yang kuat dan memiliki performa sangat baik dengan sinergi Shadow Monarch."
+            },
+            {
+              "name": "Ashura Swordsman (3SS)",
+              "rarity": "Mythic",
+              "role": "DoT DPS, penghancur perisai",
+              "note": "Salah satu unit Mythic DPS terkuat untuk damage-over-time dan tekanan pada perisai."
+            },
+            {
+              "name": "Red Emperor (Haki)",
+              "rarity": "Mythic",
+              "role": "Top Mythic DPS",
+              "note": "Salah satu unit Mythic terbaik untuk investasi damage tingkat tinggi."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Alternatif Kuat",
+          "units": [
+            {
+              "name": "Eternal Night (Blood)",
+              "rarity": "Mythic",
+              "role": "Damage bos, penskalaan kritikal",
+              "note": "Opsi pembunuh bos yang kuat dengan damage yang diuntungkan oleh pengaturan fokus kritikal."
+            },
+            {
+              "name": "Future Warrior (Furious)",
+              "rarity": "Mythic",
+              "role": "Damage target tunggal, damage bos",
+              "note": "Unit damage target tunggal yang dapat diandalkan untuk pertarungan yang berfokus pada bos."
+            },
+            {
+              "name": "Insect Slayer (Poison)",
+              "rarity": "Mythic",
+              "role": "DoT DPS",
+              "note": "Alternatif damage-seiring-waktu (DoT) yang bagus saat opsi DoT tingkat S teratas tidak tersedia."
+            },
+            {
+              "name": "Magicbane (Anti-Magic)",
+              "rarity": "Mythic",
+              "role": "Penghancur perisai",
+              "note": "Berguna saat stage membutuhkan tekanan penghancur perisai yang andal."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Dapat Digunakan dengan Investasi Menengah-Tinggi",
+          "units": [
+            {
+              "name": "Radiant Hunter (Light)",
+              "rarity": "Battle Pass Mythic",
+              "role": "DPS target tunggal berbasis kritikal",
+              "note": "Damage target tunggal yang solid namun output keseluruhannya lebih rendah daripada Mythic dan Secret tingkat tinggi."
+            },
+            {
+              "name": "Destruction God (Mogger)",
+              "rarity": "Mythic",
+              "role": "DPS Umum",
+              "note": "Damage yang lumayan, namun nilai biaya-terhadap-output-nya lebih lemah daripada unit tingkat atas."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Pemula dan Game Awal-Menengah",
+          "units": [
+            {
+              "name": "Yellow Flash",
+              "rarity": "Legendary",
+              "role": "DPS Pemula",
+              "note": "Bagus untuk progres awal, lalu ganti saat unit Mythic atau Secret yang lebih kuat tiba."
+            },
+            {
+              "name": "Hawkeye",
+              "rarity": "Legendary",
+              "role": "DPS Pemula",
+              "note": "Berguna untuk stage awal namun bukan prioritas untuk investasi RR yang besar."
+            },
+            {
+              "name": "Corrupted Warrior",
+              "rarity": "Legendary",
+              "role": "DPS Pemula",
+              "note": "Unit ramah pemula yang performanya menurun di late-game."
+            },
+            {
+              "name": "Crow Prodigy",
+              "rarity": "Rare",
+              "role": "Penghancur shield early-game",
+              "note": "Pilihan penghancur shield early-game yang berguna sebelum digantikan oleh unit Mythic."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Unit Sementara",
+          "units": [
+            {
+              "name": "Sebagian besar Unit Rare dan Epic",
+              "rarity": "Rare atau Epic",
+              "role": "Pengisi sementara di early-game",
+              "note": "Gunakan hanya saat membangun skuad pertama Anda, lalu segera ganti setelah ada unit yang lebih kuat."
+            }
+          ]
+        }
+      ]
+    },
+    "animeDestinyTraitsAndReroll": {
+      "title": "Panduan Trait dan Reroll Anime Destiny",
+      "intro": "Trait meningkatkan performa unit dan RR adalah sumber daya utama untuk reroll di Anime Destiny. Aturan awal terbaik sangat sederhana: gunakan sedikit reroll pada unit sementara, simpan RR untuk unit Mythic dan Secret, dan sesuaikan trait dengan peran unit daripada hanya mengejar satu label secara buta.",
+      "rows": [
+        {
+          "trait": "RR",
+          "type": "Sumber Daya Reroll",
+          "bestFor": "Mengubah trait unit",
+          "advice": "Simpan sebagian besar RR untuk unit yang tetap berguna dalam pertarungan boss, penyelesaian story, dan konten late-game."
+        },
+        {
+          "trait": "Divine",
+          "type": "Trait",
+          "bestFor": "Unit DPS kelas atas dan carry Secret atau Mythic papan atas",
+          "advice": "Pertahankan ini pada carry damage utama dan hindari menggantinya sembarangan."
+        },
+        {
+          "trait": "Stellar",
+          "type": "Trait",
+          "bestFor": "Unit Mythic dengan DoT dan penghancur shield",
+          "advice": "Pertahankan sebagai pilihan DPS yang kuat saat unit mendapat keuntungan dari tekanan damage-over-time (DoT)."
+        },
+        {
+          "trait": "Sniper",
+          "type": "Trait",
+          "bestFor": "Unit damage fokus Crit dan target tunggal",
+          "advice": "Gunakan pada unit yang dibuat untuk damage boss atau output target tunggal berbasis crit."
+        },
+        {
+          "trait": "Tycoon",
+          "type": "Trait",
+          "bestFor": "Unit farm dan support",
+          "advice": "Pertahankan pada unit ekonomi atau support alih-alih memaksakan trait DPS murni pada mereka."
+        },
+        {
+          "trait": "Jack of All",
+          "type": "Trait",
+          "bestFor": "Unit Legendary pemula",
+          "advice": "Terima ini sebagai roll awal yang berguna, tetapi jangan menghabiskan banyak RR untuk mengejar trait sempurna pada unit sementara."
+        },
+        {
+          "trait": "Cube",
+          "type": "Sumber Daya Progresi",
+          "bestFor": "Paket sumber daya peningkatan",
+          "advice": "Kumpulkan dari hadiah kode dan rute farming, lalu gunakan melalui sistem peningkatan dalam game yang relevan."
+        },
+        {
+          "trait": "Malice",
+          "type": "Sumber Daya Hadiah",
+          "bestFor": "Paket hadiah kode peluncuran",
+          "advice": "Klaim dari kode SorryForDelay dan simpan untuk sistem dalam game yang membutuhkannya."
+        }
+      ]
+    },
+    "animeDestinySummonAndGems": {
+      "title": "Panduan Summon dan Gems Anime Destiny",
+      "intro": "Anime Destiny berfokus pada summon unit anime, membentuk skuad terbaik, dan meningkatkan skuad tersebut melalui upgrade dan evolusi. Anggap summon sebagai perencanaan daftar unit, jadi setiap Gem digunakan untuk tujuan skuad yang jelas, bukan sekadar gacha acak.",
+      "cards": [
+        {
+          "name": "Summon Unit",
+          "description": "Summon unit anime yang kuat untuk memperluas daftar unitmu dan membuat skuad yang mampu menangani stage Story, bos, dan Endless Trials.",
+          "action": "Isi skuad yang dapat digunakan terlebih dahulu, baru kejar unit yang lebih kuat atau langka setelah tim dasarmu bisa menyelesaikan konten awal."
+        },
+        {
+          "name": "Pengaturan Anggaran Gems",
+          "description": "Gunakan Gems sebagai anggaran summon-mu dan tentukan apa yang sebenarnya dibutuhkan skuadmu sebelum membelanjakannya.",
+          "action": "Simpan untuk sesi summon yang berarti daripada menghabiskan setiap jumlah kecil secara langsung."
+        },
+        {
+          "name": "Auto Roll Gratis",
+          "description": "Halaman game Roblox mencantumkan Auto Roll sebagai fitur gratis, membuat proses roll berulang lebih mudah selama sesi summon yang panjang.",
+          "action": "Gunakan Auto Roll saat kamu siap mengeluarkan sumber daya untuk suatu banner dan tinjau hasilnya setelah itu."
+        },
+        {
+          "name": "Membangun Skuad Setelah Summon",
+          "description": "Setiap summon dapat mengubah rencana daftar unitmu karena unit baru mungkin meningkatkan damage, jangkauan, atau konsistensi.",
+          "action": "Tingkatkan unit yang kamu gunakan secara aktif sebelum membagi sumber daya ke setiap unit baru yang didapat."
+        }
+      ],
+      "tips": [
+        "Tukarkan kode Anime Destiny untuk mendapatkan Gems gratis sebelum sesi summon pertamamu.",
+        "Simpan cadangan Gem agar banner Mythic atau Secret baru tidak membuatmu kehabisan sumber daya.",
+        "Gunakan Auto Roll saat farming, tetapi periksa hasilnya sebelum menginvestasikan sumber daya peningkatan.",
+        "Prioritaskan banner yang mengisi peran yang kurang seperti damage bos, pembersihan gelombang, atau penghancur perisai."
+      ]
+    },
+    "animeDestinyEvolutionMaterials": {
+      "title": "Material Evolusi dan Peningkatan Anime Destiny",
+      "intro": "Lacak material yang dibutuhkan setiap unit Anime Destiny dan farming dengan urutan yang masuk akal, sehingga peningkatan, evolusi, dan pembukaan kemampuan diberikan kepada unit yang tetap berguna di stage Story, bos, dan Endless Trials.",
+      "rows": [
+        {
+          "material": "Peningkatan Unit",
+          "use": "Meningkatkan kekuatan unit yang sudah ditempatkan di skuad aktifmu.",
+          "source": "Panel peningkatan unit dalam game dan bagian sumber daya Trello Anime Destiny.",
+          "priority": "Tinggi",
+          "bestUse": "Fokus pada unit yang membantu menyelesaikan stage Story dan pertarungan bos."
+        },
+        {
+          "material": "Material Evolusi",
+          "use": "Mengevolusi unit yang memenuhi syarat dan membuka jalur kemampuan yang lebih kuat untuk unit utama.",
+          "source": "Setiap resep evolusi unit dalam game dan entri unit Trello yang terorganisir.",
+          "priority": "Tinggi",
+          "bestUse": "Farming material untuk unit yang rencananya akan kamu simpan, bukan untuk setiap summon baru."
+        },
+        {
+          "material": "Pembukaan Kemampuan",
+          "use": "Membuka serangan atau efek yang lebih kuat setelah progres peningkatan dan evolusi.",
+          "source": "Panel detail unit dan catatan sistem Trello.",
+          "priority": "Sedang",
+          "bestUse": "Prioritaskan kemampuan yang meningkatkan pembersihan gelombang, kerusakan pada bos, atau konsistensi tim."
+        },
+        {
+          "material": "Pembaruan dan Hadiah Grup",
+          "use": "Sumber daya tambahan terkait dengan pembaruan, aktivitas grup, dan pengumuman hadiah.",
+          "source": "Pengumuman Discord, postingan grup Roblox, dan catatan pembaruan Trello.",
+          "priority": "Menengah",
+          "bestUse": "Klaim hadiah berbatas waktu sebelum menggunakan material hasil farming."
+        }
+      ]
+    },
+    "animeDestinyStoryBossesEndless": {
+      "title": "Tahap Cerita, Bos, dan Ujian Tanpa Akhir Anime Destiny",
+      "intro": "Progres PvE Anime Destiny berjalan melalui tahap Cerita, pertarungan bos, dan Ujian Tanpa Akhir. Gunakan tahap Cerita untuk menguji skuad awalmu, bos untuk memeriksa kerusakan terfokus dan persiapan, serta Ujian Tanpa Akhir untuk mengukur konsistensi jangka panjang sebelum mencoba konten yang lebih sulit.",
+      "items": [
+        {
+          "title": "Tahap Cerita",
+          "summary": "Tahap cerita adalah jalur PvE utama untuk progres awal dan pengujian skuad di Anime Destiny.",
+          "details": [
+            "Bangun skuad yang andal sebelum terburu-buru menyelesaikan setiap tahap baru.",
+            "Tingkatkan unit aktif saat gelombang musuh mulai bertahan terlalu lama.",
+            "Gunakan progres Cerita untuk memutuskan apakah daftar unitmu membutuhkan lebih banyak kerusakan, cakupan, atau dukungan."
+          ]
+        },
+        {
+          "title": "Tantangan Bos",
+          "summary": "Pertarungan bos menguji apakah skuadmu mampu menangani ancaman yang lebih kuat, bukan hanya membersihkan gelombang musuh biasa.",
+          "details": [
+            "Masuk ke konten bos setelah skuad utamamu memiliki peningkatan dasar.",
+            "Bawa unit yang dapat menjaga kerusakan pada target dengan HP tinggi.",
+            "Gunakan percobaan bos untuk memutuskan evolusi atau material peningkatan mana yang layak diprioritaskan."
+          ]
+        },
+        {
+          "title": "Ujian Tanpa Akhir",
+          "summary": "Ujian Tanpa Akhir adalah konten jangka panjang yang dapat diulang untuk memeriksa seberapa jauh skuadmu bisa bertahan.",
+          "details": [
+            "Beralihlah ke Ujian Tanpa Akhir setelah progres Cerita terasa stabil.",
+            "Prioritaskan kerusakan berkelanjutan, cakupan, dan unit inti yang telah ditingkatkan.",
+            "Lacak di mana percobaanmu gagal, lalu tingkatkan jenis unit yang menjadi penyebab hambatan tersebut."
+          ]
+        },
+        {
+          "title": "Bermain Solo dan Tim",
+          "summary": "Anime Destiny mendukung permainan solo dan bekerja sama dengan teman untuk menghadapi ancaman yang lebih besar.",
+          "details": [
+            "Gunakan permainan solo untuk mempelajari penempatan, tempo, dan kebutuhan peningkatan.",
+            "Gunakan permainan tim saat konten yang lebih sulit membutuhkan lebih banyak cakupan atau kerusakan.",
+            "Koordinasikan peran agar setiap pemain menangani tugas yang berbeda alih-alih tumpang tindih."
+          ]
+        }
+      ]
+    },
+    "animeDestinyOfficialLinks": {
+      "title": "Tautan Resmi dan Pelacak Pembaruan Anime Destiny",
+      "intro": "Tandai tautan resmi Anime Destiny untuk menghindari situs tiruan, tautan undangan yang kedaluwarsa, dan halaman pihak ketiga yang berpura-pura menjadi panduan. Mainkan di Roblox, bergabunglah dengan grup, ikuti pengumuman Discord, dan periksa papan Trello untuk referensi unit dan pembaruan.",
+      "links": [
+        {
+          "name": "Halaman Bermain Roblox",
+          "type": "Halaman Game Resmi",
+          "url": "https://www.roblox.com/games/82674355647259/Anime-Destiny",
+          "description": "Luncurkan Anime Destiny, baca deskripsi game saat ini, dan periksa detail game di Roblox.",
+          "label": "Mainkan di Roblox",
+          "bestFor": "Memainkan game dan mengonfirmasi perubahan deskripsi."
+        },
+        {
+          "name": "Grup Roblox Anime Destiny [AD]",
+          "type": "Grup Roblox Resmi",
+          "url": "https://www.roblox.com/communities/859372599/Anime-Destiny-AD",
+          "description": "Bergabunglah dengan grup Roblox yang terhubung dengan Anime Destiny untuk mendapatkan pembaruan dan hadiah terkait grup.",
+          "label": "Kunjungi Grup",
+          "bestFor": "Gabung grup, notifikasi hadiah, dan konteks komunitas Roblox."
+        },
+        {
+          "name": "Discord Anime Destiny",
+          "type": "Server Komunitas Resmi",
+          "url": "https://discord.com/invite/animedestiny",
+          "description": "Ikuti pengumuman, catatan pembaruan, kode terbaru, pesan pemeliharaan, dan diskusi komunitas.",
+          "label": "Gabung Discord",
+          "bestFor": "Pelacakan pembaruan yang cepat."
+        },
+        {
+          "name": "Trello Anime Destiny",
+          "type": "Papan Referensi Trello",
+          "url": "https://trello.com/b/vyRQHU11/anime-destiny-trello",
+          "description": "Lacak informasi game yang terorganisir seperti sistem, unit, sumber daya, rencana pembaruan, dan masalah yang diketahui.",
+          "label": "Buka Trello",
+          "bestFor": "Referensi terstruktur untuk unit, sumber daya, dan catatan peta jalan."
+        }
+      ],
+      "checklist": [
+        "Banner summon baru dan kelangkaan unit",
+        "Perubahan resep upgrade dan evolusi",
+        "Tahap Cerita, bos, dan Endless Trials yang baru",
+        "Dukungan perangkat dan pembaruan Auto Roll",
+        "Hadiah grup dan kode terbaru"
+      ],
+      "updates": [
+        {
+          "title": "Perilisan Anime Destiny",
+          "type": "Peluncuran",
+          "description": "Anime Destiny diluncurkan di Roblox dengan unit summon, upgrade, evolusi, tahap Cerita, bos, dan Endless Trials."
+        },
+        {
+          "title": "Auto Roll Gratis",
+          "type": "Fitur",
+          "description": "Auto Roll tersedia gratis, memungkinkan pemain melakukan summon berulang secara otomatis di ponsel, tablet, PC, dan konsol."
+        },
+        {
+          "title": "Tantangan Berulang",
+          "type": "Konten",
+          "description": "Tantangan harian, mingguan, 15 menit, dan 30 menit ditambah hadiah Index dan Milestone menjaga kelancaran sumber daya."
+        },
+        {
+          "title": "Event Bos Igris",
+          "type": "Event",
+          "description": "Rute event bos terbatas yang memberikan sumber daya tambahan bagi pemain aktif."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Anime Destiny",
+    "questions": [
+      {
+        "question": "Apa itu Anime Destiny?",
+        "answer": "Anime Destiny adalah game tower defense anime di Roblox di mana Anda melakukan summon unit anime, melakukan upgrade dan evolusi, serta menyelesaikan tahap cerita, bos, dan endless trials."
+      },
+      {
+        "question": "Di mana saya bisa memainkan Anime Destiny?",
+        "answer": "Anda bisa memainkan Anime Destiny di halaman resmi pengalaman Roblox. Game ini mendukung ponsel, tablet, PC, dan konsol."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan hadiah gratis di Anime Destiny?",
+        "answer": "Tukarkan kode Anime Destiny melalui tombol Codes di dalam game. Kode aktif memberikan Gems, RR, Cubes, dan Malice untuk meningkatkan progres awal Anda."
+      },
+      {
+        "question": "Apakah Auto Roll gratis di Anime Destiny?",
+        "answer": "Ya. Auto Roll gratis di Anime Destiny, jadi kamu bisa melakukan summon berulang kali secara otomatis sambil membangun skuadmu."
+      },
+      {
+        "question": "Apa unit terbaik di Anime Destiny?",
+        "answer": "Unit Mythic dan Secret adalah target investasi jangka panjang utama di Anime Destiny. Cek Daftar Tier Unit Anime Destiny untuk pilihan peringkat di mode cerita, bos, dan late game."
+      },
+      {
+        "question": "Di mana pembaruan resmi Anime Destiny diposting?",
+        "answer": "Pembaruan resmi Anime Destiny dibagikan di server Discord dan grup Roblox. Simpan tautan resmi agar terhindar dari situs tiruan palsu dan tautan undangan kedaluwarsa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Bermain Anime Destiny?",
+    "description": "Bergabunglah dengan komunitas Anime Destiny di Discord untuk mendapatkan kode, pembaruan daftar tier, dan diskusi unit!",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Anime Destiny",
+    "description": "Pusat sumber daya lengkapmu untuk kode Anime Destiny, daftar tier, unit, trait, evolusi, dan panduan tower defense Roblox.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Discord",
+    "robloxGame": "Gim Roblox",
+    "robloxCommunity": "Komunitas Roblox",
+    "trello": "Trello",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki Anime Destiny. Tidak berafiliasi dengan pengembang Anime Destiny.",
+    "disclaimer": "Situs web sumber daya buatan penggemar yang tidak resmi."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Anime Destiny",
+      "description": "Kode Anime Destiny terbaru yang aktif untuk mendapatkan permata, sumber daya, dan hadiah gratis, ditambah alur penukaran yang aman dan daftar kode kedaluwarsa.",
+      "metaTitle": "Kode Anime Destiny - Permata & Hadiah Gratis",
+      "metaDescription": "Tukarkan kode Anime Destiny yang aktif untuk mendapatkan permata, sumber daya, dan hadiah gratis. Daftar kode terbaru dengan panduan penukaran yang aman dan pelacak kode kedaluwarsa.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode Anime Destiny?",
+      "whatIsDescription": "Kode adalah serangkaian karakter penukaran gratis yang dirilis oleh pengembang Anime Destiny yang memberikan permata, sumber daya, dan hadiah lainnya saat dimasukkan ke dalam gim.",
+      "why": "Mengapa harus menukarkan kode?",
+      "whySteps": {
+        "step1Title": "Permata Gratis",
+        "step1Description": "Klaim permata yang bisa kamu gunakan untuk summon tanpa harus grinding ekstra",
+        "step2Title": "Sumber Daya Bonus",
+        "step2Description": "Kumpulkan material dan sumber daya reroll untuk progres awal",
+        "step3Title": "Sumber Resmi",
+        "step3Description": "Kode berasal langsung dari pengembang, jadi hadiahnya aman untuk diklaim"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Anime Destiny",
+      "description": "Panduan pemula dan progres Anime Destiny yang mencakup langkah awal, summoning, membangun skuad, peningkatan, dan strategi stage.",
+      "metaTitle": "Panduan Anime Destiny - Progres dari Pemula hingga Pro",
+      "metaDescription": "Panduan lengkap Anime Destiny dari login pertama hingga permainan tingkat lanjut. Pelajari cara summoning, membangun skuad, peningkatan, dan cara menyelesaikan stage cerita.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan Anime Destiny?",
+      "whatIsDescription": "Panduan yang menjelaskan alur permainan inti Anime Destiny: summon unit, membangun skuad, meningkatkan dan mengevolusi unit, menyelesaikan stage cerita, dan menaklukkan pertempuran yang lebih sulit.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "Langkah Awal yang Cerdas",
+        "step1Description": "Ketahui dengan pasti apa yang harus dilakukan di sesi pertama Anda sebelum menghabiskan permata atau sumber daya reroll",
+        "step2Title": "Progres Lebih Cepat",
+        "step2Description": "Ikuti jalur yang terbukti efektif melalui stage cerita dan farming sumber daya",
+        "step3Title": "Hindari Kesalahan Umum",
+        "step3Description": "Lewati jebakan pemula dan bangun skuad yang tetap kuat hingga fase akhir permainan"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "roblox": {
+      "title": "Anime Destiny Roblox",
+      "description": "Tinjauan Anime Destiny di Roblox: cara menemukan dan memainkan game, platform yang didukung, info rilis, dan tautan komunitas resmi.",
+      "metaTitle": "Anime Destiny Roblox - Cara Bermain & Tautan Resmi",
+      "metaDescription": "Mainkan Anime Destiny di Roblox. Temukan halaman game resmi, grup komunitas, Discord, dan info rilis untuk game anime tower defense ini.",
+      "categoryLabel": "GAME ROBLOX",
+      "whatIs": "Apa itu Anime Destiny di Roblox?",
+      "whatIsDescription": "Anime Destiny adalah game anime tower defense di Roblox di mana Anda men-summon unit anime, meningkatkan dan mengevolusi mereka, menyelesaikan stage cerita, melawan bos, dan menantang trial tanpa akhir.",
+      "why": "Mengapa mulai dari sini?",
+      "whySteps": {
+        "step1Title": "Temukan Gamenya",
+        "step1Description": "Dapatkan halaman game Roblox resmi dan hindari tiruan palsu",
+        "step2Title": "Bergabung dengan Komunitas",
+        "step2Description": "Terhubung dengan grup Roblox resmi dan Discord untuk mendapatkan pembaruan",
+        "step3Title": "Ketahui Platformnya",
+        "step3Description": "Mainkan di ponsel, tablet, PC, dan konsol dengan progres lintas platform"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Info Roblox"
+    },
+    "tier": {
+      "title": "Tier List Anime Destiny",
+      "description": "Tier list Anime Destiny yang memeringkat unit berdasarkan kekuatan di stage cerita, raid, dan trial tanpa akhir, beserta unit dan pilihan tim terbaik.",
+      "metaTitle": "Tier List Anime Destiny - Unit & Tim Terbaik",
+      "metaDescription": "Tier list Anime Destiny yang memeringkat unit terbaik untuk cerita, raid, dan mode tanpa akhir. Temukan unit terkuat dan susunan tim untuk setiap mode game.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "Apa itu Tier List Anime Destiny?",
+      "whatIsDescription": "Tier list memeringkat unit berdasarkan performa praktis di stage cerita, pertarungan bos, dan trial tanpa akhir, sehingga Anda tahu unit mana yang harus dibangun dan digunakan.",
+      "why": "Mengapa menggunakan daftar tier?",
+      "whySteps": {
+        "step1Title": "Bangun Unit Terbaik",
+        "step1Description": "Fokuskan permata dan sumber daya pada unit yang berguna di berbagai mode permainan",
+        "step2Title": "Pilihan Khusus Mode",
+        "step2Description": "Pilih unit yang unggul dalam cerita, raid, atau tantangan tanpa akhir",
+        "step3Title": "Tim yang Lebih Kuat",
+        "step3Description": "Kombinasikan unit papan atas ke dalam skuad untuk menyelesaikan konten yang lebih sulit"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Daftar Tier"
+    },
+    "summons": {
+      "title": "Summon Anime Destiny",
+      "description": "Panduan sistem summon Anime Destiny mencakup permata, banner, awal keberuntungan, reroll, dan pity untuk membangun skuad yang lebih kuat.",
+      "metaTitle": "Summon Anime Destiny - Permata, Banner & Reroll",
+      "metaDescription": "Kuasai sistem summon Anime Destiny. Pelajari manajemen permata, tarikan banner, awal keberuntungan, reroll, dan pity untuk membangun skuad unit yang lebih kuat.",
+      "categoryLabel": "SISTEM SUMMON",
+      "whatIs": "Apa itu Summon?",
+      "whatIsDescription": "Summon memungkinkan Anda menggunakan permata untuk mendapatkan unit dari berbagai kelangkaan, mulai dari Rare dan Epic hingga unit Legendary, Mythic, dan Secret.",
+      "why": "Mengapa harus menguasai summon?",
+      "whySteps": {
+        "step1Title": "Dapatkan Unit Kuat",
+        "step1Description": "Targetkan unit Mythic dan Secret yang memiliki nilai di fase akhir permainan",
+        "step2Title": "Kelola Permata",
+        "step2Description": "Gunakan permata pada banner yang mengisi peran skuad Anda yang kurang",
+        "step3Title": "Gunakan Reroll & Pity",
+        "step3Description": "Atur ulang dan jamin unit dengan mekanisme reroll dan pity"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Summon"
+    },
+    "evolution": {
+      "title": "Evolusi Anime Destiny",
+      "description": "Panduan evolusi Anime Destiny mencakup jalur evolusi, material, relik, dan lokasi relik untuk memperkuat unit Anda.",
+      "metaTitle": "Evolusi Anime Destiny - Material, Relik & Jalur",
+      "metaDescription": "Evolusikan unit Anime Destiny Anda. Selesaikan jalur evolusi, material yang dibutuhkan, serta lokasi relik untuk membuka bentuk unit yang lebih kuat.",
+      "categoryLabel": "EVOLUSI",
+      "whatIs": "Apa itu Evolusi?",
+      "whatIsDescription": "Evolusi meningkatkan unit ke bentuk yang lebih kuat dengan mengumpulkan material dan relik tertentu, membuka statistik dan kemampuan baru.",
+      "why": "Mengapa harus mengevolusi unit?",
+      "whySteps": {
+        "step1Title": "Buka Bentuk yang Lebih Kuat",
+        "step1Description": "Evolusikan unit untuk meningkatkan statistik dan membuka kemampuan yang lebih baik",
+        "step2Title": "Farm Material yang Tepat",
+        "step2Description": "Ketahui secara pasti material apa yang dibutuhkan setiap evolusi",
+        "step3Title": "Lacak Relik",
+        "step3Description": "Temukan lokasi relik agar Anda dapat menyelesaikan evolusi lebih cepat"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Evolusi"
+    },
+    "raids": {
+      "title": "Raid Anime Destiny",
+      "description": "Panduan raid dan event Anime Destiny yang mencakup bos raid, event terbatas, stage cerita, bos, dan endless trial.",
+      "metaTitle": "Raid Anime Destiny - Bos, Event & Endless Trial",
+      "metaDescription": "Panduan lengkap raid Anime Destiny. Kalahkan bos raid, ikuti event terbatas, dan selesaikan stage cerita, bos, serta endless trial.",
+      "categoryLabel": "RAID & EVENT",
+      "whatIs": "Apa itu Raid dan Event?",
+      "whatIsDescription": "Raid adalah pertempuran berbasis waktu melawan bos yang kuat, sementara event dan endless trial menawarkan hadiah tambahan dan tantangan progres.",
+      "why": "Mengapa bermain raid?",
+      "whySteps": {
+        "step1Title": "Dapatkan Hadiah Langka",
+        "step1Description": "Raid dan event memberikan material, permata, dan unit eksklusif",
+        "step2Title": "Kalahkan Para Bos",
+        "step2Description": "Pelajari pola bos dan siapkan pasukanmu untuk menaklukkan mereka",
+        "step3Title": "Tuntaskan Endless Trial",
+        "step3Description": "Uji tim terkuatmu di endless trial untuk mendapatkan hadiah utama"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Raid"
+    },
+    "review": {
+      "title": "Ulasan Anime Destiny",
+      "description": "Ulasan dan kesan pertama Anime Destiny yang mencakup gameplay, progres, gaya seni, dan apakah game tower defense ini layak dimainkan.",
+      "metaTitle": "Ulasan Anime Destiny - Apakah Layak Dimainkan?",
+      "metaDescription": "Ulasan Anime Destiny yang mencakup alur gameplay, sistem summon dan evolusi, progres, dan apakah game anime tower defense Roblox ini layak menyita waktumu.",
+      "categoryLabel": "ULASAN",
+      "whatIs": "Apa itu Ulasan Anime Destiny?",
+      "whatIsDescription": "Ulasan ini membedah bagaimana Anime Destiny dimainkan sebagai game anime tower defense di Roblox, mencakup sistem summon, evolusi, dan progresnya.",
+      "why": "Mengapa membaca ulasannya?",
+      "whySteps": {
+        "step1Title": "Ketahui Apa yang Diharapkan",
+        "step1Description": "Pahami alur gameplay sebelum kamu menghabiskan waktu",
+        "step2Title": "Progres & Kedalaman",
+        "step2Description": "Lihat bagaimana sistem summon, evolusi, dan raid membuat game ini tetap menarik",
+        "step3Title": "Apakah Ini Layak",
+        "step3Description": "Dapatkan gambaran jelas apakah Anime Destiny sesuai dengan seleramu"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Ulasan"
+    }
+  }
+}
